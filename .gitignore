@@ -1,0 +1,8 @@
+# 暫存 / 除錯 / 測試產生的檔案，不要上傳
+_*
+*.png
+_src_pages.html
+
+# Python 快取
+__pycache__/
+*.pyc
