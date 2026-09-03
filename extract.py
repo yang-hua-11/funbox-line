@@ -19,9 +19,17 @@ SRC_URL = "https://uxux11.github.io/funbox-line/"
 
 
 def fetch(url):
+    import ssl
     import urllib.request
+    # Python 在某些 Windows 安裝找不到系統根憑證，會噴 CERTIFICATE_VERIFY_FAILED。
+    # 有裝 certifi 就用它的憑證庫，沒有才退回預設。
+    try:
+        import certifi
+        ctx = ssl.create_default_context(cafile=certifi.where())
+    except ImportError:
+        ctx = None
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(req, timeout=60) as r:
+    with urllib.request.urlopen(req, timeout=60, context=ctx) as r:
         raw = r.read()
     return raw.decode("utf-8", errors="replace")
 
