@@ -23,7 +23,7 @@ echo.
 echo ============================================
 echo [3/4] Committing changes...
 echo ============================================
-git add index.html template.html data.json extract.py build.py validate.py update.bat deploy.bat checklist.txt checklist.csv .gitignore
+git add -A
 git commit -m "update %date% %time%"
 if errorlevel 1 (
   echo No changes detected, skipping upload.
