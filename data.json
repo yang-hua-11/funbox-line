@@ -1,120 +1,78 @@
 {
- "notice": "9/4 9/5抽陀螺",
+ "notice": "9/11 9/12抽陀螺",
  "source": "https://uxux11.github.io/funbox-line/",
  "stores": [
   {
    "city": "台北市",
-   "name": "Funbox 三越南西店",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
+   "name": "Funbox-南港潤泰店",
+   "time": "2026/09/11 11:00~2026/09/12 21:00",
    "items": [
+    {
+     "p": "BX-00 暴風天馬3-70RA（$595）",
+     "c": "BX-00",
+     "u": "https://lin.ee/79aYEfH"
+    },
     {
      "p": "BX-00 蒼龍神劍3-60F V2（$350）",
      "c": "BX-00",
-     "u": "https://lin.ee/safDqUe"
-    },
-    {
-     "p": "BX-00 暴風天馬3-70RA（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/wYrNdRC"
+     "u": "https://lin.ee/V2XrEqY"
     },
     {
      "p": "BX-26 獨角刺心（$295）",
      "c": "BX-26",
-     "u": "https://lin.ee/T5Wn9bw"
+     "u": "https://lin.ee/xrvbsaJ"
     },
     {
-     "p": "BX-33 皓戰猛虎（$295）",
-     "c": "BX-33",
-     "u": "https://lin.ee/SCIl52o"
-    },
-    {
-     "p": "BX-45 武士魂斬（$325）",
-     "c": "BX-45",
-     "u": "https://lin.ee/8BKFd8T"
-    },
-    {
-     "p": "UX-20 榮耀武神LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/vneOzIi"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/oD41qlW"
+     "p": "CX-00 新世紀福音戰士改造組（$1,395）",
+     "c": "CX-00",
+     "u": "https://lin.ee/9ORwvJh"
     },
     {
      "p": "CX-13 龍王閃擊（$495）",
      "c": "CX-13",
-     "u": "https://lin.ee/5WCU1Vh"
+     "u": "https://lin.ee/x5H1ZjY"
     },
     {
      "p": "BXG-01 烈焰飛鳳S（$350）",
      "c": "BXG-01",
-     "u": "https://lin.ee/ueidV90"
+     "u": "https://lin.ee/PtEatZV"
     },
     {
      "p": "BXG-04 銀牙烈虎S（$350）",
      "c": "BXG-04",
-     "u": "https://lin.ee/XJIS7rA"
+     "u": "https://lin.ee/8FfX2UL"
     }
-   ],
-   "oa": "@626iceit",
-   "oaUrl": "https://line.me/ti/p/~@626iceit"
+   ]
   },
   {
    "city": "台北市",
    "name": "來玩聚-北車地下街",
-   "time": "2026/09/04 12:00~2026/09/05 20:30",
+   "time": "2026/09/11 12:00~2026/09/12 20:30",
    "items": [
     {
-     "p": "BX-00 暴風天馬（$350）",
+     "p": "BX-00 暴風天馬3-70RA（$595）",
      "c": "BX-00",
-     "u": "https://lin.ee/sFJRqbL"
-    },
-    {
-     "p": "BX-10 極限衝擊戰鬥盤（$850）",
-     "c": "BX-10",
-     "u": "https://lin.ee/sVMalX9j"
-    },
-    {
-     "p": "BX-18 發射器（$250）",
-     "c": "BX-18",
-     "u": "https://lin.ee/qo0YNUu"
-    },
-    {
-     "p": "BX-26 獨角刺心（$295）",
-     "c": "BX-26",
-     "u": "https://lin.ee/uReFQuK"
+     "u": "https://lin.ee/ZDvzc3y"
     },
     {
      "p": "BX-33 皓戰猛虎（$295）",
      "c": "BX-33",
-     "u": "https://lin.ee/WjfQVWWP"
-    },
-    {
-     "p": "BX-51 黑綠旋風拉線發射器（$250）",
-     "c": "BX-51",
-     "u": "https://lin.ee/6uMADK5"
-    },
-    {
-     "p": "UX-02 惡魔戰錘（$395）",
-     "c": "UX-02",
-     "u": "https://lin.ee/5PW6o5y"
-    },
-    {
-     "p": "UX-20 榮耀戰神（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/rgYFBku"
+     "u": "https://lin.ee/qQ1H5jp"
     },
     {
      "p": "UX-21 惡魔幽冥改造組（$895）",
      "c": "UX-21",
-     "u": "https://lin.ee/z9mO3Wy"
+     "u": "https://lin.ee/YUyfSal"
+    },
+    {
+     "p": "CX-13 龍王閃擊（$495）",
+     "c": "CX-13",
+     "u": "https://lin.ee/65obJEn"
     },
     {
      "p": "BXG-01 烈焰飛鳳S（$350）",
      "c": "BXG-01",
-     "u": "https://lin.ee/XK5mj0F"
+     "u": "https://lin.ee/n3AkNVM"
     }
    ],
    "oa": "@453cqkyj",
@@ -123,52 +81,22 @@
   {
    "city": "台北市",
    "name": "Fun box忠孝SOGO",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
+   "time": "2026/09/11 11:00~2026/09/12 21:00",
    "items": [
     {
      "p": "BX-00 蒼龍神劍（$350）",
      "c": "BX-00",
-     "u": "https://lin.ee/ZxPrRKL"
-    },
-    {
-     "p": "BX-18 X旋風發射器 【右迴旋】（$250）",
-     "c": "BX-18",
-     "u": "https://lin.ee/rYCfiRS"
+     "u": "https://lin.ee/Q3x58xY"
     },
     {
      "p": "BX-37 雙重極限衝擊戰鬥盤 豪華組（$2,750）",
      "c": "BX-37",
-     "u": "https://lin.ee/z17m9mM1"
+     "u": "https://lin.ee/6myV5gy"
     },
     {
-     "p": "BX-45 武士魂斬（$325）",
-     "c": "BX-45",
-     "u": "https://lin.ee/785PX2p"
-    },
-    {
-     "p": "BX-51 旋風發射器 黑綠（$250）",
-     "c": "BX-51",
-     "u": "https://lin.ee/tldmGpM"
-    },
-    {
-     "p": "UX-02 惡魔戰錘（$395）",
-     "c": "UX-02",
-     "u": "https://lin.ee/wSof0Vt"
-    },
-    {
-     "p": "UX-20 榮耀武神（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/89pxHTa"
-    },
-    {
-     "p": "UX-21 惡魔幽冥改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/ryTwnfS"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/X0ssk1w"
+     "p": "CX-00 新世紀福音戰士改造組（$1,395）",
+     "c": "CX-00",
+     "u": "https://lin.ee/Teeti1U"
     }
    ],
    "oa": "@lcn7452p",
@@ -176,258 +104,23 @@
   },
   {
    "city": "台北市",
-   "name": "Funbox 美麗華",
-   "time": "抽選日期：2026/09/04",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍 3-60F V2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/wWzOz0G"
-    },
-    {
-     "p": "BX-26 獨角刺心 5-60GP（$295）",
-     "c": "BX-26",
-     "u": "https://lin.ee/SX7w6tZ"
-    },
-    {
-     "p": "BX-33 皓戰猛虎 3-60U（$295）",
-     "c": "BX-33",
-     "u": "https://lin.ee/ZAbTKi7"
-    },
-    {
-     "p": "BX-37 雙重極限衝擊戰鬥盤豪華組（$2,750）",
-     "c": "BX-37",
-     "u": "https://lin.ee/85UmwDEM"
-    },
-    {
-     "p": "BX-45 武士魂斬 6-70M（$325）",
-     "c": "BX-45",
-     "u": "https://lin.ee/y1zKx5W"
-    },
-    {
-     "p": "UX-20 榮耀武神（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/YEjtQAn"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/ojSXOr2"
-    },
-    {
-     "p": "CX-13 龍王閃擊 BK1-50I（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/TUogZd8"
-    },
-    {
-     "p": "BXG-01 烈焰飛鳳S 3-80T（$350）",
-     "c": "BXG-01",
-     "u": "https://lin.ee/zqKWBXd"
-    },
-    {
-     "p": "BXG-04 銀牙烈虎S 4-80P（$350）",
-     "c": "BXG-04",
-     "u": "https://lin.ee/xO0pNXN"
-    }
-   ],
-   "oa": "@660hextn",
-   "oaUrl": "https://line.me/ti/p/~@660hextn"
-  },
-  {
-   "city": "台北市",
-   "name": "Funbox天母三越店",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
-   "items": [
-    {
-     "p": "BX-00 暴風天馬（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/zfyVDku"
-    },
-    {
-     "p": "BX-00 蒼龍神劍V2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/PLbLMXo"
-    },
-    {
-     "p": "BX-26 獨角刺心（$295）",
-     "c": "BX-26",
-     "u": "https://lin.ee/qW7Oiqi"
-    },
-    {
-     "p": "UX-02 惡魔戰錘（$395）",
-     "c": "UX-02",
-     "u": "https://lin.ee/9sGjpih"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/nziJiOE"
-    },
-    {
-     "p": "BXG-01 烈焰飛鳳S（$350）",
-     "c": "BXG-01",
-     "u": "https://lin.ee/n4KT7gJ"
-    },
-    {
-     "p": "BXG-04 銀牙烈虎S（$350）",
-     "c": "BXG-04",
-     "u": "https://lin.ee/UNUtlZi"
-    }
-   ],
-   "oa": "@237annfd",
-   "oaUrl": "https://line.me/ti/p/~@237annfd"
-  },
-  {
-   "city": "台北市",
-   "name": "Funbox-信義A8店(陀螺販售)",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍3-60F V2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/tXdvUyb"
-    },
-    {
-     "p": "BX-37 雙重極限衝擊戰鬥盤 豪華組（$2,750）",
-     "c": "BX-37",
-     "u": "https://lin.ee/ogsBWHC7"
-    },
-    {
-     "p": "UX-20 榮耀武神LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/Tw4w7OtZ"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/O57EuiK"
-    },
-    {
-     "p": "CX-12 鳳凰閃焰（$350）",
-     "c": "CX-12",
-     "u": "https://lin.ee/TlCMsiu"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/RnPWYrN"
-    }
-   ],
-   "oa": "@983dfazy",
-   "oaUrl": "https://line.me/ti/p/~@983dfazy"
-  },
-  {
-   "city": "台北市",
-   "name": "Funbox-南港潤泰",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍3-60F V2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/7JT3H0I"
-    },
-    {
-     "p": "BX-26 獨角刺心（$295）",
-     "c": "BX-26",
-     "u": "https://lin.ee/N8zhtwT"
-    },
-    {
-     "p": "BX-33 皓戰猛虎（$295）",
-     "c": "BX-33",
-     "u": "https://lin.ee/yxOXnmz"
-    },
-    {
-     "p": "BX-50 天堂日輪 隨機強化組（$350）",
-     "c": "BX-50",
-     "u": "https://lin.ee/ymToMDv"
-    },
-    {
-     "p": "UX-02 惡魔戰鎚（$395）",
-     "c": "UX-02",
-     "u": "https://lin.ee/pm0qB4X"
-    },
-    {
-     "p": "UX-19 子彈獅鷲H（$550）",
-     "c": "UX-19",
-     "u": "https://lin.ee/YtvvOG9"
-    },
-    {
-     "p": "UX-20 榮耀武神LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/p6sOG89"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/QGvGCW5"
-    },
-    {
-     "p": "BXG-01 烈焰飛鳳S（$350）",
-     "c": "BXG-01",
-     "u": "https://lin.ee/8SN35Rs"
-    },
-    {
-     "p": "BXG-04 銀牙烈虎S（$350）",
-     "c": "BXG-04",
-     "u": "https://lin.ee/OeEFp2B"
-    }
-   ],
-   "oa": "@924tguor",
-   "oaUrl": "https://line.me/ti/p/~@924tguor"
-  },
-  {
-   "city": "台北市",
-   "name": "Funbox 三越站前店",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍3-60F V2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/YPG2HJk"
-    },
-    {
-     "p": "UX-20 榮耀武神（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/vYDc43J"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/pyNpoPN"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/OVePkZs"
-    }
-   ],
-   "oa": "@631ovgxp",
-   "oaUrl": "https://line.me/ti/p/~@631ovgxp"
-  },
-  {
-   "city": "台北市",
    "name": "Funbox 天母SOGO店",
-   "time": "抽選開始：2026/09/04 11:00",
+   "time": "2026/09/11 11:00~2026/09/12 21:00",
    "items": [
     {
      "p": "BX-00 蒼龍神劍3-60F V2（$350）",
      "c": "BX-00",
-     "u": "https://lin.ee/RcSDDix"
+     "u": "https://lin.ee/y4j0PVB"
     },
     {
-     "p": "UX-20 榮耀武神LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/tFot4Guw"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/pJjYgWw"
+     "p": "CX-00 新世紀福音戰士改造組（$1,395）",
+     "c": "CX-00",
+     "u": "https://lin.ee/uq6jtZa"
     },
     {
      "p": "CX-13 龍王閃擊（$495）",
      "c": "CX-13",
-     "u": "https://lin.ee/txDNS4N"
+     "u": "https://lin.ee/sW8NexE"
     }
    ],
    "oa": "@377cbfue",
@@ -435,77 +128,120 @@
   },
   {
    "city": "台北市",
-   "name": "Funbox 遠百信義A13",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/6MXlzET"
-    },
-    {
-     "p": "BX-37 雙重極限衝擊戰鬥盤 豪華組（$2,750）",
-     "c": "BX-37",
-     "u": "https://lin.ee/6kgjSJZ"
-    },
-    {
-     "p": "UX-20 榮耀武神LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/QlgZ79L"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/ydwCkmY"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/uEkeETF"
-    }
-   ],
-   "oa": "@020sqlyp",
-   "oaUrl": "https://line.me/ti/p/~@020sqlyp"
-  },
-  {
-   "city": "台北市",
-   "name": "Funbox LaLaport南港",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
+   "name": "Funbox-信義A8店(陀螺販售)",
+   "time": "2026/09/11 11:00~2026/09/12 21:00",
    "items": [
     {
      "p": "BX-00 蒼龍神劍3-60F V2（$350）",
      "c": "BX-00",
-     "u": "https://lin.ee/QdEnSXl"
+     "u": "https://lin.ee/NsYCTEy"
     },
     {
-     "p": "BX-26 獨角刺心（$295）",
-     "c": "BX-26",
-     "u": "https://lin.ee/6u5qGyo"
+     "p": "CX-00 新世紀福音戰士改造組（$1,395）",
+     "c": "CX-00",
+     "u": "https://lin.ee/U0irnFS"
     },
     {
-     "p": "BX-37 雙重極限衝擊戰鬥盤 豪華（$2,750）",
-     "c": "BX-37",
-     "u": "https://lin.ee/uOZG7MmO"
-    },
-    {
-     "p": "UX-20 榮耀武神LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/8LcgVqW"
+     "p": "CX-12 鳳凰閃焰（$350）",
+     "c": "CX-12",
+     "u": "https://lin.ee/qtETM0Z"
     },
     {
      "p": "CX-13 龍王閃擊（$495）",
      "c": "CX-13",
-     "u": "https://lin.ee/Yl3gKaX"
+     "u": "https://lin.ee/8ui3pQS"
+    }
+   ],
+   "oa": "@983dfazy",
+   "oaUrl": "https://line.me/ti/p/~@983dfazy"
+  },
+  {
+   "city": "台北市",
+   "name": "Funbox 三越站前店",
+   "time": "2026/09/11 11:00~2026/09/12 21:00",
+   "items": [
+    {
+     "p": "CX-00 新世紀福音戰士改造組（$1,395）",
+     "c": "CX-00",
+     "u": "https://lin.ee/wNVQFEw"
+    }
+   ],
+   "oa": "@631ovgxp",
+   "oaUrl": "https://line.me/ti/p/~@631ovgxp"
+  },
+  {
+   "city": "台北市",
+   "name": "Funbox天母三越店",
+   "time": "2026/09/11 11:00~2026/09/12 21:00",
+   "items": [
+    {
+     "p": "BX-00 暴風天馬（$595）",
+     "c": "BX-00",
+     "u": "https://lin.ee/629xw4m"
     },
     {
-     "p": "BXG-01 烈焰飛鳳S（$350）",
-     "c": "BXG-01",
-     "u": "https://lin.ee/6vItGOm"
+     "p": "BX-00 蒼龍神劍V2（$350）",
+     "c": "BX-00",
+     "u": "https://lin.ee/yxZblNk"
     },
     {
-     "p": "BXG-04 銀牙獵虎S（$350）",
+     "p": "BX-26 獨角刺心（$295）",
+     "c": "BX-26",
+     "u": "https://lin.ee/Pxw2I5hu"
+    },
+    {
+     "p": "CX-00 福音戰士改造組（$1,395）",
+     "c": "CX-00",
+     "u": "https://lin.ee/rFVhsbI"
+    },
+    {
+     "p": "CX-13 龍王閃擊（$495）",
+     "c": "CX-13",
+     "u": "https://lin.ee/rU3f6Ng"
+    },
+    {
+     "p": "BXG-04 銀牙烈虎S（$350）",
      "c": "BXG-04",
-     "u": "https://lin.ee/Okt0n5w"
+     "u": "https://lin.ee/WYNMaUp"
+    }
+   ],
+   "oa": "@237annfd",
+   "oaUrl": "https://line.me/ti/p/~@237annfd"
+  },
+  {
+   "city": "台北市",
+   "name": "Funbox LaLaport南港",
+   "time": "2026/09/11 11:00~2026/09/12 21:00",
+   "items": [
+    {
+     "p": "BX-00 蒼龍神劍3-60F V2（$350）",
+     "c": "BX-00",
+     "u": "https://lin.ee/x1u6Knk"
+    },
+    {
+     "p": "BX-26 獨角刺心（$295）",
+     "c": "BX-26",
+     "u": "https://lin.ee/ym2BGXG"
+    },
+    {
+     "p": "BX-37 雙重極限衝擊戰鬥盤 豪華組（$2,750）",
+     "c": "BX-37",
+     "u": "https://lin.ee/xOtHEe4"
+    },
+    {
+     "p": "CX-00 新世紀福音戰士改造組（$1,395）",
+     "c": "CX-00",
+     "u": "https://lin.ee/pncsz8S"
+    },
+    {
+     "p": "CX-13 龍王閃擊（$495）",
+     "c": "CX-13",
+     "u": "https://lin.ee/R1VlRfVq"
+    },
+    {
+     "p": "BXG-04 銀牙烈虎S（$350）",
+     "c": "BXG-04",
+     "u": "https://lin.ee/TxQ5gKs"
     }
    ],
    "oa": "@924ngwfb",
@@ -513,110 +249,67 @@
   },
   {
    "city": "台北市",
-   "name": "Funbox-台北大巨蛋",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
+   "name": "Funbox 遠百信義A13",
+   "time": "2026/09/11 11:00~2026/09/12 21:00",
    "items": [
     {
-     "p": "BX-00 蒼龍神劍3-60F V2（$350）",
+     "p": "BX-00 蒼龍神劍（$350）",
      "c": "BX-00",
-     "u": "https://lin.ee/X1pZee1"
+     "u": "https://lin.ee/67lhgQeG"
     },
     {
-     "p": "BX-37 雙重極限衝擊戰鬥盤豪華組（$2,750）",
+     "p": "BX-37 雙重極限衝擊戰鬥盤 豪華組（$2,750）",
      "c": "BX-37",
-     "u": "https://lin.ee/OduNmlj"
-    },
-    {
-     "p": "BX-48 隨機強化組 Vol.9",
-     "c": "BX-48",
-     "u": "https://lin.ee/w3866W7"
-    },
-    {
-     "p": "UX-18 隨機強化組 Vol.8",
-     "c": "UX-18",
-     "u": "https://lin.ee/UcPmd8e"
-    },
-    {
-     "p": "UX-20 榮耀戰神（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/Q0cOFTaU"
-    },
-    {
-     "p": "UX-21 惡魔幽冥改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/5IF5vF4"
-    },
-    {
-     "p": "CX-04 極限衝擊對戰組U",
-     "c": "CX-04",
-     "u": "https://lin.ee/8mOCdFk"
-    },
-    {
-     "p": "CX-08 隨機強化組 Vol.7",
-     "c": "CX-08",
-     "u": "https://lin.ee/TTGIk3a"
-    },
-    {
-     "p": "CX-11 帝王威能改造組",
-     "c": "CX-11",
-     "u": "https://lin.ee/tuA7MnW"
-    },
-    {
-     "p": "CX-17 隨機強化組 Vol.10",
-     "c": "CX-17",
-     "u": "https://lin.ee/yiJzLRM"
-    }
-   ]
-  },
-  {
-   "city": "新北市",
-   "name": "Funbox板橋遠東店",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
-   "items": [
-    {
-     "p": "BX-00 暴風天馬3-70RA（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/Pka1ku2"
-    },
-    {
-     "p": "BX-00 蒼龍神劍V2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/uVpfV2j"
-    },
-    {
-     "p": "BX-33 皓戰猛虎（$295）",
-     "c": "BX-33",
-     "u": "https://lin.ee/XRRYfC9"
-    },
-    {
-     "p": "UX-11 衝擊龍神 豪華組（$550）",
-     "c": "UX-11",
-     "u": "https://lin.ee/z6TXHvM"
+     "u": "https://lin.ee/7AmqRzi"
     },
     {
      "p": "UX-20 榮耀武神LF（$595）",
      "c": "UX-20",
-     "u": "https://lin.ee/U85OY6B"
+     "u": "https://lin.ee/o91HeXX"
     },
     {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/W4YWfXL"
+     "p": "CX-00 新世紀福音戰士改造組（$1,395）",
+     "c": "CX-00",
+     "u": "https://lin.ee/O9OVpCU"
     },
     {
      "p": "CX-13 龍王閃擊（$495）",
      "c": "CX-13",
-     "u": "https://lin.ee/yfX1zfA"
+     "u": "https://lin.ee/yMELNp6"
+    }
+   ],
+   "oa": "@020sqlyp",
+   "oaUrl": "https://line.me/ti/p/~@020sqlyp"
+  },
+  {
+   "city": "新北市",
+   "name": "Funbox板橋遠東店",
+   "time": "2026/09/11 11:00~2026/09/12 21:00",
+   "items": [
+    {
+     "p": "BX-00 蒼龍神劍V2（$350）",
+     "c": "BX-00",
+     "u": "https://lin.ee/p6Hm7YO"
     },
     {
-     "p": "BXG-01 烈焰飛鳳S（$350）",
-     "c": "BXG-01",
-     "u": "https://lin.ee/zAUGc8K"
+     "p": "UX-20 榮耀武神LF（$595）",
+     "c": "UX-20",
+     "u": "https://lin.ee/yKmsW9Y"
+    },
+    {
+     "p": "UX-21 惡魔冥界改造組（$895）",
+     "c": "UX-21",
+     "u": "https://lin.ee/Q7Ubro4"
+    },
+    {
+     "p": "CX-00 新世紀福音戰士改造組（$1,395）",
+     "c": "CX-00",
+     "u": "https://lin.ee/vAF5QKG"
     },
     {
      "p": "BXG-04 銀牙烈虎S（$350）",
      "c": "BXG-04",
-     "u": "https://lin.ee/yMjKKC4"
+     "u": "https://lin.ee/7Qp0lON"
     }
    ],
    "oa": "@083zoknr",
@@ -624,152 +317,48 @@
   },
   {
    "city": "新北市",
-   "name": "Funbox樹林秀泰店",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
-   "items": [
-    {
-     "p": "BX-00 暴風天馬（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/5wyZSJ5"
-    },
-    {
-     "p": "BX-00 蒼龍神劍V2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/pVFQ7jG"
-    },
-    {
-     "p": "BX-10 極限衝擊戰鬥盤（$850）",
-     "c": "BX-10",
-     "u": "https://lin.ee/vSA7Zxu5"
-    },
-    {
-     "p": "BX-18 X旋風發射器（$250）",
-     "c": "BX-18",
-     "u": "https://lin.ee/vuaxC68d"
-    },
-    {
-     "p": "BX-25 專業收納包（$850）",
-     "c": "BX-25",
-     "u": "https://lin.ee/saH4yrT"
-    },
-    {
-     "p": "BX-26 獨角刺心（$295）",
-     "c": "BX-26",
-     "u": "https://lin.ee/TJZp8s4"
-    },
-    {
-     "p": "BX-30 X發射器改造型握把(黑紅)（$195）",
-     "c": "BX-30",
-     "u": "https://lin.ee/6HZKxMr"
-    },
-    {
-     "p": "BX-32 寬型極限衝擊戰鬥盤（$1,250）",
-     "c": "BX-32",
-     "u": "https://lin.ee/8fWeyhW"
-    },
-    {
-     "p": "BX-40 左迴旋發射器(酒紅)（$250）",
-     "c": "BX-40",
-     "u": "https://lin.ee/si7qji9"
-    },
-    {
-     "p": "BX-45 武士魂斬（$325）",
-     "c": "BX-45",
-     "u": "https://lin.ee/UtwAzrjf"
-    },
-    {
-     "p": "BX-51 旋風發射器 黑綠（$250）",
-     "c": "BX-51",
-     "u": "https://lin.ee/PLfF01V"
-    },
-    {
-     "p": "BX-57 3v3對戰收納盒（$250）",
-     "c": "BX-57",
-     "u": "https://lin.ee/nar6FMu"
-    },
-    {
-     "p": "UX-20 榮耀武神（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/n5cDwZA"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/wzgWKRj"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/59VBJso"
-    },
-    {
-     "p": "BXG-01 烈焰飛鳳（$350）",
-     "c": "BXG-01",
-     "u": "https://lin.ee/TkeJqInx"
-    },
-    {
-     "p": "BXG-04 銀牙烈虎（$350）",
-     "c": "BXG-04",
-     "u": "https://lin.ee/VayWbgb"
-    }
-   ],
-   "oa": "@046txnme",
-   "oaUrl": "https://line.me/ti/p/~@046txnme"
-  },
-  {
-   "city": "新北市",
    "name": "FunBox Toys-汐止遠雄店",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
+   "time": "2026/09/11 11:00~2026/09/12 21:00",
    "items": [
     {
-     "p": "BX-00 暴風天馬3-70R（$350）",
+     "p": "BX-00 暴風天馬3-70R（$595）",
      "c": "BX-00",
-     "u": "https://lin.ee/PGX5Uk9"
+     "u": "https://lin.ee/n6US1jV"
     },
     {
      "p": "BX-00 蒼龍神劍（$350）",
      "c": "BX-00",
-     "u": "https://lin.ee/TUTxeDL"
+     "u": "https://lin.ee/7PHWVG7"
     },
     {
      "p": "BX-26 獨角刺心（$295）",
      "c": "BX-26",
-     "u": "https://lin.ee/nfZ9huC"
-    },
-    {
-     "p": "BX-45 武士魂斬（$325）",
-     "c": "BX-45",
-     "u": "https://lin.ee/oNFsjPf"
-    },
-    {
-     "p": "BX-50 天堂日輪 隨機強化組（$350）",
-     "c": "BX-50",
-     "u": "https://lin.ee/9nllAXf"
-    },
-    {
-     "p": "UX-20 榮耀武神LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/pP9d1Px"
+     "u": "https://lin.ee/V7BEn2I"
     },
     {
      "p": "UX-21 惡魔冥界改造組（$895）",
      "c": "UX-21",
-     "u": "https://lin.ee/wd23sQ4"
+     "u": "https://lin.ee/8552VhL"
+    },
+    {
+     "p": "CX-00 新世紀福音戰士改造組（$1,395）",
+     "c": "CX-00",
+     "u": "https://lin.ee/UHqMK5X"
     },
     {
      "p": "CX-13 龍王閃擊（$495）",
      "c": "CX-13",
-     "u": "https://lin.ee/ykm8MFh"
+     "u": "https://lin.ee/UizxRku"
     },
     {
-     "p": "BXG-01 烈燄飛鳳S（$350）",
+     "p": "BXG-01 烈燄飛鳳s（$350）",
      "c": "BXG-01",
-     "u": "https://lin.ee/sus7G3a"
+     "u": "https://lin.ee/NNAyTM8"
     },
     {
-     "p": "BXG-04 銀牙烈虎S（$350）",
+     "p": "BXG-04 銀牙烈虎s（$350）",
      "c": "BXG-04",
-     "u": "https://lin.ee/QD9kqwf"
+     "u": "https://lin.ee/58XYS5A"
     }
    ],
    "oa": "@mhb3876c",
@@ -778,47 +367,27 @@
   {
    "city": "新北市",
    "name": "Funbox新店誠品店",
-   "time": "抽選開始：2026/09/04 11:00",
+   "time": "2026/09/11 11:00 起",
    "items": [
     {
-     "p": "BX-00 烈焰飛鳳S 3-80T（$350）",
+     "p": "BX-00 蒼龍神劍 3-60F（$350）",
      "c": "BX-00",
-     "u": "https://lin.ee/ZImHXO1"
-    },
-    {
-     "p": "BX-00 蒼龍神劍 3-60F Ver.2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/yWF0nkm"
+     "u": "https://lin.ee/r1IXPQE"
     },
     {
      "p": "BX-37 雙重極限衝擊戰鬥盤豪華組（$2,750）",
      "c": "BX-37",
-     "u": "https://lin.ee/oiAxd9G"
-    },
-    {
-     "p": "BX-45 武士魂斬（$325）",
-     "c": "BX-45",
-     "u": "https://lin.ee/YcPOIlw"
-    },
-    {
-     "p": "UX-21 惡魔幽冥改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/p589taI"
+     "u": "https://lin.ee/RyYyWOo"
     },
     {
      "p": "CX-12 鳳凰閃焰 Z9-80WW（$350）",
      "c": "CX-12",
-     "u": "https://lin.ee/QSrsrke"
+     "u": "https://lin.ee/vk3CI4g"
     },
     {
-     "p": "CX-13 龍王閃擊 BK1-50I（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/xJjqiUa"
-    },
-    {
-     "p": "孩之寶系列（依照賣場實際款式為主）",
+     "p": "新世紀福音戰士 戰鬥陀螺限定套組",
      "c": "",
-     "u": "https://lin.ee/ZTOaK7Q"
+     "u": "https://lin.ee/51lxU5K"
     }
    ],
    "oa": "@491uicsm",
@@ -826,517 +395,190 @@
   },
   {
    "city": "新北市",
-   "name": "Funbox板橋大遠百",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
+   "name": "Funbox樹林秀泰店",
+   "time": "2026/09/11 11:00~2026/09/12 21:00",
    "items": [
     {
-     "p": "BX-00 蒼龍神劍3-60F V2（$350）",
+     "p": "BX-00 蒼龍神劍V2（$350）",
      "c": "BX-00",
-     "u": "https://lin.ee/Onclegn"
+     "u": "https://lin.ee/sCU4pitK"
     },
     {
-     "p": "UX-20 榮耀武神LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/7OE7dBj"
+     "p": "BX-10 極限衝擊戰鬥盤（$850）",
+     "c": "BX-10",
+     "u": "https://lin.ee/qVQi9m3"
+    },
+    {
+     "p": "BX-18 X旋風發射器（$250）",
+     "c": "BX-18",
+     "u": "https://lin.ee/8Mgc2Ra"
+    },
+    {
+     "p": "BX-25 專業收納包（$850）",
+     "c": "BX-25",
+     "u": "https://lin.ee/vyKYuXu"
+    },
+    {
+     "p": "BX-26 獨角刺心（$295）",
+     "c": "BX-26",
+     "u": "https://lin.ee/U0394RC"
+    },
+    {
+     "p": "BX-30 發射器握把（黑紅）（$195）",
+     "c": "BX-30",
+     "u": "https://lin.ee/6sbALkLw"
+    },
+    {
+     "p": "BX-45 武士魂斬（$325）",
+     "c": "BX-45",
+     "u": "https://lin.ee/7jUJs9F"
+    },
+    {
+     "p": "BX-57 3v3對戰收納盒（$250）",
+     "c": "BX-57",
+     "u": "https://lin.ee/x6lajAo"
     },
     {
      "p": "UX-21 惡魔冥界改造組（$895）",
      "c": "UX-21",
-     "u": "https://lin.ee/ocKxFaW"
+     "u": "https://lin.ee/7dR60o7"
     },
     {
-     "p": "CX-12 鳳凰閃焰（$350）",
-     "c": "CX-12",
-     "u": "https://lin.ee/6CLJivw"
+     "p": "CX-00 新世紀福音戰士改造組（$1,395）",
+     "c": "CX-00",
+     "u": "https://lin.ee/nMMo9F9"
     },
     {
      "p": "CX-13 龍王閃擊（$495）",
      "c": "CX-13",
-     "u": "https://lin.ee/ZE8QxU6"
+     "u": "https://lin.ee/UYv5QPl"
+    },
+    {
+     "p": "BXG-01 烈焰飛鳳（$350）",
+     "c": "BXG-01",
+     "u": "https://lin.ee/svvpyy8"
+    },
+    {
+     "p": "BXG-04 銀牙烈虎S（$350）",
+     "c": "BXG-04",
+     "u": "https://lin.ee/rsycL2q"
+    }
+   ],
+   "oa": "@046txnme",
+   "oaUrl": "https://line.me/ti/p/~@046txnme"
+  },
+  {
+   "city": "新北市",
+   "name": "Funbox板橋大遠百",
+   "time": "2026/09/11 11:00~2026/09/12 21:00",
+   "items": [
+    {
+     "p": "蒼龍神劍3-60F V2",
+     "c": "",
+     "u": "https://lin.ee/8cArlJr"
+    },
+    {
+     "p": "UX-21 惡魔冥界改造組（$895）",
+     "c": "UX-21",
+     "u": "https://lin.ee/nwZ8UAn"
+    },
+    {
+     "p": "CX-00 新世紀福音戰士改造組（$1,395）",
+     "c": "CX-00",
+     "u": "https://lin.ee/wzZcF5u"
+    },
+    {
+     "p": "CX-12 鳳凰閃焰（$350）",
+     "c": "CX-12",
+     "u": "https://lin.ee/SLbhLeD"
+    },
+    {
+     "p": "CX-13 龍王閃擊（$495）",
+     "c": "CX-13",
+     "u": "https://lin.ee/7rYQ9mm"
     }
    ],
    "oa": "@585clqqg",
    "oaUrl": "https://line.me/ti/p/~@585clqqg"
   },
   {
-   "city": "新北市",
-   "name": "Funbox淡水禮萊廣場店",
-   "time": "抽選日期：2026/09/04~2026/09/05",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍3-60F V2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/t1qsWNz"
-    },
-    {
-     "p": "UX-20 榮耀武神LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/Qey0TVa"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/96Eqwiz"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/TXBUoFg"
-    }
-   ],
-   "oa": "@944creff",
-   "oaUrl": "https://line.me/ti/p/~@944creff"
-  },
-  {
-   "city": "新北市",
-   "name": "FUNBOX 比漾廣場店",
-   "time": "抽選日期：2026/09/04~2026/09/05",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍3-60F V2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/WVg31Rr"
-    },
-    {
-     "p": "BX-26 獨角刺心（$295）",
-     "c": "BX-26",
-     "u": "https://lin.ee/7yfCsFV"
-    },
-    {
-     "p": "BX-45 武士魂斬（$325）",
-     "c": "BX-45",
-     "u": "https://lin.ee/qGEKTwR"
-    },
-    {
-     "p": "UX-20 榮耀武神LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/OAe2xug"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/UUvzWBe"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/XTU3pJU"
-    },
-    {
-     "p": "BXG-01 烈焰飛鳳S（$350）",
-     "c": "BXG-01",
-     "u": "https://lin.ee/Zf0VG1h"
-    },
-    {
-     "p": "BXG-04 銀牙烈虎S（$350）",
-     "c": "BXG-04",
-     "u": "https://lin.ee/tpGF6p5"
-    }
-   ],
-   "oa": "@ufq5307a",
-   "oaUrl": "https://line.me/ti/p/~@ufq5307a"
-  },
-  {
-   "city": "新北市",
-   "name": "Funbox-中和環球",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍V2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/pULgSQU"
-    },
-    {
-     "p": "BX-37 雙重極限衝擊戰鬥盤（$2,750）",
-     "c": "BX-37",
-     "u": "https://lin.ee/P76FHtL"
-    },
-    {
-     "p": "UX-20 榮耀女武神（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/5wsJbDa"
-    },
-    {
-     "p": "UX-21 惡魔幽冥（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/slJensL"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/7jDjBfK"
-    }
-   ],
-   "oa": "@zgq9395a",
-   "oaUrl": "https://line.me/ti/p/~@zgq9395a"
-  },
-  {
    "city": "桃園市",
    "name": "Funbox-桃園站前三越",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
+   "time": "2026/09/11 11:00~2026/09/12 21:00",
    "items": [
+    {
+     "p": "BX-00 暴風天馬3-70RA（$595）",
+     "c": "BX-00",
+     "u": "https://lin.ee/x6yzH8p"
+    },
+    {
+     "p": "BX-00 蒼龍神劍3-60F V2（$350）",
+     "c": "BX-00",
+     "u": "https://lin.ee/VixMUsb"
+    },
     {
      "p": "BX-26 獨角刺心（$295）",
      "c": "BX-26",
-     "u": "https://lin.ee/qEcNM9w"
+     "u": "https://lin.ee/QXxp4qV"
     },
     {
-     "p": "BX-33 皓戰猛虎（$295）",
-     "c": "BX-33",
-     "u": "https://lin.ee/wmiuE0n"
-    },
-    {
-     "p": "BX-35 隨機強化組Vol.04（$295）",
-     "c": "BX-35",
-     "u": "https://lin.ee/THnVN62k"
+     "p": "BX-50 天堂日輪隨機強化組（$350）",
+     "c": "BX-50",
+     "u": "https://lin.ee/qUn33fe"
     },
     {
      "p": "UX-02 惡魔戰錘（$395）",
      "c": "UX-02",
-     "u": "https://lin.ee/vhFWT494"
+     "u": "https://lin.ee/RcMEFmW"
     },
     {
-     "p": "UX-11 衝擊龍神 豪華組（$550）",
-     "c": "UX-11",
-     "u": "https://lin.ee/OizZgb2"
-    },
-    {
-     "p": "UX-15 鮫鯊狂鱗改造組（$795）",
-     "c": "UX-15",
-     "u": "https://lin.ee/WlCghWy"
-    },
-    {
-     "p": "UX-19 子彈獅鷲H（$550）",
-     "c": "UX-19",
-     "u": "https://lin.ee/yCscH9nD"
+     "p": "UX-20 榮耀武神LF（$595）",
+     "c": "UX-20",
+     "u": "https://lin.ee/9l323EP"
     },
     {
      "p": "UX-21 惡魔冥界改造組（$895）",
      "c": "UX-21",
-     "u": "https://lin.ee/xI92MJV"
+     "u": "https://lin.ee/RyT9nk9"
+    },
+    {
+     "p": "CX-00 新世紀福音戰士改造組（$1,395）",
+     "c": "CX-00",
+     "u": "https://lin.ee/nQmhrsZ"
     },
     {
      "p": "CX-13 龍王閃擊（$495）",
      "c": "CX-13",
-     "u": "https://lin.ee/s1gxucV"
-    },
-    {
-     "p": "CX-18 腕龍鞭打 隨機強化組（$350）",
-     "c": "CX-18",
-     "u": "https://lin.ee/N6Iy9Or"
+     "u": "https://lin.ee/NpUNAS1"
     },
     {
      "p": "BXG-01 烈焰飛鳳S（$350）",
      "c": "BXG-01",
-     "u": "https://lin.ee/rv8By2l"
+     "u": "https://lin.ee/taF4Bk6"
     },
     {
      "p": "BXG-04 銀牙烈虎S（$350）",
      "c": "BXG-04",
-     "u": "https://lin.ee/5t8EJHI"
+     "u": "https://lin.ee/VJRYDec"
     }
    ],
    "oa": "@fcm1241y",
    "oaUrl": "https://line.me/ti/p/~@fcm1241y"
   },
   {
-   "city": "桃園市",
-   "name": "Funbox 中壢大江店",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍3-60F V2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/WgeCVL5"
-    },
-    {
-     "p": "BX-37 雙重極限衝擊戰鬥盤 豪華組（$2,750）",
-     "c": "BX-37",
-     "u": "https://lin.ee/O4ie6qM"
-    },
-    {
-     "p": "BX-45 武士魂斬（$325）",
-     "c": "BX-45",
-     "u": "https://lin.ee/vmG73a5"
-    },
-    {
-     "p": "UX-20 榮譽武神LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/OA3c7Mr"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/rFOFhMp"
-    },
-    {
-     "p": "BXG-01 烈焰飛鳳s（$350）",
-     "c": "BXG-01",
-     "u": "https://lin.ee/vWcxLus"
-    },
-    {
-     "p": "BXG-04 銀牙烈虎s（$350）",
-     "c": "BXG-04",
-     "u": "https://lin.ee/YeQUSWK"
-    }
-   ],
-   "oa": "@099ldnvw",
-   "oaUrl": "https://line.me/ti/p/~@099ldnvw"
-  },
-  {
-   "city": "桃園市",
-   "name": "Funbox toys - 桃園台茂店",
-   "time": "2026/09/04 11:00~2026/09/05 21:30",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍3-60F V2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/8NtNZX9"
-    },
-    {
-     "p": "BX-37 雙重極限衝擊戰鬥盤 豪華組（$2,750）",
-     "c": "BX-37",
-     "u": "https://lin.ee/vDmDxV4"
-    },
-    {
-     "p": "UX-20 榮耀武神LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/srVMP9b"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/q8a1PlD"
-    },
-    {
-     "p": "BXG-01 烈焰飛鳳S（$350）",
-     "c": "BXG-01",
-     "u": "https://lin.ee/tNaot62"
-    }
-   ],
-   "oa": "@504tdsbb",
-   "oaUrl": "https://line.me/ti/p/~@504tdsbb"
-  },
-  {
-   "city": "桃園市",
-   "name": "Funbox Toy-桃園環球A8店",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
-   "items": [
-    {
-     "p": "BX-00 暴風天馬（$595）",
-     "c": "BX-00",
-     "u": "https://lin.ee/pm6vzkd"
-    },
-    {
-     "p": "BX-33 皓戰猛虎（$295）",
-     "c": "BX-33",
-     "u": "https://lin.ee/sVlOf7h"
-    },
-    {
-     "p": "UX-20 榮耀武神（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/pVVUKCU"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/9iNhNfO"
-    },
-    {
-     "p": "BXG-01 烈焰飛鳳（$350）",
-     "c": "BXG-01",
-     "u": "https://lin.ee/QzArhSIc"
-    },
-    {
-     "p": "BXG-04 銀牙烈虎（$350）",
-     "c": "BXG-04",
-     "u": "https://lin.ee/7amDWly"
-    },
-    {
-     "p": "BXG-49 蒼龍神劍",
-     "c": "BXG-49",
-     "u": "https://lin.ee/QwQitf9"
-    }
-   ],
-   "oa": "@lae4656h",
-   "oaUrl": "https://line.me/ti/p/~@lae4656h"
-  },
-  {
-   "city": "桃園市",
-   "name": "FunBox - 中壢SOGO店",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍3-60F V2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/Zo2nDNb"
-    },
-    {
-     "p": "UX-19 子彈獅鷲H（$550）",
-     "c": "UX-19",
-     "u": "https://lin.ee/y5e94SX"
-    },
-    {
-     "p": "UX-20 榮耀武神LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/W1cmzVb"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/VyrbHtz"
-    }
-   ],
-   "oa": "@xcs3672w",
-   "oaUrl": "https://line.me/ti/p/~@xcs3672w"
-  },
-  {
-   "city": "桃園市",
-   "name": "FunBox - 桃園環球A19店",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/TuXb0ZH"
-    },
-    {
-     "p": "BX-00 暴風天馬（$595）",
-     "c": "BX-00",
-     "u": "https://lin.ee/SlhjhPA"
-    },
-    {
-     "p": "BX-26 獨角刺心（$295）",
-     "c": "BX-26",
-     "u": "https://lin.ee/XtYqswo"
-    },
-    {
-     "p": "UX-20 榮耀武神（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/WjprK5D"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/VixjWDc"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/O3DR6uD"
-    },
-    {
-     "p": "BXG-01 烈焰飛鳳S（$350）",
-     "c": "BXG-01",
-     "u": "https://lin.ee/SXTQ1dv"
-    },
-    {
-     "p": "BXG-04 銀牙烈虎S（$350）",
-     "c": "BXG-04",
-     "u": "https://lin.ee/pjmSj0Q"
-    }
-   ],
-   "oa": "@403qwxdn",
-   "oaUrl": "https://line.me/ti/p/~@403qwxdn"
-  },
-  {
-   "city": "桃園市",
-   "name": "Funbox-桃園遠東店",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍3-60FV2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/nLr2BZr"
-    },
-    {
-     "p": "BX-00 暴風天馬3-70RA（$595）",
-     "c": "BX-00",
-     "u": "https://lin.ee/zN1bwoX"
-    },
-    {
-     "p": "BX-35 隨機強化組Vol.04（$295）",
-     "c": "BX-35",
-     "u": "https://lin.ee/TNPo0sg"
-    },
-    {
-     "p": "BX-50 天堂日輪 隨機強化組（$350）",
-     "c": "BX-50",
-     "u": "https://lin.ee/xK8dR4b"
-    },
-    {
-     "p": "UX-02 惡魔戰錘（$395）",
-     "c": "UX-02",
-     "u": "https://lin.ee/uXHPDFV"
-    },
-    {
-     "p": "UX-11 衝擊龍神 豪華組（$550）",
-     "c": "UX-11",
-     "u": "https://lin.ee/p1kyFNc"
-    },
-    {
-     "p": "UX-15 鮫鯊狂鱗改造組（$795）",
-     "c": "UX-15",
-     "u": "https://lin.ee/xMxzFLp"
-    },
-    {
-     "p": "UX-19 子彈獅鷲H（$550）",
-     "c": "UX-19",
-     "u": "https://lin.ee/P0pHFCo"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/5gX94zz"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/sv3JzOH"
-    },
-    {
-     "p": "CX-18 腕龍鞭打 隨機強化組（購買數量3）（$350）",
-     "c": "CX-18",
-     "u": "https://lin.ee/oQZ2Y2z3"
-    },
-    {
-     "p": "CX-18 腕龍鞭打 隨機強化組（購買數量1）（$350）",
-     "c": "CX-18",
-     "u": "https://lin.ee/8FIknJ4"
-    },
-    {
-     "p": "BXG-04 銀牙烈虎S（$350）",
-     "c": "BXG-04",
-     "u": "https://lin.ee/Z5FDMs7"
-    }
-   ],
-   "oa": "@bix0595a",
-   "oaUrl": "https://line.me/ti/p/~@bix0595a"
-  },
-  {
    "city": "新竹市",
    "name": "Funbox-新竹遠東店",
-   "time": "2026/09/04~2026/09/05（營業時間 11:00~21:00）",
+   "time": "2026/09/11~2026/09/12（營業時間 11:00~21:00）",
    "items": [
     {
      "p": "BX-00 蒼龍神劍3-60F V2（$350）",
      "c": "BX-00",
-     "u": "https://lin.ee/PuaKA54"
+     "u": "https://lin.ee/ppQFtam"
     },
     {
-     "p": "UX-20 榮耀武神LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/ReA7kmv"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/PuWtTsF"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/uJJrE9X"
+     "p": "CX-00 新世紀福音戰士改造組（$1,395）",
+     "c": "CX-00",
+     "u": "https://lin.ee/nwUL9bje"
     }
    ],
    "oa": "@822rfnmr",
@@ -1345,248 +587,90 @@
   {
    "city": "新竹市",
    "name": "Funbox-新竹遠雄店",
-   "time": "抽選日期：2026/09/04~2026/09/05",
+   "time": "2026/09/11~2026/09/12",
    "items": [
     {
      "p": "BX-00 蒼龍神劍 3-60F（$350）",
      "c": "BX-00",
-     "u": "https://lin.ee/P0vmXLA"
-    },
-    {
-     "p": "UX-20 榮耀武神（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/yNi1yX5"
+     "u": "https://lin.ee/nM1oXtf"
     },
     {
      "p": "UX-21 惡魔冥界改造組（$895）",
      "c": "UX-21",
-     "u": "https://lin.ee/5ZrY4s6R"
+     "u": "https://lin.ee/5mqMzNZ"
     },
     {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/pXZEoGWs"
+     "p": "CX-00 新世紀福音戰士改造組（$1,395）",
+     "c": "CX-00",
+     "u": "https://lin.ee/ofEN0zN"
     }
    ],
    "oa": "@agl4214l",
    "oaUrl": "https://line.me/ti/p/~@agl4214l"
   },
   {
-   "city": "新竹市",
-   "name": "Funbox 新竹巨城店",
-   "time": "抽選日期：2026/09/04~2026/09/05",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/q9afulW"
-    },
-    {
-     "p": "BX-26 獨角刺心（$295）",
-     "c": "BX-26",
-     "u": "https://lin.ee/uixtQ7J"
-    },
-    {
-     "p": "BX-33 皓戰猛虎（$295）",
-     "c": "BX-33",
-     "u": "https://lin.ee/W8dqSOf"
-    },
-    {
-     "p": "BX-37 雙重極限衝擊戰鬥盤豪華組（$2,750）",
-     "c": "BX-37",
-     "u": "https://lin.ee/tlk2QNR"
-    },
-    {
-     "p": "BX-45 武士魂斬（$325）",
-     "c": "BX-45",
-     "u": "https://lin.ee/UMIOOkmT"
-    },
-    {
-     "p": "UX-19 子彈獅鷲（$550）",
-     "c": "UX-19",
-     "u": "https://lin.ee/RmJTjQn"
-    },
-    {
-     "p": "UX-20 榮耀武神（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/ZtrW6ke"
-    },
-    {
-     "p": "UX-21 惡魔幽冥改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/VvzQGlp"
-    },
-    {
-     "p": "CX-12 鳳凰閃焰（$350）",
-     "c": "CX-12",
-     "u": "https://lin.ee/n87rEJR"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/OUoa2Ev"
-    },
-    {
-     "p": "BXG-01 烈焰飛鳳S（$350）",
-     "c": "BXG-01",
-     "u": "https://lin.ee/uxugz55"
-    },
-    {
-     "p": "BXG-04 銀牙烈虎S（$350）",
-     "c": "BXG-04",
-     "u": "https://lin.ee/RVMevOZ"
-    }
-   ],
-   "oa": "@532otwmb",
-   "oaUrl": "https://line.me/ti/p/~@532otwmb"
-  },
-  {
    "city": "新竹縣",
    "name": "Funbox 竹北遠東店",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
+   "time": "2026/09/11 11:00~2026/09/12 21:00",
    "items": [
     {
      "p": "BX-00 蒼龍神劍3-60F V2（$350）",
      "c": "BX-00",
-     "u": "https://lin.ee/oXP77Qm"
-    },
-    {
-     "p": "BX-10 極限衝擊戰鬥盤（$850）",
-     "c": "BX-10",
-     "u": "https://lin.ee/W7q8ksN"
+     "u": "https://lin.ee/ZLPUmoH"
     },
     {
      "p": "BX-26 獨角刺心（$295）",
      "c": "BX-26",
-     "u": "https://lin.ee/t39px7A"
+     "u": "https://lin.ee/ylbms4i"
     },
     {
      "p": "BX-33 皓戰猛虎（$295）",
      "c": "BX-33",
-     "u": "https://lin.ee/Z1oedsf"
-    },
-    {
-     "p": "BX-45 武士魂斬（$325）",
-     "c": "BX-45",
-     "u": "https://lin.ee/Q2gUwSd"
-    },
-    {
-     "p": "UX-11 衝擊龍神 豪華組（$550）",
-     "c": "UX-11",
-     "u": "https://lin.ee/8KBl0s8"
+     "u": "https://lin.ee/5aiicgx"
     },
     {
      "p": "UX-20 榮耀武神LF（$595）",
      "c": "UX-20",
-     "u": "https://lin.ee/YAjVHF3"
+     "u": "https://lin.ee/WaOcOXM"
     },
     {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/Pk6JXRW"
+     "p": "CX-00 新世紀福音戰士改造組（$1,395）",
+     "c": "CX-00",
+     "u": "https://lin.ee/nAdCSiL"
     },
     {
      "p": "CX-13 龍王閃擊（$495）",
      "c": "CX-13",
-     "u": "https://lin.ee/ybawIZ1"
+     "u": "https://lin.ee/WZcKHxw"
     },
     {
      "p": "BXG-01 烈焰飛鳳S（$350）",
      "c": "BXG-01",
-     "u": "https://lin.ee/TQ5vTNk"
+     "u": "https://lin.ee/NoxUMlh"
     },
     {
-     "p": "BXG-04 銀牙烈虎S（$350）",
-     "c": "BXG-04",
-     "u": "https://lin.ee/oIIWBGh"
+     "p": "BGX-04 銀牙烈虎S（$350）",
+     "c": "BGX-04",
+     "u": "https://lin.ee/TOclMv8"
     }
    ],
    "oa": "@642vdyvq",
    "oaUrl": "https://line.me/ti/p/~@642vdyvq"
   },
   {
-   "city": "苗栗縣",
-   "name": "Funbox Toys-苗栗尚順店",
-   "time": "2026/09/04 11:00~2026/09/04 20:30",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍3-60F V2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/T5cK8Ua"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/ZVhncPX"
-    }
-   ],
-   "oa": "@185vowmo",
-   "oaUrl": "https://line.me/ti/p/~@185vowmo"
-  },
-  {
    "city": "台中市",
-   "name": "Funbox 台中港三井",
-   "time": "2026/09/04 11:00~2026/09/05 20:30",
+   "name": "Funbox 台中港三井店",
+   "time": "2026/09/11 11:00~2026/09/12 20:30",
    "items": [
     {
      "p": "BX-00 蒼龍神劍3-60F V2（$350）",
      "c": "BX-00",
-     "u": "https://lin.ee/T45MJ8f"
-    },
-    {
-     "p": "BX-10 極限衝擊戰鬥盤（$850）",
-     "c": "BX-10",
-     "u": "https://lin.ee/5wXjFF9"
-    },
-    {
-     "p": "BX-18 X旋風發射器（$250）",
-     "c": "BX-18",
-     "u": "https://lin.ee/yKL0pwG"
-    },
-    {
-     "p": "BX-25 戰鬥陀螺X專業收納包（$850）",
-     "c": "BX-25",
-     "u": "https://lin.ee/tVP1tAG"
-    },
-    {
-     "p": "BX-30 X發射器改造型握把 (黑紅)（$195）",
-     "c": "BX-30",
-     "u": "https://lin.ee/77EHwdT"
-    },
-    {
-     "p": "BX-40 發射器(酒紅)（$250）",
-     "c": "BX-40",
-     "u": "https://lin.ee/8C3KTYn"
-    },
-    {
-     "p": "BX-51 旋風發射器 黑綠（$250）",
-     "c": "BX-51",
-     "u": "https://lin.ee/ztU0NOd"
-    },
-    {
-     "p": "BX-57 3V3對戰收納盒 黑（$250）",
-     "c": "BX-57",
-     "u": "https://lin.ee/7A2qdwJ"
-    },
-    {
-     "p": "UX-02 惡魔戰錘（$395）",
-     "c": "UX-02",
-     "u": "https://lin.ee/99LNJYx"
-    },
-    {
-     "p": "UX-20 榮耀武神LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/ypginpV"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/tKcUgat"
+     "u": "https://lin.ee/9mQ9dqB"
     },
     {
      "p": "CX-13 龍王閃擊（$495）",
      "c": "CX-13",
-     "u": "https://lin.ee/WhqVa84"
+     "u": "https://lin.ee/7WCLpWq"
     }
    ],
    "oa": "@816xpruh",
@@ -1595,62 +679,47 @@
   {
    "city": "台中市",
    "name": "Funbox 廣三SOGO店",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
+   "time": "2026/09/11 11:00~2026/09/12 21:00",
    "items": [
     {
      "p": "BX-00 蒼龍神劍3-60F V2（$350）",
      "c": "BX-00",
-     "u": "https://lin.ee/RhOq9MT"
-    },
-    {
-     "p": "BX-26 獨角刺心（$295）",
-     "c": "BX-26",
-     "u": "https://lin.ee/vwLhYfb"
-    },
-    {
-     "p": "BX-35 隨機強化組Vol.04（$295）",
-     "c": "BX-35",
-     "u": "https://lin.ee/9ECer6h"
-    },
-    {
-     "p": "UX-11 衝擊龍神豪華組（$550）",
-     "c": "UX-11",
-     "u": "https://lin.ee/91eNlQH"
+     "u": "https://lin.ee/PEh5xzw"
     },
     {
      "p": "UX-19 子彈獅鷲（$550）",
      "c": "UX-19",
-     "u": "https://lin.ee/XybrZ2g"
-    },
-    {
-     "p": "UX-20 榮耀武神LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/94by55q"
+     "u": "https://lin.ee/7v6B5V9"
     },
     {
      "p": "UX-21 惡魔冥界改造組（$895）",
      "c": "UX-21",
-     "u": "https://lin.ee/7FEy4nT"
+     "u": "https://lin.ee/TFhnOX3"
+    },
+    {
+     "p": "CX-00 新世紀福音戰士改造組（$1,395）",
+     "c": "CX-00",
+     "u": "https://lin.ee/8aMGnIR"
     },
     {
      "p": "CX-13 龍王閃擊（$495）",
      "c": "CX-13",
-     "u": "https://lin.ee/Te56iHk"
+     "u": "https://lin.ee/WTpWADL"
     },
     {
-     "p": "CX-18 腕龍鞭打 隨機強化組（$350）",
+     "p": "CX-18 腕龍鞭打 隨機強化組（$350／限購2組）",
      "c": "CX-18",
-     "u": "https://lin.ee/nXDPrFf"
+     "u": "https://lin.ee/5IAT8EZ"
     },
     {
      "p": "BXG-01 烈焰飛鳳S（$350）",
      "c": "BXG-01",
-     "u": "https://lin.ee/PqJKUQu"
+     "u": "https://lin.ee/x8AeEnS"
     },
     {
      "p": "BXG-04 銀牙烈虎S（$350）",
      "c": "BXG-04",
-     "u": "https://lin.ee/NOzqhRa"
+     "u": "https://lin.ee/8lrmbQT"
     }
    ],
    "oa": "@526bsjmb",
@@ -1658,107 +727,23 @@
   },
   {
    "city": "台中市",
-   "name": "Funbox 豐原太平洋店",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍3-60F V2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/x5Mnd76"
-    },
-    {
-     "p": "UX-20 榮耀武神LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/xcqK2MJ"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/SDfhjGG"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/YL4kdql"
-    },
-    {
-     "p": "BXG-04 銀牙烈虎S（$350）",
-     "c": "BXG-04",
-     "u": "https://lin.ee/QmiHujG"
-    }
-   ],
-   "oa": "@094mvrhb",
-   "oaUrl": "https://line.me/ti/p/~@094mvrhb"
-  },
-  {
-   "city": "台中市",
    "name": "Funbox麗寶一期店",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
+   "time": "2026/09/11 11:00~2026/09/12 21:00",
    "items": [
+    {
+     "p": "BX-00 新福音戰士（改造組）（$350）",
+     "c": "BX-00",
+     "u": "https://lin.ee/nFb30Ey"
+    },
     {
      "p": "BX-00 蒼龍神劍（$350）",
      "c": "BX-00",
-     "u": "https://lin.ee/ngzFqq5"
-    },
-    {
-     "p": "BX-10 戰鬥盤（$850）",
-     "c": "BX-10",
-     "u": "https://lin.ee/vHTh2fr"
-    },
-    {
-     "p": "BX-18 發射器（$250）",
-     "c": "BX-18",
-     "u": "https://lin.ee/ZTHaxuMA"
-    },
-    {
-     "p": "BX-25 收納包（$850）",
-     "c": "BX-25",
-     "u": "https://lin.ee/TdJJNdD"
-    },
-    {
-     "p": "BX-30 發射器改造握把（$195）",
-     "c": "BX-30",
-     "u": "https://lin.ee/RQW1WlZ"
-    },
-    {
-     "p": "BX-40 發射器（$250）",
-     "c": "BX-40",
-     "u": "https://lin.ee/z6eMZzU"
-    },
-    {
-     "p": "BX-51 旋風發射器（$250）",
-     "c": "BX-51",
-     "u": "https://lin.ee/WJGwiNg"
-    },
-    {
-     "p": "BX-57 3V3對戰收納盒（$250）",
-     "c": "BX-57",
-     "u": "https://lin.ee/5J7epgw"
-    },
-    {
-     "p": "UX-02 惡魔戰錘（$395）",
-     "c": "UX-02",
-     "u": "https://lin.ee/ZVGzZqL"
-    },
-    {
-     "p": "UX-19 子彈獅鷲（$550）",
-     "c": "UX-19",
-     "u": "https://lin.ee/rVw1u7T"
-    },
-    {
-     "p": "UX-20 榮耀武神（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/Oo3V5j1"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/ZpDUuZo"
+     "u": "https://lin.ee/UVyu6GN"
     },
     {
      "p": "CX-13 龍王閃擊（$495）",
      "c": "CX-13",
-     "u": "https://lin.ee/u9Cf9zG"
+     "u": "https://lin.ee/rnE5Hl5"
     }
    ],
    "oa": "@829adhop",
@@ -1767,488 +752,137 @@
   {
    "city": "台中市",
    "name": "Funbox 台中中友店",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
+   "time": "2026/09/11 10:30~2026/09/12 21:00",
    "items": [
     {
      "p": "BX-00 蒼龍神劍3-60F V2（$350）",
      "c": "BX-00",
-     "u": "https://lin.ee/945EI9W"
-    },
-    {
-     "p": "BX-00 暴風天馬3-70RA（$595）",
-     "c": "BX-00",
-     "u": "https://lin.ee/YBUqfLK"
+     "u": "https://lin.ee/WFVW7YW"
     },
     {
      "p": "BX-26 獨角刺心（$295）",
      "c": "BX-26",
-     "u": "https://lin.ee/pNhZWfLz"
-    },
-    {
-     "p": "BX-32 寬型極限衝擊戰鬥盤（$1,250）",
-     "c": "BX-32",
-     "u": "https://lin.ee/S8vUnc0"
-    },
-    {
-     "p": "BX-33 皓戰猛虎（$295）",
-     "c": "BX-33",
-     "u": "https://lin.ee/PaJzq7K"
+     "u": "https://lin.ee/rtkxzaY"
     },
     {
      "p": "BX-37 雙重極限衝擊戰鬥盤 豪華組（$2,750）",
      "c": "BX-37",
-     "u": "https://lin.ee/ufz64rZ"
+     "u": "https://lin.ee/RT0Qmjj"
     },
     {
-     "p": "BX-57 3V3對戰收納盒 黑（$250）",
-     "c": "BX-57",
-     "u": "https://lin.ee/SP2pkLX"
-    },
-    {
-     "p": "UX-02 惡魔戰錘（$395）",
-     "c": "UX-02",
-     "u": "https://lin.ee/OUWCEv9"
-    },
-    {
-     "p": "UX-20 榮耀武神LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/qg29KTt"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/sawIsWZ"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/uKyhKKQ"
+     "p": "CX-00 新世紀福音戰士改造組（$1,395）",
+     "c": "CX-00",
+     "u": "https://lin.ee/NTdr548"
     },
     {
      "p": "BXG-01 烈焰飛鳳S（$350）",
      "c": "BXG-01",
-     "u": "https://lin.ee/vnyQJ78"
-    },
-    {
-     "p": "BXG-04 銀牙烈虎S（$350）",
-     "c": "BXG-04",
-     "u": "https://lin.ee/T2OZYar"
+     "u": "https://lin.ee/rWohN0Y"
     }
    ],
    "oa": "@815dstuy",
    "oaUrl": "https://line.me/ti/p/~@815dstuy"
   },
   {
-   "city": "台中市",
-   "name": "FUNBOX 台中遠百店",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
+   "city": "彰化縣",
+   "name": "來玩聚－員林店",
+   "time": "2026/09/11 10:00~2026/09/12 21:00",
    "items": [
     {
      "p": "BX-00 蒼龍神劍3-60F V2（$350）",
      "c": "BX-00",
-     "u": "https://lin.ee/xlvA6ga"
+     "u": "https://lin.ee/qt2mNAf"
     },
     {
-     "p": "BX-00 暴風天馬3-70RA（$595）",
-     "c": "BX-00",
-     "u": "https://lin.ee/9ogcRO7"
-    },
-    {
-     "p": "BX-26 獨角刺心（$295）",
-     "c": "BX-26",
-     "u": "https://lin.ee/RPe0w0p"
-    },
-    {
-     "p": "BX-37 雙重極限衝擊戰鬥盤豪華組（$2,750）",
-     "c": "BX-37",
-     "u": "https://lin.ee/OjVgnSu"
-    },
-    {
-     "p": "BX-45 武士魂斬（$325）",
-     "c": "BX-45",
-     "u": "https://lin.ee/Pn38aPj"
-    },
-    {
-     "p": "UX-02 惡魔戰錘（$395）",
-     "c": "UX-02",
-     "u": "https://lin.ee/YB1s947"
-    },
-    {
-     "p": "UX-19 子彈獅鷲H（$550）",
-     "c": "UX-19",
-     "u": "https://lin.ee/Tp4wMNX"
-    },
-    {
-     "p": "UX-20 榮耀武神LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/6lOWlVm"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
+     "p": "UX-21 惡魔翼界改造組（$895）",
      "c": "UX-21",
-     "u": "https://lin.ee/pR4aXTm"
+     "u": "https://lin.ee/WnOwOyV"
+    },
+    {
+     "p": "CX-00 新世紀福音戰士改造組（$1,395）",
+     "c": "CX-00",
+     "u": "https://lin.ee/YA2pGeD"
     },
     {
      "p": "CX-13 龍王閃擊（$495）",
      "c": "CX-13",
-     "u": "https://lin.ee/UxaqX2w"
-    },
-    {
-     "p": "BXG-01 烈焰飛鳳S（$350）",
-     "c": "BXG-01",
-     "u": "https://lin.ee/ZAaxl56"
-    },
-    {
-     "p": "BXG-04 銀牙烈虎S（$350）",
-     "c": "BXG-04",
-     "u": "https://lin.ee/OcdNkSw"
+     "u": "https://lin.ee/WgFn0sO"
     }
-   ],
-   "oa": "@147vfxjr",
-   "oaUrl": "https://line.me/ti/p/~@147vfxjr"
-  },
-  {
-   "city": "台中市",
-   "name": "Funbox 台中遠雄店",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍3-60F V2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/ojPNeGf"
-    },
-    {
-     "p": "UX-02 惡魔戰錘（$395）",
-     "c": "UX-02",
-     "u": "https://lin.ee/Q8Rcyy6"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/9FFcpcN"
-    },
-    {
-     "p": "CX-18 腕龍鞭打（$350）",
-     "c": "CX-18",
-     "u": "https://lin.ee/xfTRb26"
-    }
-   ],
-   "oa": "@hdg3289a",
-   "oaUrl": "https://line.me/ti/p/~@hdg3289a"
-  },
-  {
-   "city": "台中市",
-   "name": "Funbox 文心秀泰店",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍3-60F V2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/wHmaZ2c"
-    },
-    {
-     "p": "UX-11 衝擊龍神 豪華組（$550）",
-     "c": "UX-11",
-     "u": "https://lin.ee/xvlmXt0"
-    },
-    {
-     "p": "UX-19 子彈獅鷲H（$550）",
-     "c": "UX-19",
-     "u": "https://lin.ee/ZSvVMph"
-    },
-    {
-     "p": "UX-20 榮耀武神LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/pQ43KFp"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/yhrG31q"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/WJxp8y5"
-    },
-    {
-     "p": "CX-18 腕龍鞭打隨機強化組（$350）",
-     "c": "CX-18",
-     "u": "https://lin.ee/oASXU1g"
-    },
-    {
-     "p": "BXG-01 烈焰飛鳳S（$350）",
-     "c": "BXG-01",
-     "u": "https://lin.ee/66c05Rh"
-    },
-    {
-     "p": "BXG-04 銀牙烈虎S（$350）",
-     "c": "BXG-04",
-     "u": "https://lin.ee/XspwAqC"
-    }
-   ],
-   "oa": "@605dilqq",
-   "oaUrl": "https://line.me/ti/p/~@605dilqq"
-  },
-  {
-   "city": "台中市",
-   "name": "Funbox 新光三越台中店",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍3-60F V2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/T7kG6D0C"
-    },
-    {
-     "p": "BX-00 暴風天馬3-70RA（$595）",
-     "c": "BX-00",
-     "u": "https://lin.ee/T3fn8sM"
-    },
-    {
-     "p": "BX-37 雙重極限衝擊戰鬥盤 豪華組（$2,750）",
-     "c": "BX-37",
-     "u": "https://lin.ee/zjOovk0"
-    },
-    {
-     "p": "BX-45 武士魂斬（$325）",
-     "c": "BX-45",
-     "u": "https://lin.ee/uGmDmOCJ"
-    },
-    {
-     "p": "UX-20 榮耀武神LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/x69QiaC"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/WwtOhvE"
-    },
-    {
-     "p": "CX-12 鳳凰閃焰（$350）",
-     "c": "CX-12",
-     "u": "https://lin.ee/yPbkX5L"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/vmeaDD5"
-    },
-    {
-     "p": "BXG-01 烈焰飛鳳S（$350）",
-     "c": "BXG-01",
-     "u": "https://lin.ee/RdT4b3ah"
-    }
-   ],
-   "oa": "@833rhkmr",
-   "oaUrl": "https://line.me/ti/p/~@833rhkmr"
-  },
-  {
-   "city": "台中市",
-   "name": "Funbox 台中 LaLaport",
-   "time": "抽選日期：2026/09/04~2026/09/05",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍 3-60FV2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/t1i6i9G"
-    },
-    {
-     "p": "BX-00 暴風天馬（$595）",
-     "c": "BX-00",
-     "u": "https://lin.ee/qQspZoj"
-    },
-    {
-     "p": "BX-45 武士魂斬（$325）",
-     "c": "BX-45",
-     "u": "https://lin.ee/sZWslVu"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/QliwgaK"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/SWojGPQ"
-    },
-    {
-     "p": "BXG-01 烈焰飛鳳S（$350）",
-     "c": "BXG-01",
-     "u": "https://lin.ee/wTHj8I2"
-    }
-   ],
-   "oa": "@620dfrfm",
-   "oaUrl": "https://line.me/ti/p/~@620dfrfm"
-  },
-  {
-   "city": "台中市",
-   "name": "Funbox-漢神洲際店",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍V2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/vZ7xr6a"
-    },
-    {
-     "p": "BX-00 暴風天馬3-70RA（$595）",
-     "c": "BX-00",
-     "u": "https://lin.ee/RfJFlsFZ"
-    },
-    {
-     "p": "BX-26 獨角刺心（$295）",
-     "c": "BX-26",
-     "u": "https://lin.ee/QpcHoIk"
-    },
-    {
-     "p": "BX-33 皓戰猛虎（$295）",
-     "c": "BX-33",
-     "u": "https://lin.ee/PNtt40Z"
-    },
-    {
-     "p": "BX-37 雙重極限衝擊戰鬥盤 豪華組（$2,750）",
-     "c": "BX-37",
-     "u": "https://lin.ee/v2H0Q9F"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/V8CQbQe"
-    },
-    {
-     "p": "BXG-01 烈焰飛鳳S（$350）",
-     "c": "BXG-01",
-     "u": "https://lin.ee/nvfyrPs"
-    },
-    {
-     "p": "BXG-04 銀牙烈虎S（$350）",
-     "c": "BXG-04",
-     "u": "https://lin.ee/7JlHQc9"
-    }
-   ],
-   "oa": "@218xxrbx",
-   "oaUrl": "https://line.me/ti/p/~@218xxrbx"
+   ]
   },
   {
    "city": "彰化縣",
    "name": "來玩聚-彰化店",
-   "time": "2026/09/04 10:00~2026/09/05 21:00",
+   "time": "2026/09/11 10:00~2026/09/12 21:00",
    "items": [
     {
      "p": "BX-00 蒼龍神劍3-60F V2（$350）",
      "c": "BX-00",
-     "u": "https://lin.ee/7XcJJo4"
-    },
-    {
-     "p": "BX-26 獨角刺心（$295）",
-     "c": "BX-26",
-     "u": "https://lin.ee/SZOfAYf"
+     "u": "https://lin.ee/ptsOv5k"
     },
     {
      "p": "BX-33 皓戰猛虎（$295）",
      "c": "BX-33",
-     "u": "https://lin.ee/pQN4k1f"
+     "u": "https://lin.ee/9hfYqY0"
     },
     {
      "p": "UX-02 惡魔戰錘（$395）",
      "c": "UX-02",
-     "u": "https://lin.ee/o09RTzy"
-    },
-    {
-     "p": "UX-11 衝擊龍神豪華組（$550）",
-     "c": "UX-11",
-     "u": "https://lin.ee/TCXZzJP"
-    },
-    {
-     "p": "UX-19 子彈獅鷲H（$550）",
-     "c": "UX-19",
-     "u": "https://lin.ee/87IKYP9"
+     "u": "https://lin.ee/6jqBx8o"
     },
     {
      "p": "UX-20 榮耀武神LF（$595）",
      "c": "UX-20",
-     "u": "https://lin.ee/nB9Vqqv"
+     "u": "https://lin.ee/5S5iDzB"
     },
     {
      "p": "UX-21 惡魔冥界改造組（$895）",
      "c": "UX-21",
-     "u": "https://lin.ee/YR2xt1Z"
+     "u": "https://lin.ee/X7IyEQJ"
+    },
+    {
+     "p": "CX-00 新世紀福音戰士改造組（$1,395）",
+     "c": "CX-00",
+     "u": "https://lin.ee/RjyQdUc"
     },
     {
      "p": "CX-13 龍王閃擊（$495）",
      "c": "CX-13",
-     "u": "https://lin.ee/YSQxBoR"
+     "u": "https://lin.ee/tkA8Cms"
     },
     {
      "p": "BXG-01 烈焰飛鳳S（$350）",
      "c": "BXG-01",
-     "u": "https://lin.ee/VqWZhZ5"
+     "u": "https://lin.ee/Span7zb"
     },
     {
      "p": "BXG-04 銀牙烈虎S（$350）",
      "c": "BXG-04",
-     "u": "https://lin.ee/rD7kipo"
+     "u": "https://lin.ee/QoPxlVQ"
     }
    ],
    "oa": "@766sgllj",
    "oaUrl": "https://line.me/ti/p/~@766sgllj"
   },
   {
-   "city": "彰化縣",
-   "name": "來玩聚-員林店",
-   "time": "2026/09/04 10:00~2026/09/05 21:00",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍3-60F V2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/ZKX159K"
-    },
-    {
-     "p": "UX-20 榮耀武神LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/vuLmnJJ"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/tIEVifl"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/vJLGMpQ"
-    }
-   ],
-   "oa": "@958tzuco",
-   "oaUrl": "https://line.me/ti/p/~@958tzuco"
-  },
-  {
    "city": "雲林縣",
    "name": "來玩聚斗六店",
-   "time": "2026/09/04 10:00~2026/09/05 21:00",
+   "time": "2026/09/11 10:00~2026/09/12 21:00",
    "items": [
     {
      "p": "BX-00 蒼龍神劍3-60F V2（$350）",
      "c": "BX-00",
-     "u": "https://lin.ee/RRZW8v7"
+     "u": "https://lin.ee/YxTVT2G"
     },
     {
-     "p": "UX-20 榮耀武神LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/ujJuXj0"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/N9ztcQs"
+     "p": "CX-00 新世紀福音戰士改造組（$1,395）",
+     "c": "CX-00",
+     "u": "https://lin.ee/QXcuze1"
     },
     {
      "p": "CX-13 龍王閃擊（$495）",
      "c": "CX-13",
-     "u": "https://lin.ee/ny8t5uU"
+     "u": "https://lin.ee/qucHkZ1"
     }
    ],
    "oa": "@rsp8657s",
@@ -2257,27 +891,22 @@
   {
    "city": "嘉義市",
    "name": "Funbox Toys-嘉義遠東店",
-   "time": "2026/09/04 11:00~2026/09/05 20:30",
+   "time": "2026/09/11 11:00~2026/09/12 20:30",
    "items": [
     {
      "p": "BX-00 蒼龍神劍（$350）",
      "c": "BX-00",
-     "u": "https://lin.ee/NoSbfkR"
+     "u": "https://lin.ee/Qls6R6V"
     },
     {
-     "p": "UX-20 榮耀武神（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/o3NsYxR"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/pIJWrfq"
+     "p": "CX-00 新世紀福音戰士改造組（$1,395）",
+     "c": "CX-00",
+     "u": "https://lin.ee/WeYu7JB"
     },
     {
      "p": "CX-13 龍王閃擊（$495）",
      "c": "CX-13",
-     "u": "https://lin.ee/oM6CRPO"
+     "u": "https://lin.ee/pVfZbJ6"
     }
    ],
    "oa": "@gno1826d",
@@ -2286,371 +915,46 @@
   {
    "city": "嘉義市",
    "name": "Funbox 嘉義三越店",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
+   "time": "2026/09/11 11:00~2026/09/12 21:00",
    "items": [
     {
      "p": "BX-00 蒼龍神劍3-60F V2（$350）",
      "c": "BX-00",
-     "u": "https://lin.ee/TSZ5FQE"
+     "u": "https://lin.ee/Olyo4pX"
     },
     {
-     "p": "UX-20 榮耀武神LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/U2KWNuL"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/8BJX2yK"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/qqqDOUZ"
+     "p": "CX-00 新世紀福音戰士改造組（$1,395）",
+     "c": "CX-00",
+     "u": "https://lin.ee/N4zI9Ue"
     }
    ],
    "oa": "@zhj4962p",
    "oaUrl": "https://line.me/ti/p/~@zhj4962p"
   },
   {
-   "city": "嘉義市",
-   "name": "Funbox嘉義耐斯店",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍3-60F V2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/x0MdaGw"
-    },
-    {
-     "p": "UX-20 榮耀武神LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/9oFKjXu"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/8SxlHep"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/SC8U4s2"
-    }
-   ],
-   "oa": "@121nsdww",
-   "oaUrl": "https://line.me/ti/p/~@121nsdww"
-  },
-  {
-   "city": "台南市",
-   "name": "funbox 台南新天地",
-   "time": "抽選日期：2026/09/04~2026/09/05",
-   "items": [
-    {
-     "p": "BX-45 武士魂斬（$325）",
-     "c": "BX-45",
-     "u": "https://lin.ee/u4fiNfk"
-    },
-    {
-     "p": "UX-02 惡魔戰錘（$395）",
-     "c": "UX-02",
-     "u": "https://lin.ee/Sl3A2uA"
-    },
-    {
-     "p": "UX-03 魔導神杖（$295）",
-     "c": "UX-03",
-     "u": "https://lin.ee/YEGguuP"
-    },
-    {
-     "p": "UX-19 子彈獅鷲H（$550）",
-     "c": "UX-19",
-     "u": "https://lin.ee/5dtP2gm"
-    },
-    {
-     "p": "UX-20 榮耀戰神（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/V15nma7"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/SQvSNiU"
-    },
-    {
-     "p": "CX-12 鳳凰閃焰（$350）",
-     "c": "CX-12",
-     "u": "https://lin.ee/Q3pRqMb"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/UHT7qrf"
-    },
-    {
-     "p": "BXG-01 烈焰飛鳳S（$350）",
-     "c": "BXG-01",
-     "u": "https://lin.ee/Skh4K4R"
-    },
-    {
-     "p": "BXG-04 銀牙烈虎S（$350）",
-     "c": "BXG-04",
-     "u": "https://lin.ee/Sbbc7b3"
-    }
-   ]
-  },
-  {
-   "city": "台南市",
-   "name": "Funbox 台南三井店",
-   "time": "2026/09/04 11:00~2026/09/05 20:30",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/5MB46Qa"
-    },
-    {
-     "p": "UX-11 衝擊龍神豪華組（$550）",
-     "c": "UX-11",
-     "u": "https://lin.ee/SJISlmx"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/5GC8Xm0"
-    },
-    {
-     "p": "CX-18 腕龍鞭打隨機強化組（$350）",
-     "c": "CX-18",
-     "u": "https://lin.ee/XrYFXZU"
-    }
-   ],
-   "oa": "@212isujx",
-   "oaUrl": "https://line.me/ti/p/~@212isujx"
-  },
-  {
-   "city": "台南市",
-   "name": "Funbox Toys-台南南紡店",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍3-60F V2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/p81NHiP"
-    },
-    {
-     "p": "BX-00 暴風天馬3-70RA（$595）",
-     "c": "BX-00",
-     "u": "https://lin.ee/rHnY56d"
-    },
-    {
-     "p": "BX-26 獨角刺心（$295）",
-     "c": "BX-26",
-     "u": "https://lin.ee/yuuhvBz"
-    },
-    {
-     "p": "BX-33 皓戰猛虎（$295）",
-     "c": "BX-33",
-     "u": "https://lin.ee/8HVSpxQ"
-    },
-    {
-     "p": "BX-37 雙重極限衝擊戰鬥盤 豪華組（$2,750）",
-     "c": "BX-37",
-     "u": "https://lin.ee/QajWDao"
-    },
-    {
-     "p": "BX-45 武士魂斬（$325）",
-     "c": "BX-45",
-     "u": "https://lin.ee/wH7tTAW"
-    },
-    {
-     "p": "UX-02 惡魔戰錘（$395）",
-     "c": "UX-02",
-     "u": "https://lin.ee/O5JzpAd"
-    },
-    {
-     "p": "UX-19 子彈獅鷲H（$550）",
-     "c": "UX-19",
-     "u": "https://lin.ee/uKhH03c"
-    },
-    {
-     "p": "UX-20 榮耀武神LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/zWD4896"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/RzAR0WX"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/SCjf8Pt"
-    },
-    {
-     "p": "CX-18 腕龍鞭打 隨機強化組（$350）",
-     "c": "CX-18",
-     "u": "https://lin.ee/T5PanVd"
-    },
-    {
-     "p": "BXG-01 烈焰飛鳳S（$350）",
-     "c": "BXG-01",
-     "u": "https://lin.ee/yTHSS03"
-    },
-    {
-     "p": "BXG-04 銀牙烈虎S（$350）",
-     "c": "BXG-04",
-     "u": "https://lin.ee/ULfcxtt"
-    }
-   ],
-   "oa": "@msq0107x",
-   "oaUrl": "https://line.me/ti/p/~@msq0107x"
-  },
-  {
-   "city": "台南市",
-   "name": "FUNBOX 台南遠百",
-   "time": "抽選日期：2026/09/04~2026/09/05",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍3-60F V2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/WAmUxCJ"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/n8lxSgq"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/9OdIzi6"
-    }
-   ],
-   "oa": "@373rxyat",
-   "oaUrl": "https://line.me/ti/p/~@373rxyat"
-  },
-  {
-   "city": "台南市",
-   "name": "來玩聚-新仁店",
-   "time": "2026/09/04 11:00~2026/09/05 20:00",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/qBNBah4"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/z4Xr29Y"
-    },
-    {
-     "p": "BXG-01 烈焰飛鳳S（$350）",
-     "c": "BXG-01",
-     "u": "https://lin.ee/paNzbYe"
-    }
-   ],
-   "oa": "@162fxyom",
-   "oaUrl": "https://line.me/ti/p/~@162fxyom"
-  },
-  {
-   "city": "高雄市",
-   "name": "鳳山來玩聚",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/somWdT3"
-    },
-    {
-     "p": "UX-20 榮耀女武神（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/O4VfVqx"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/ssEJkSe"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/RktIzwz"
-    }
-   ],
-   "oa": "@189yvcce",
-   "oaUrl": "https://line.me/ti/p/~@189yvcce"
-  },
-  {
-   "city": "高雄市",
-   "name": "funbox大魯閣新光",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍 3-60FV2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/sNFUKbu"
-    },
-    {
-     "p": "UX-20 榮耀女武神 LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/qFCWjG4"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/7W178Rr"
-    }
-   ],
-   "oa": "@fko7562c",
-   "oaUrl": "https://line.me/ti/p/~@fko7562c"
-  },
-  {
    "city": "高雄市",
    "name": "Funbox 高雄大立店",
-   "time": "2026/09/04 11:00~2026/09/05 20:30",
+   "time": "2026/09/11 11:00~2026/09/12 20:30",
    "items": [
     {
-     "p": "BX-10 極限衝擊戰鬥盤（$850）",
-     "c": "BX-10",
-     "u": "https://lin.ee/ZUnAWhg"
+     "p": "BX-00 蒼龍神劍3-60F V2（$350）",
+     "c": "BX-00",
+     "u": "https://lin.ee/zMvVOQx"
     },
     {
-     "p": "BX-18 旋風發射器（$250）",
-     "c": "BX-18",
-     "u": "https://lin.ee/VBUblsr"
+     "p": "UX-02 惡魔戰錘（$395）",
+     "c": "UX-02",
+     "u": "https://lin.ee/7GO4j7c"
     },
     {
-     "p": "BX-25 戰鬥陀螺專業收納包（$850）",
-     "c": "BX-25",
-     "u": "https://lin.ee/tQ335Ei"
-    },
-    {
-     "p": "BX-30 發射器改造型握把(黑紅)（$195）",
-     "c": "BX-30",
-     "u": "https://lin.ee/Prwl6sA"
-    },
-    {
-     "p": "BX-57 3v3對戰收納盒 黑（$250）",
-     "c": "BX-57",
-     "u": "https://lin.ee/UrKx6l6"
-    },
-    {
-     "p": "UX-20 榮耀武神（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/PNfiHFIP"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/XugP5r2"
+     "p": "CX-00 新世福音戰士改造組（$1,395）",
+     "c": "CX-00",
+     "u": "https://lin.ee/wRBZy0v"
     },
     {
      "p": "CX-13 龍王閃擊（$495）",
      "c": "CX-13",
-     "u": "https://lin.ee/pzaSLnl"
+     "u": "https://lin.ee/YaqfU9G"
     }
    ],
    "oa": "@917hatdy",
@@ -2658,28 +962,27 @@
   },
   {
    "city": "高雄市",
-   "name": "Funbox -夢時代店",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
+   "name": "funbox大魯閣新光",
+   "time": "2026/09/11 11:00~2026/09/12 21:00",
    "items": [
     {
-     "p": "BX-00 蒼龍神劍3-60F V2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/oFyah9u"
-    },
+     "p": "CX-00 新世紀福音戰士改造組（$1,395）",
+     "c": "CX-00",
+     "u": "https://lin.ee/XURwiUg"
+    }
+   ],
+   "oa": "@fko7562c",
+   "oaUrl": "https://line.me/ti/p/~@fko7562c"
+  },
+  {
+   "city": "高雄市",
+   "name": "Funbox -夢時代店",
+   "time": "2026/09/11 11:00~2026/09/12 21:00",
+   "items": [
     {
-     "p": "UX-20 榮耀武神LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/Nxqnbx5"
-    },
-    {
-     "p": "CX-12 鳳凰閃焰（$350）",
-     "c": "CX-12",
-     "u": "https://lin.ee/nGWR09K"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/P9fVJdE"
+     "p": "CX-00 新世紀福音戰士改造組（$1,395）",
+     "c": "CX-00",
+     "u": "https://lin.ee/O1cMbf4"
     }
    ],
    "oa": "@ott3541o",
@@ -2687,77 +990,18 @@
   },
   {
    "city": "高雄市",
-   "name": "Funbox-漢神巨蛋店",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍3-60F V2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/oQKPtS8"
-    },
-    {
-     "p": "BX-37 雙重極限衝擊戰鬥盤豪華組（$2,750）",
-     "c": "BX-37",
-     "u": "https://lin.ee/ZbFrmNk"
-    },
-    {
-     "p": "UX-20 榮耀武神LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/P6ltc6D6"
-    },
-    {
-     "p": "CX-12 鳳凰閃焰（$350）",
-     "c": "CX-12",
-     "u": "https://lin.ee/QwByvhE"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/WWR41GV"
-    }
-   ],
-   "oa": "@ldh6278d",
-   "oaUrl": "https://line.me/ti/p/~@ldh6278d"
-  },
-  {
-   "city": "高雄市",
    "name": "來玩聚-新楠店",
-   "time": "2026/09/04 10:00~2026/09/05 21:00",
+   "time": "2026/09/11 10:00~2026/09/12 21:00",
    "items": [
     {
      "p": "BX-00 蒼龍神劍V2（$350）",
      "c": "BX-00",
-     "u": "https://lin.ee/rbePBBj"
+     "u": "https://lin.ee/oWeYBs8"
     },
     {
-     "p": "BX-26 獨角刺心（$295）",
-     "c": "BX-26",
-     "u": "https://lin.ee/63ZT7vI"
-    },
-    {
-     "p": "UX-20 榮耀武神LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/qJ5o20i"
-    },
-    {
-     "p": "UX-21 惡魔幽冥改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/yvcElyIT"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/5HzMX8D"
-    },
-    {
-     "p": "BXG-01 烈焰飛鳳S（$350）",
-     "c": "BXG-01",
-     "u": "https://lin.ee/sT5p3Au"
-    },
-    {
-     "p": "BXG-04 銀牙烈虎S（$350）",
-     "c": "BXG-04",
-     "u": "https://lin.ee/7GwqTnP"
+     "p": "CX-00 新世紀福音戰士改造組（$1,395／商品微盒損）",
+     "c": "CX-00",
+     "u": "https://lin.ee/SSZ0tUy"
     }
    ],
    "oa": "@022itqlw",
@@ -2765,42 +1009,13 @@
   },
   {
    "city": "高雄市",
-   "name": "Funbox-高雄漢神店",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍3-60FV2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/StMmmLn"
-    },
-    {
-     "p": "UX-20 榮耀武神 LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/UGl6zqC"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/596HcyS"
-    }
-   ],
-   "oa": "@897upgfr",
-   "oaUrl": "https://line.me/ti/p/~@897upgfr"
-  },
-  {
-   "city": "高雄市",
    "name": "Funbox高雄sogo店",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
+   "time": "2026/09/11 11:00~2026/09/12 21:00",
    "items": [
     {
-     "p": "BX-00 蒼龍神劍 3-6F V2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/W7INUo3"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/PZS71MA"
+     "p": "CX-00 新世紀福音戰士改造組（$1,395）",
+     "c": "CX-00",
+     "u": "https://lin.ee/T5CrB1d"
     }
    ],
    "oa": "@845nallq",
@@ -2808,213 +1023,51 @@
   },
   {
    "city": "高雄市",
-   "name": "來玩聚 楠梓店",
-   "time": "2026/09/04 10:00~2026/09/05 21:00",
+   "name": "Funbox-漢神巨蛋店",
+   "time": "2026/09/11 11:00~2026/09/12 21:00",
    "items": [
     {
      "p": "BX-00 蒼龍神劍3-60F V2（$350）",
      "c": "BX-00",
-     "u": "https://lin.ee/w9R0Z0X"
+     "u": "https://lin.ee/y12Oomf"
     },
     {
-     "p": "BX-10 極限衝擊戰鬥盤（$850）",
-     "c": "BX-10",
-     "u": "https://lin.ee/7DpHc7N"
-    },
-    {
-     "p": "BX-18 X旋風發射器（$250）",
-     "c": "BX-18",
-     "u": "https://lin.ee/zpiUEf32"
-    },
-    {
-     "p": "BX-25 戰鬥陀螺X專業收納包（$850）",
-     "c": "BX-25",
-     "u": "https://lin.ee/TpOgYvP"
-    },
-    {
-     "p": "BX-30 X發射器改造型握把(黑紅)（$195）",
-     "c": "BX-30",
-     "u": "https://lin.ee/rjyAy1U"
-    },
-    {
-     "p": "BX-51 旋風發射器 黑綠（$250）",
-     "c": "BX-51",
-     "u": "https://lin.ee/9MXfMGS"
-    },
-    {
-     "p": "BX-57 3V3對戰收納盒（$250）",
-     "c": "BX-57",
-     "u": "https://lin.ee/XZ5CzHZ"
-    },
-    {
-     "p": "UX-20 榮耀武神LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/Rm7phzL"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/pc5MdzF"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/O3VflGc"
+     "p": "CX-00 新世紀福音戰士改造組（$1,395）",
+     "c": "CX-00",
+     "u": "https://lin.ee/nXdw5Sx"
     }
    ],
-   "oa": "@241cmnww",
-   "oaUrl": "https://line.me/ti/p/~@241cmnww"
+   "oa": "@ldh6278d",
+   "oaUrl": "https://line.me/ti/p/~@ldh6278d"
   },
   {
    "city": "高雄市",
-   "name": "Funbox高雄義享店",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
+   "name": "Funbox-高雄漢神店",
+   "time": "2026/09/11 11:00~2026/09/12 21:00",
    "items": [
     {
-     "p": "BX-00 蒼龍神劍3-60F V2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/VBBJuN4"
-    },
-    {
-     "p": "UX-20 榮耀武神（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/Pi3Ffqf"
-    },
-    {
-     "p": "UX-21 惡魔幽冥改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/V4yaWwT"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/VfNCcOH"
+     "p": "CX-00 新世紀福音戰士改造組（$1,395）",
+     "c": "CX-00",
+     "u": "https://lin.ee/5Hmgk7n"
     }
    ],
-   "oa": "@777nkbeo",
-   "oaUrl": "https://line.me/ti/p/~@777nkbeo"
-  },
-  {
-   "city": "高雄市",
-   "name": "Funbox Toys 高雄左營店",
-   "time": "抽選日期：2026/09/04~2026/09/05",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍 3-60F V2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/Y6ILYXO"
-    },
-    {
-     "p": "UX-20 榮耀武神 LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/sIUOsIe"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/NlItwbn"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/vb11bkkT"
-    }
-   ],
-   "oa": "@obz8096L",
-   "oaUrl": "https://line.me/ti/p/~@obz8096L"
-  },
-  {
-   "city": "高雄市",
-   "name": "fun box 義大2館",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍3-60F V2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/RZ5Qs9C"
-    },
-    {
-     "p": "BX-45 武士斬魂（$325）",
-     "c": "BX-45",
-     "u": "https://lin.ee/pbMrkY2"
-    },
-    {
-     "p": "UX-02 惡魔戰錘（$395）",
-     "c": "UX-02",
-     "u": "https://lin.ee/pc7bb4N"
-    },
-    {
-     "p": "UX-20 榮耀武神LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/nDbY4Q8"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/ZBy6USI"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/91pGIG8"
-    }
-   ],
-   "oa": "@bxd6822t",
-   "oaUrl": "https://line.me/ti/p/~@bxd6822t"
-  },
-  {
-   "city": "高雄市",
-   "name": "Funbox 高雄大遠百店",
-   "time": "抽選日期：2026/09/04~2026/09/05",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/TqEn7hB"
-    },
-    {
-     "p": "UX-20 榮耀武神（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/TBuTVOp"
-    },
-    {
-     "p": "UX-21 惡魔幽冥對戰組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/nzCO9xe"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/8gdaUVi"
-    }
-   ],
-   "oa": "@204edsnm",
-   "oaUrl": "https://line.me/ti/p/~@204edsnm"
+   "oa": "@897upgfr",
+   "oaUrl": "https://line.me/ti/p/~@897upgfr"
   },
   {
    "city": "屏東縣",
    "name": "funbox屏東太平洋",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
+   "time": "2026/09/11 11:00~2026/09/12 21:00",
    "items": [
     {
      "p": "BX-00 蒼龍神劍3-60F V2（$350）",
      "c": "BX-00",
-     "u": "https://lin.ee/shYffrl"
+     "u": "https://lin.ee/VYNow4o"
     },
     {
-     "p": "UX-20 榮耀武神LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/Q3wsLGe"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/s0rB9dT"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/qqtB3oA"
+     "p": "UX-00 新世紀福音戰士改造組（$1,395）",
+     "c": "UX-00",
+     "u": "https://lin.ee/8F28eaV"
     }
    ],
    "oa": "@ess7711t",
@@ -3023,297 +1076,135 @@
   {
    "city": "屏東縣",
    "name": "Funbox 屏東環球店",
-   "time": "2026/09/04 11:00~2026/09/05 21:00",
+   "time": "2026/09/11 11:00~2026/09/12 21:00",
    "items": [
     {
      "p": "BX-00 蒼龍神劍3-60F V2（$350）",
      "c": "BX-00",
-     "u": "https://lin.ee/n08Wj10"
+     "u": "https://lin.ee/rMFSI42"
     },
     {
-     "p": "UX-20 榮耀武神（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/Wz5MtDq"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/t5Vhfj5"
+     "p": "CX-00 新世紀福音戰士改造組（$1,395）",
+     "c": "CX-00",
+     "u": "https://lin.ee/7iP00az"
     },
     {
      "p": "CX-13 龍王閃擊（$495）",
      "c": "CX-13",
-     "u": "https://lin.ee/XEL6JmL"
+     "u": "https://lin.ee/8Pp9KkQ"
     }
    ],
    "oa": "@xhi2668e",
    "oaUrl": "https://line.me/ti/p/~@xhi2668e"
   },
   {
-   "city": "屏東縣",
-   "name": "來玩聚-新屏店",
-   "time": "2026/09/04 11:00~2026/09/05 20:00",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍3-60F V2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/O3d76Jz"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/N8W8i6w"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/sokqhfz"
-    }
-   ],
-   "oa": "@308oaews",
-   "oaUrl": "https://line.me/ti/p/~@308oaews"
-  },
-  {
    "city": "宜蘭縣",
    "name": "Funbox 宜蘭新月店",
-   "time": "抽選開始：2026/09/04 11:00",
+   "time": "2026/09/11 11:00 起",
    "items": [
+    {
+     "p": "BX-00 暴風天馬3-70RA（$595）",
+     "c": "BX-00",
+     "u": "https://lin.ee/wlr7HAE"
+    },
     {
      "p": "BX-00 蒼龍神劍3-60F V2（$350）",
      "c": "BX-00",
-     "u": "https://lin.ee/zBADrxA"
-    },
-    {
-     "p": "BX-00 暴風天馬3-70RA（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/q22Xnoi"
+     "u": "https://lin.ee/8l5ZgOi"
     },
     {
      "p": "BX-26 獨角刺心（$295）",
      "c": "BX-26",
-     "u": "https://lin.ee/PhWqcc0"
+     "u": "https://lin.ee/9POeXce"
     },
     {
      "p": "BX-33 皓戰猛虎（$295）",
      "c": "BX-33",
-     "u": "https://lin.ee/Vp4aUiB"
+     "u": "https://lin.ee/RxSpLhl"
     },
     {
      "p": "BX-50 天堂日輪 隨機強化組（$350）",
      "c": "BX-50",
-     "u": "https://lin.ee/7UbdwSO"
+     "u": "https://lin.ee/yp0yDSz"
     },
     {
      "p": "UX-19 子彈獅鷲H（$550）",
      "c": "UX-19",
-     "u": "https://lin.ee/UVlBzJmk"
+     "u": "https://lin.ee/9EuCF5n"
     },
     {
      "p": "UX-20 榮耀武神LF（$595）",
      "c": "UX-20",
-     "u": "https://lin.ee/r4EoEPI"
+     "u": "https://lin.ee/SG6VTOM"
     },
     {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/WfiQkkY"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/TvWlXi0"
-    },
-    {
-     "p": "CX-18 腕龍鞭打 隨機強化組（$350）",
-     "c": "CX-18",
-     "u": "https://lin.ee/o2QZhWI"
+     "p": "CX-00 新世紀福音戰士改造組（$1,395）",
+     "c": "CX-00",
+     "u": "https://lin.ee/plxRmQO"
     },
     {
      "p": "BXG-01 烈焰飛鳳S（$350）",
      "c": "BXG-01",
-     "u": "https://lin.ee/r9MQCqb"
+     "u": "https://lin.ee/ZpmUeY2"
     },
     {
      "p": "BXG-04 銀牙烈虎S（$350）",
      "c": "BXG-04",
-     "u": "https://lin.ee/90DcANj"
+     "u": "https://lin.ee/xg2AtHJ"
     }
    ],
    "oa": "@027iendl",
    "oaUrl": "https://line.me/ti/p/~@027iendl"
   },
   {
-   "city": "台東縣",
-   "name": "Funbox 台東秀泰店",
-   "time": "抽選日期：2026/09/04~2026/09/05",
+   "city": "澎湖縣",
+   "name": "Funbox澎湖3號港店",
+   "time": "2026/09/11 10:30~2026/09/12 21:30",
    "items": [
     {
-     "p": "BX-00 蒼龍神劍 3-60F V2（$350）",
+     "p": "BX-00 暴風天馬3-70RA（$595）",
      "c": "BX-00",
-     "u": "https://lin.ee/PxecvZO"
+     "u": "https://lin.ee/uJHjHCb"
+    },
+    {
+     "p": "BX-00 蒼龍神劍3-60F V2（$350）",
+     "c": "BX-00",
+     "u": "https://lin.ee/UOLUzqg"
     },
     {
      "p": "BX-26 獨角刺心（$295）",
      "c": "BX-26",
-     "u": "https://lin.ee/oLqgoyM"
+     "u": "https://lin.ee/vW52UTm"
     },
     {
      "p": "BX-33 皓戰猛虎（$295）",
      "c": "BX-33",
-     "u": "https://lin.ee/Z2K2FV0"
-    },
-    {
-     "p": "BX-35 隨機強化組 Vol.04（$295）",
-     "c": "BX-35",
-     "u": "https://lin.ee/6mhTk9K"
+     "u": "https://lin.ee/WKJYGP4"
     },
     {
      "p": "BX-45 武士魂斬（$325）",
      "c": "BX-45",
-     "u": "https://lin.ee/vtj8HYW"
+     "u": "https://lin.ee/UXZG8Jv"
     },
     {
-     "p": "UX-02 惡魔戰鎚（$395）",
-     "c": "UX-02",
-     "u": "https://lin.ee/z8C63dF"
-    },
-    {
-     "p": "UX-11 衝擊龍神 豪華組（$550）",
-     "c": "UX-11",
-     "u": "https://lin.ee/xlHg3Hb"
-    },
-    {
-     "p": "UX-19 子彈獅鷲（$550）",
-     "c": "UX-19",
-     "u": "https://lin.ee/pZaZ0gp"
-    },
-    {
-     "p": "UX-20 榮耀武神 LF（$595）",
+     "p": "UX-20 榮耀武神LF（$595）",
      "c": "UX-20",
-     "u": "https://lin.ee/rbMX4MmW"
-    },
-    {
-     "p": "UX-21 惡魔界限改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/NafDqhz"
+     "u": "https://lin.ee/OrUwaIT"
     },
     {
      "p": "CX-13 龍王閃擊（$495）",
      "c": "CX-13",
-     "u": "https://lin.ee/OYapa7T"
+     "u": "https://lin.ee/N7vab0U"
     },
     {
-     "p": "CX-18 腕龍隨機強化組（$350）",
-     "c": "CX-18",
-     "u": "https://lin.ee/6v3nifek"
-    },
-    {
-     "p": "BXG-01 烈焰飛鳳（$350）",
+     "p": "BXG-01 烈焰飛鳳S（$350）",
      "c": "BXG-01",
-     "u": "https://lin.ee/xLRQmB44"
+     "u": "https://lin.ee/V8TRwUn"
     },
     {
-     "p": "BXG-04 銀牙烈虎 S（$350）",
+     "p": "BXG-04 銀牙烈虎S（$350）",
      "c": "BXG-04",
-     "u": "https://lin.ee/Sz9eBXS"
-    }
-   ],
-   "oa": "@438glrqv",
-   "oaUrl": "https://line.me/R/ti/p/@438glrqv"
-  },
-  {
-   "city": "台東縣",
-   "name": "來玩聚 台東店",
-   "time": "2026/09/04 11:00~2026/09/05 20:00",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍3-60F V2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/nroqmHc"
-    },
-    {
-     "p": "UX-02 惡魔戰錘（$395）",
-     "c": "UX-02",
-     "u": "https://lin.ee/t50R0H8"
-    },
-    {
-     "p": "UX-11 衝擊龍神 豪華組（$550）",
-     "c": "UX-11",
-     "u": "https://lin.ee/9lHUJwC"
-    },
-    {
-     "p": "UX-19 子彈獅鷲H（$550）",
-     "c": "UX-19",
-     "u": "https://lin.ee/zr5IaB0"
-    },
-    {
-     "p": "UX-20 榮耀武神LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/x92u4ij"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/vqQCGVl"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/U2m3Ldm"
-    },
-    {
-     "p": "CX-18 腕龍鞭打 隨機強化組（$350）",
-     "c": "CX-18",
-     "u": "https://lin.ee/6Lnr5oE"
-    }
-   ],
-   "oa": "@438glrqv",
-   "oaUrl": "https://line.me/ti/p/~@438glrqv"
-  },
-  {
-   "city": "澎湖縣",
-   "name": "Funbox澎湖3號港店",
-   "time": "抽選日期：2026/09/04~2026/09/05",
-   "items": [
-    {
-     "p": "BX-00 蒼龍神劍3-60F V2（$350）",
-     "c": "BX-00",
-     "u": "https://lin.ee/N8N53C8"
-    },
-    {
-     "p": "BX-00 暴風天馬3-70RA（$595）",
-     "c": "BX-00",
-     "u": "https://lin.ee/xgEcduw"
-    },
-    {
-     "p": "UX-04 極限衝擊對戰組U",
-     "c": "UX-04",
-     "u": "https://lin.ee/NllszLY"
-    },
-    {
-     "p": "UX-11 衝擊龍神 豪華組（$550）",
-     "c": "UX-11",
-     "u": "https://lin.ee/od7c3FE"
-    },
-    {
-     "p": "UX-19 子彈獅鷲H（$550）",
-     "c": "UX-19",
-     "u": "https://lin.ee/vLsrThV"
-    },
-    {
-     "p": "UX-20 榮耀武神LF（$595）",
-     "c": "UX-20",
-     "u": "https://lin.ee/Zx4gomd8"
-    },
-    {
-     "p": "UX-21 惡魔冥界改造組（$895）",
-     "c": "UX-21",
-     "u": "https://lin.ee/8vGLg13"
-    },
-    {
-     "p": "CX-13 龍王閃擊（$495）",
-     "c": "CX-13",
-     "u": "https://lin.ee/rIRRm2oG"
+     "u": "https://lin.ee/T6Olfng"
     }
    ],
    "oa": "@185ybuaz",
