@@ -1,5 +1,5 @@
 Funbox 陀螺抽選清單
-資料版本：2026-09-11 09:26
+資料版本：2026-09-11 10:27
 公告：9/11 9/12抽陀螺
 來源：https://uxux11.github.io/funbox-line/
 
@@ -116,65 +116,65 @@ Funbox 遠百信義A13（2026/09/11 11:00~2026/09/12 21:00）
       https://lin.ee/yMELNp6
 
 Funbox-台北大巨蛋（2026/09/11 11:00~2026/09/12 21:00）
-  [ ] BX-00 丘巴卡 風暴兵（$350）
+  [ ] BX-00 丘巴卡 風暴兵（$750）
       https://lin.ee/sDaSYu3
-  [ ] BX-00 歐比王 葛里維斯將軍（$350）
+  [ ] BX-00 歐比王 葛里維斯將軍（$750）
       https://lin.ee/WwDBzw0
-  [ ] BX-00 終極蜘蛛人 綠惡魔（$350）
+  [ ] BX-00 終極蜘蛛人 綠惡魔（$750）
       https://lin.ee/Uw3ZLvP
-  [ ] BX-00 美國隊長 紅浩克（$350）
+  [ ] BX-00 美國隊長 紅浩克（$750）
       https://lin.ee/RmQi7Cx
   [ ] BX-00 蒼龍神劍3-60F V2（$350）
       https://lin.ee/TauMeeJ
-  [ ] BX-13 騎士長槍
+  [ ] BX-13 騎士長槍（$295）
       https://lin.ee/X1v1t8m
-  [ ] BX-16 王蛇鞭尾 隨機強化組
+  [ ] BX-16 王蛇鞭尾 隨機強化組（$295）
       https://lin.ee/OCQr8EZ
-  [ ] BX-21 惡魔鎖鏈改造組
+  [ ] BX-21 惡魔鎖鏈改造組（$750）
       https://lin.ee/9LbkCtl
-  [ ] BX-23 鳳凰飛翼 豪華組
+  [ ] BX-23 鳳凰飛翼 豪華組（$495）
       https://lin.ee/NXCPMML
   [ ] BX-37 雙重極限衝擊戰鬥盤 豪華組（$2,750）
       https://lin.ee/nbX5JsL
-  [ ] BX-39 護城龍神
+  [ ] BX-39 護城龍神（$395）
       https://lin.ee/xMg6FSs
-  [ ] BX-44 三角強襲
+  [ ] BX-44 三角強襲（$395）
       https://lin.ee/VvgzDtS
-  [ ] BX-45 武士魂斬（$325）
+  [ ] BX-45 武士魂斬（$395）
       https://lin.ee/XNczmlg
-  [ ] BX-46 無限衝擊對戰組
+  [ ] BX-46 無限衝擊對戰組（$2,500）
       https://lin.ee/U3ppnbc
   [ ] BX-50 天堂日輪 隨機強化組（$350）
       https://lin.ee/Nq9s8U3
-  [ ] UX-06 雄獅巔峰
+  [ ] UX-06 雄獅巔峰（$395）
       https://lin.ee/QZumkum
-  [ ] UX-08 霜輝銀狼
+  [ ] UX-08 霜輝銀狼（$395）
       https://lin.ee/X9B7fEF
-  [ ] UX-09 武士星劍 豪華組
+  [ ] UX-09 武士星劍 豪華組（$650）
       https://lin.ee/YKj14yy
-  [ ] UX-10 騎士圓甲改造組
+  [ ] UX-10 騎士圓甲改造組（$1,250）
       https://lin.ee/vGCViQp
   [ ] UX-11 衝擊龍神 豪華組（$550）
       https://lin.ee/xbDC2Ri
-  [ ] UX-13 魔像奇岩
+  [ ] UX-13 魔像奇岩（$395）
       https://lin.ee/ty5CxH5
-  [ ] UX-14 天蠍長矛0-70Z
+  [ ] UX-14 天蠍長矛0-70Z（$395）
       https://lin.ee/ymaAoQA
-  [ ] UX-15 鮫鯊狂鱗改造組
+  [ ] UX-15 鮫鯊狂鱗改造組（$795）
       https://lin.ee/qi5CPRL
-  [ ] UX-21 惡魔冥界改造組（$895）
+  [ ] UX-21 惡魔冥界改造組（$885）
       https://lin.ee/ZGTOwTU
   [ ] CX-00 新世紀福音戰士陀螺套組（$1,395）
       https://lin.ee/WBosPIK
-  [ ] CX-02 魔導至尊
+  [ ] CX-02 魔導至尊（$495）
       https://lin.ee/nXJbLW9
-  [ ] CX-05 隨機強化組 Vol.6
+  [ ] CX-05 隨機強化組 Vol.6（$350）
       https://lin.ee/tRAzma1
-  [ ] CX-08 隨機強化組 Vol.7
+  [ ] CX-08 隨機強化組 Vol.7（$350）
       https://lin.ee/5GzHj9T
   [ ] CX-12 鳳凰閃焰（$350）
       https://lin.ee/Ns87Dai
-  [ ] BXG-22 龍騎士S
+  [ ] BXG-22 龍騎士S（$350）
       https://lin.ee/r4eJ9Ia
 
 ### 新北市 ###
@@ -185,7 +185,7 @@ Funbox板橋遠東店（2026/09/11 11:00~2026/09/12 21:00）
       https://lin.ee/p6Hm7YO
   [ ] UX-20 榮耀武神LF（$595）
       https://lin.ee/yKmsW9Y
-  [ ] UX-21 惡魔冥界改造組（$895）
+  [ ] UX-21 惡魔冥界改造組（$885）
       https://lin.ee/Q7Ubro4
   [ ] CX-00 新世紀福音戰士陀螺套組（$1,395）
       https://lin.ee/vAF5QKG
@@ -200,7 +200,7 @@ FunBox Toys-汐止遠雄店（2026/09/11 11:00~2026/09/12 21:00）
       https://lin.ee/7PHWVG7
   [ ] BX-26 獨角刺心（$295）
       https://lin.ee/V7BEn2I
-  [ ] UX-21 惡魔冥界改造組（$895）
+  [ ] UX-21 惡魔冥界改造組（$885）
       https://lin.ee/8552VhL
   [ ] CX-00 新世紀福音戰士陀螺套組（$1,395）
       https://lin.ee/UHqMK5X
@@ -236,11 +236,11 @@ Funbox樹林秀泰店（2026/09/11 11:00~2026/09/12 21:00）
       https://lin.ee/U0394RC
   [ ] BX-30 發射器握把（黑紅）（$195）
       https://lin.ee/6sbALkLw
-  [ ] BX-45 武士魂斬（$325）
+  [ ] BX-45 武士魂斬（$395）
       https://lin.ee/7jUJs9F
   [ ] BX-57 3v3對戰收納盒（$250）
       https://lin.ee/x6lajAo
-  [ ] UX-21 惡魔冥界改造組（$895）
+  [ ] UX-21 惡魔冥界改造組（$885）
       https://lin.ee/7dR60o7
   [ ] CX-00 新世紀福音戰士陀螺套組（$1,395）
       https://lin.ee/nMMo9F9
@@ -255,7 +255,7 @@ Funbox板橋大遠百（2026/09/11 11:00~2026/09/12 21:00）
   加好友 @585clqqg  https://line.me/ti/p/~@585clqqg
   [ ] 蒼龍神劍3-60F V2
       https://lin.ee/8cArlJr
-  [ ] UX-21 惡魔冥界改造組（$895）
+  [ ] UX-21 惡魔冥界改造組（$885）
       https://lin.ee/nwZ8UAn
   [ ] CX-00 新世紀福音戰士陀螺套組（$1,395）
       https://lin.ee/wzZcF5u
@@ -263,6 +263,13 @@ Funbox板橋大遠百（2026/09/11 11:00~2026/09/12 21:00）
       https://lin.ee/SLbhLeD
   [ ] CX-13 龍王閃擊（$495）
       https://lin.ee/7rYQ9mm
+
+FUNBOX 比漾廣場店（2026/09/11 開店~2026/09/12 21:30）
+  加好友 @ufq5307a  https://line.me/ti/p/~@ufq5307a
+  [ ] BX-00 蒼龍神劍3-60F V2（$350）
+      https://lin.ee/udna5wGR
+  [ ] CX-00 新世紀福音戰士陀螺套組（$1,395）
+      https://lin.ee/9jLWHeT
 
 ### 桃園市 ###
 
@@ -280,7 +287,7 @@ Funbox-桃園站前三越（2026/09/11 11:00~2026/09/12 21:00）
       https://lin.ee/RcMEFmW
   [ ] UX-20 榮耀武神LF（$595）
       https://lin.ee/9l323EP
-  [ ] UX-21 惡魔冥界改造組（$895）
+  [ ] UX-21 惡魔冥界改造組（$885）
       https://lin.ee/RyT9nk9
   [ ] CX-00 新世紀福音戰士陀螺套組（$1,395）
       https://lin.ee/nQmhrsZ
@@ -290,6 +297,15 @@ Funbox-桃園站前三越（2026/09/11 11:00~2026/09/12 21:00）
       https://lin.ee/taF4Bk6
   [ ] BXG-04 銀牙烈虎S（$350）
       https://lin.ee/VJRYDec
+
+Funbox Toy-桃園環球A8店（2026/09/11 11:00~2026/09/12 21:00）
+  加好友 @lae4656h  https://line.me/ti/p/~@lae4656h
+  [ ] BX-00 蒼龍神劍
+      https://lin.ee/9kinAbh
+  [ ] CX-00 新世紀福音戰士陀螺套組（$1,395）
+      https://lin.ee/WN5WcJR
+  [ ] BXG-04 銀牙烈虎
+      https://lin.ee/VjyP3Zs
 
 ### 新竹市 ###
 
@@ -304,7 +320,7 @@ Funbox-新竹遠雄店（2026/09/11~2026/09/12）
   加好友 @agl4214l  https://line.me/ti/p/~@agl4214l
   [ ] BX-00 蒼龍神劍 3-60F（$350）
       https://lin.ee/nM1oXtf
-  [ ] UX-21 惡魔冥界改造組（$895）
+  [ ] UX-21 惡魔冥界改造組（$885）
       https://lin.ee/5mqMzNZ
   [ ] CX-00 新世紀福音戰士陀螺套組（$1,395）
       https://lin.ee/ofEN0zN
@@ -345,7 +361,7 @@ Funbox 廣三SOGO店（2026/09/11 11:00~2026/09/12 21:00）
       https://lin.ee/PEh5xzw
   [ ] UX-19 子彈獅鷲（$550）
       https://lin.ee/7v6B5V9
-  [ ] UX-21 惡魔冥界改造組（$895）
+  [ ] UX-21 惡魔冥界改造組（$885）
       https://lin.ee/TFhnOX3
   [ ] CX-00 新世紀福音戰士陀螺套組（$1,395）
       https://lin.ee/8aMGnIR
@@ -402,7 +418,7 @@ Funbox 台中中友店（2026/09/11 10:30~2026/09/12 21:00）
       https://lin.ee/6jqBx8o
   [ ] UX-20 榮耀武神LF（$595）
       https://lin.ee/5S5iDzB
-  [ ] UX-21 惡魔冥界改造組（$895）
+  [ ] UX-21 惡魔冥界改造組（$885）
       https://lin.ee/X7IyEQJ
   [ ] CX-00 新世紀福音戰士陀螺套組（$1,395）
       https://lin.ee/RjyQdUc
@@ -454,7 +470,7 @@ Funbox Toys-台南南紡店（2026/09/11 11:00~2026/09/12 21:00）
       https://lin.ee/xBUpv9v
   [ ] BX-37 雙重極限衝擊戰鬥盤 豪華組（$2,750）
       https://lin.ee/u3wwmAC
-  [ ] BX-45 武士魂斬（$325）
+  [ ] BX-45 武士魂斬（$395）
       https://lin.ee/5DYWzKP
   [ ] UX-02 惡魔戰錘（$395）
       https://lin.ee/uqPGQfF
@@ -462,7 +478,7 @@ Funbox Toys-台南南紡店（2026/09/11 11:00~2026/09/12 21:00）
       https://lin.ee/874mNB8
   [ ] UX-20 榮耀武神LF（$595）
       https://lin.ee/xsKMnPI
-  [ ] UX-21 惡魔冥界改造組（$895）
+  [ ] UX-21 惡魔冥界改造組（$885）
       https://lin.ee/YEjbfuf
   [ ] CX-00 新世紀福音戰士陀螺套組（$1,395）
       https://lin.ee/y2Z1zC9
@@ -550,6 +566,17 @@ Funbox-高雄漢神店（2026/09/11 11:00~2026/09/12 21:00）
   [ ] CX-00 新世紀福音戰士陀螺套組（$1,395）
       https://lin.ee/5Hmgk7n
 
+來玩聚 楠梓店（2026/09/11 10:00~2026/09/12 21:00）
+  加好友 @241cmnww  https://line.me/ti/p/~@241cmnww
+  [ ] UX-20 榮耀武神LF（$595）
+      https://lin.ee/X4F6fos
+  [ ] UX-21 惡魔冥界改造組（$885）
+      https://lin.ee/5tiuXjv
+  [ ] CX-00 新世紀福音戰士陀螺套組（$1,395）
+      https://lin.ee/zYhcxRZP
+  [ ] CX-13 龍王閃擊（$495）
+      https://lin.ee/Z3iK5cP
+
 ### 屏東縣 ###
 
 funbox屏東太平洋（2026/09/11 11:00~2026/09/12 21:00）
@@ -603,7 +630,7 @@ Funbox 台東秀泰店（2026/09/11 11:00 起）
       https://lin.ee/6caWq7L
   [ ] BX-35 隨機強化組 Vol.04（$295）
       https://lin.ee/XKtD1Yq
-  [ ] BX-45 武士魂斬（$325）
+  [ ] BX-45 武士魂斬（$395）
       https://lin.ee/WtdheaL
   [ ] UX-02 惡魔戰錘（$395）
       https://lin.ee/Wuspkty
@@ -611,7 +638,7 @@ Funbox 台東秀泰店（2026/09/11 11:00 起）
       https://lin.ee/veDEjJZ
   [ ] UX-20 榮耀武神LF（$595）
       https://lin.ee/SBDPnLT
-  [ ] UX-21 惡魔冥界改造組（$895）
+  [ ] UX-21 惡魔冥界改造組（$885）
       https://lin.ee/oPKlU9N
   [ ] CX-00 新世紀福音戰士陀螺套組（$1,395）
       https://lin.ee/PeKYB6U
@@ -634,7 +661,7 @@ Funbox澎湖3號港店（2026/09/11 10:30~2026/09/12 21:30）
       https://lin.ee/vW52UTm
   [ ] BX-33 皓戰猛虎（$295）
       https://lin.ee/WKJYGP4
-  [ ] BX-45 武士魂斬（$325）
+  [ ] BX-45 武士魂斬（$395）
       https://lin.ee/UXZG8Jv
   [ ] UX-20 榮耀武神LF（$595）
       https://lin.ee/OrUwaIT
@@ -646,4 +673,4 @@ Funbox澎湖3號港店（2026/09/11 10:30~2026/09/12 21:30）
       https://lin.ee/T6Olfng
 
 ========================================================
-合計 44 間門市 / 240 個抽選項目
+合計 47 間門市 / 249 個抽選項目
