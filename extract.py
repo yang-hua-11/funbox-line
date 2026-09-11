@@ -87,18 +87,35 @@ def parse_draws(src):
 
         items = []
         seen = set()
-        # 每個商品項：<div class="draw-product">名稱</div> ... <a class="draw-link" href="...">
+        # 每個商品項（新版結構，連結掛在外層 div 的 data-draw-href 屬性上）：
+        #   <div class="draw-item ..." data-draw-href="https://lin.ee/xxx" ...>
+        #     <div class="draw-product">名稱</div>
+        #   </div>
         for im in re.finditer(
-            r'<div class="draw-product"[^>]*>(.*?)</div>\s*'
-            r'<a[^>]*class="draw-link[^"]*"[^>]*href="([^"]+)"',
+            r'<div[^>]*class="draw-item[^"]*"[^>]*data-draw-href="([^"]+)"[^>]*>\s*'
+            r'<div class="draw-product"[^>]*>(.*?)</div>',
             block, re.S,
         ):
-            p = clean(im.group(1))
-            u = htmllib.unescape(im.group(2)).strip()
+            u = htmllib.unescape(im.group(1)).strip()
+            p = clean(im.group(2))
             if not p or not u or u in seen:
                 continue
             seen.add(u)
             items.append({"p": p, "c": product_code(p), "u": u})
+
+        # 舊版結構後援：<div class="draw-product">名稱</div><a class="draw-link" href="...">
+        if not items:
+            for im in re.finditer(
+                r'<div class="draw-product"[^>]*>(.*?)</div>\s*'
+                r'<a[^>]*class="draw-link[^"]*"[^>]*href="([^"]+)"',
+                block, re.S,
+            ):
+                p = clean(im.group(1))
+                u = htmllib.unescape(im.group(2)).strip()
+                if not p or not u or u in seen:
+                    continue
+                seen.add(u)
+                items.append({"p": p, "c": product_code(p), "u": u})
 
         if items:
             stores.append({"city": city, "name": name, "time": time_txt, "items": items})
