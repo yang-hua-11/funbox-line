@@ -224,6 +224,28 @@ def main():
             s["oaUrl"] = hit["u"]
             matched += 1
 
+    total_items = sum(len(s["items"]) for s in stores)
+
+    # === 抓取健全性檢查 ===
+    # 這支腳本靠來源網頁的 HTML 結構抓資料，對方一旦改版就會抓不到。
+    # 若門市或抽選項目掛零，幾乎可以確定是解析失效（改版），
+    # 這時「直接報錯中止、且不要覆寫 data.json」，避免把空資料上線蓋掉上一份好的。
+    problems = []
+    if len(stores) == 0:
+        problems.append("抽選門市數為 0")
+    if total_items == 0:
+        problems.append("抽選項目數為 0")
+    if len(accounts) == 0:
+        problems.append("官方帳號數為 0")
+    if problems:
+        safe_print("")
+        safe_print("[ERROR] 抓取結果異常：" + "、".join(problems))
+        safe_print("  很可能是來源網頁改版，導致 extract.py 的解析規則對不上。")
+        safe_print("  已保留上一份 data.json 不動（沒有覆寫）。")
+        safe_print("  原始頁面已存到 _src_pages.html，可比對新結構後更新 parse_draws。")
+        safe_print("  來源：%s" % origin)
+        sys.exit(1)
+
     data = {
         "notice": notice,
         "source": SRC_URL,
@@ -235,7 +257,6 @@ def main():
     with open(out, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)
 
-    total_items = sum(len(s["items"]) for s in stores)
     codes = sorted({i["c"] for s in stores for i in s["items"] if i["c"]})
     report = [
         "來源: %s" % origin,
