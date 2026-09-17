@@ -76,6 +76,11 @@ def parse_draws(src):
         end = starts[idx + 1].start() if idx + 1 < len(starts) else len(src)
         block = src[begin:end]
 
+        # 門市開始時段（原始網頁的「時間篩選」就是依這個屬性分組，例如 10:00 / 11:00 / 12:00）
+        # 屬性順序不固定，且有些門市沒有這個屬性，所以從整個開頭標籤單獨抓。
+        stm = re.search(r'data-draw-start-time="([^"]*)"', m.group(0))
+        start_time = htmllib.unescape(stm.group(1)).strip() if stm else ""
+
         nm = re.search(r'<div class="draw-store-name"[^>]*>(.*?)</div>', block, re.S)
         name = clean(nm.group(1)) if nm else ""
         if not name:
@@ -118,7 +123,8 @@ def parse_draws(src):
                 items.append({"p": p, "c": product_code(p), "u": u})
 
         if items:
-            stores.append({"city": city, "name": name, "time": time_txt, "items": items})
+            stores.append({"city": city, "name": name, "time": time_txt,
+                           "st": start_time, "items": items})
 
     return stores
 

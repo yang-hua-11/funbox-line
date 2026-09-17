@@ -203,6 +203,9 @@
       <div class="grouplabel">縣市</div>
       <div class="chips" id="cityChips"></div>
 
+      <div class="grouplabel" id="timeLabel">開始時間</div>
+      <div class="chips" id="timeChips"></div>
+
       <div class="grouplabel">商品型號</div>
       <div class="chips" id="codeChips"></div>
 
@@ -388,7 +391,7 @@ function oaAdd(id){ if(!oaHas(id)){ oaDone.push(id); lsSet(KEY_OA, JSON.stringif
 
 /* ---------- 篩選狀態 ---------- */
 var state = {
-  q: "", cities: {}, codes: {}, view: "store", hideDone: false,
+  q: "", cities: {}, times: {}, codes: {}, view: "store", hideDone: false,
   fmt: "txt", codesExpanded: false
 };
 function anyOn(obj){ for(var k in obj){ if(obj[k]) return true; } return false; }
@@ -396,19 +399,29 @@ function anyOn(obj){ for(var k in obj){ if(obj[k]) return true; } return false; 
 /* ---------- 索引 ---------- */
 var CITIES = [];
 var CODES  = [];
+var TIMES  = [];
 var CITY_COUNT = {};
 var CODE_COUNT = {};
+var TIME_COUNT = {};
+function storeTime(s){ return (s.st || "").trim(); }  // 門市開始時段，例如 "11:00"，抓不到就空字串
 (function buildIndex(){
-  var cSeen = {}, kCount = {};
+  var cSeen = {}, kCount = {}, tSeen = {};
   STORES.forEach(function(s){
     if(!cSeen[s.city]){ cSeen[s.city] = 0; CITIES.push(s.city); }
     cSeen[s.city]++;
+    var t = storeTime(s);
+    if(t){ tSeen[t] = (tSeen[t]||0) + 1; }
     s.items.forEach(function(it){
       var c = it.c || "其他";
       kCount[c] = (kCount[c]||0) + 1;
     });
   });
   CITY_COUNT = cSeen;
+  TIME_COUNT = tSeen;
+  TIMES = Object.keys(tSeen).sort(function(a,b){
+    // 依時間先後排序（HH:MM）
+    return a.localeCompare(b, undefined, { numeric: true });
+  });
   CODES = Object.keys(kCount).sort(function(a,b){
     if(a === "其他") return 1;
     if(b === "其他") return -1;
@@ -430,10 +443,11 @@ function matchQ(store, item){
   return true;
 }
 function filtered(){
-  var cityOn = anyOn(state.cities), codeOn = anyOn(state.codes);
+  var cityOn = anyOn(state.cities), codeOn = anyOn(state.codes), timeOn = anyOn(state.times);
   var res = [];
   STORES.forEach(function(s){
     if(cityOn && !state.cities[s.city]) return;
+    if(timeOn && !state.times[storeTime(s)]) return;
     var items = [];
     s.items.forEach(function(it){
       var c = it.c || "其他";
@@ -456,6 +470,22 @@ function renderChips(){
       return '<button class="chip" data-city="' + esc(c) + '" aria-pressed="' + (!!state.cities[c]) + '">' +
              esc(c) + '<span class="n">' + CITY_COUNT[c] + '</span></button>';
     }).join("");
+
+  // 開始時間：沒有任何時段資料就整區藏起來
+  var tLabel = document.getElementById("timeLabel");
+  var tc = document.getElementById("timeChips");
+  if(!TIMES.length){
+    tLabel.hidden = true; tc.hidden = true; tc.innerHTML = "";
+  } else {
+    tLabel.hidden = false; tc.hidden = false;
+    var tStores = 0;
+    TIMES.forEach(function(t){ tStores += TIME_COUNT[t]; });
+    tc.innerHTML = '<button class="chip" data-time="*" aria-pressed="' + (!anyOn(state.times)) + '">全部<span class="n">' + tStores + '</span></button>' +
+      TIMES.map(function(t){
+        return '<button class="chip" data-time="' + esc(t) + '" aria-pressed="' + (!!state.times[t]) + '">' +
+               esc(t) + '<span class="n">' + TIME_COUNT[t] + '</span></button>';
+      }).join("");
+  }
 
   var kc = document.getElementById("codeChips");
   var LIMIT = 10;
@@ -710,6 +740,14 @@ document.getElementById("cityChips").addEventListener("click", function(e){
   else state.cities[c] = !state.cities[c];
   renderChips(); render();
 });
+document.getElementById("timeChips").addEventListener("click", function(e){
+  var b = e.target.closest("button[data-time]");
+  if(!b) return;
+  var t = b.getAttribute("data-time");
+  if(t === "*") state.times = {};
+  else state.times[t] = !state.times[t];
+  renderChips(); render();
+});
 document.getElementById("codeChips").addEventListener("click", function(e){
   var b = e.target.closest("button[data-code]");
   if(!b) return;
@@ -741,7 +779,7 @@ document.getElementById("hideDone").addEventListener("change", function(){
   state.hideDone = this.checked; render();
 });
 document.getElementById("resetFilter").addEventListener("click", function(){
-  state.q = ""; qEl.value = ""; state.cities = {}; state.codes = {};
+  state.q = ""; qEl.value = ""; state.cities = {}; state.times = {}; state.codes = {};
   state.hideDone = false; document.getElementById("hideDone").checked = false;
   renderChips(); render(); toast("已重設篩選");
 });
