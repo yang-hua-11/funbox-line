@@ -1,5 +1,5 @@
 Funbox 陀螺抽選清單
-資料版本：2026-09-18 11:21
+資料版本：2026-09-18 12:03
 公告：9/18 9/19 抽選
 來源：https://uxux11.github.io/funbox-line/
 
@@ -383,6 +383,15 @@ Funbox 新竹巨城店（2026/09/18 11:00~2026/09/19 21:00）
       https://lin.ee/zmlQC1A
   [ ] BXG-04 銀牙烈虎S
       https://lin.ee/oHs7FAH
+
+Funbox 新竹遠雄湳雅店（2026/09/18 11:00~2026/09/19 21:00）
+  加好友 @agl4214l  https://line.me/ti/p/~@agl4214l
+  [ ] CX-00 迪卡狂怒 FT3-60T
+      https://lin.ee/YvQUWuh
+  [ ] CX-13 龍王閃擊
+      https://lin.ee/6RdInpV
+  [ ] BX-00 蒼龍神劍3-60F V2
+      https://lin.ee/nJbHBMf
 
 ### 新竹縣 ###
 
@@ -777,6 +786,13 @@ Funbox 高雄義享店（2026/09/18 11:00~2026/09/19 21:00）
   [ ] UX-03 魔導神杖
       https://lin.ee/v0dQl2r
 
+Funbox 高雄左營店（2026/09/18 11:00~2026/09/19 21:00）
+  加好友 @obz8096L  https://line.me/ti/p/~@obz8096L
+  [ ] CX-00 迪卡狂怒 FT3-60T
+      https://lin.ee/QUbPclf
+  [ ] UX-03 魔導神杖
+      https://lin.ee/vHeW7Ty
+
 ### 屏東縣 ###
 
 Funbox 屏東太平洋店（2026/09/18 11:00~2026/09/19 21:00）
@@ -875,4 +891,4 @@ Funbox 澎湖3號港店（2026/09/18 10:00~2026/09/19 20:30）
       https://lin.ee/qbmejEo
 
 ========================================================
-合計 72 間門市 / 316 個抽選項目
+合計 74 間門市 / 321 個抽選項目
