@@ -4,6 +4,51 @@
  "stores": [
   {
    "city": "台北市",
+   "name": "Funbox 三越南西店",
+   "time": "2026/09/18 11:00~2026/09/19 21:00",
+   "st": "11:00",
+   "items": [
+    {
+     "p": "BX-00 蒼龍神劍3-60F V2",
+     "c": "BX-00",
+     "u": "https://lin.ee/Pr91Ej7A"
+    },
+    {
+     "p": "BX-00 暴風天馬3-70RA",
+     "c": "BX-00",
+     "u": "https://lin.ee/OIr3PgD"
+    },
+    {
+     "p": "BX-26 獨角刺心",
+     "c": "BX-26",
+     "u": "https://lin.ee/RDMKsCt"
+    },
+    {
+     "p": "BX-33 皓戰猛虎",
+     "c": "BX-33",
+     "u": "https://lin.ee/P505xZl"
+    },
+    {
+     "p": "BXG-04 銀牙烈虎S",
+     "c": "BXG-04",
+     "u": "https://lin.ee/7ljNS62"
+    },
+    {
+     "p": "UX-03 魔導神杖",
+     "c": "UX-03",
+     "u": "https://lin.ee/8a92AyN"
+    },
+    {
+     "p": "CX-00 迪迦狂怒FT3-60T",
+     "c": "CX-00",
+     "u": "https://lin.ee/YhuKvh2"
+    }
+   ],
+   "oa": "@626iceit",
+   "oaUrl": "https://line.me/ti/p/~@626iceit"
+  },
+  {
+   "city": "台北市",
    "name": "Funbox 忠孝SOGO店",
    "time": "2026/09/18 11:00~2026/09/19 21:00",
    "st": "11:00",
@@ -569,6 +614,26 @@
    "oaUrl": "https://line.me/ti/p/~@585clqqg"
   },
   {
+   "city": "新北市",
+   "name": "FUNBOX 比漾廣場店",
+   "time": "2026/09/18 開店~2026/09/19 21:00",
+   "st": "開店",
+   "items": [
+    {
+     "p": "CX-00 迪卡狂怒 FT3-60T",
+     "c": "CX-00",
+     "u": "https://lin.ee/nvadCd1"
+    },
+    {
+     "p": "UX-03 魔導神杖",
+     "c": "UX-03",
+     "u": "https://lin.ee/6KCLnPo"
+    }
+   ],
+   "oa": "@ufq5307a",
+   "oaUrl": "https://line.me/ti/p/~@ufq5307a"
+  },
+  {
    "city": "桃園市",
    "name": "Funbox 桃園台茂店",
    "time": "2026/09/18 11:00~2026/09/19 21:30",
@@ -688,6 +753,171 @@
      "u": "https://lin.ee/uJpTMwF"
     }
    ]
+  },
+  {
+   "city": "桃園市",
+   "name": "Funbox 桃園遠東店",
+   "time": "2026/09/18 11:00~2026/09/19 21:00",
+   "st": "11:00",
+   "items": [
+    {
+     "p": "CX-00 迪卡狂怒 FT3-60T",
+     "c": "CX-00",
+     "u": "https://lin.ee/Qn9WPd0"
+    },
+    {
+     "p": "UX-03 魔導神杖",
+     "c": "UX-03",
+     "u": "https://lin.ee/RFWCayf"
+    },
+    {
+     "p": "BX-00 蒼龍神劍3-60F V2",
+     "c": "BX-00",
+     "u": "https://lin.ee/WKxlHyf"
+    },
+    {
+     "p": "BXG-01 烈焰飛鳳S",
+     "c": "BXG-01",
+     "u": "https://lin.ee/sYT1iVe"
+    },
+    {
+     "p": "UX-20 榮耀武神LF",
+     "c": "UX-20",
+     "u": "https://lin.ee/TzuPHYf"
+    },
+    {
+     "p": "BX-26 獨角刺心",
+     "c": "BX-26",
+     "u": "https://lin.ee/SZRC5E3"
+    },
+    {
+     "p": "CX-13 龍王閃擊",
+     "c": "CX-13",
+     "u": "https://lin.ee/pmXbX5T"
+    },
+    {
+     "p": "BXG-04 銀牙烈虎S",
+     "c": "BXG-04",
+     "u": "https://lin.ee/W8uRUIp"
+    },
+    {
+     "p": "BX-00 暴風天馬3-70RA",
+     "c": "BX-00",
+     "u": "https://lin.ee/VvErQRM"
+    }
+   ],
+   "oa": "@bix0595a",
+   "oaUrl": "https://line.me/ti/p/~@bix0595a"
+  },
+  {
+   "city": "桃園市",
+   "name": "FunBox 中壢SOGO店",
+   "time": "2026/09/18 11:00~2026/09/19 21:00",
+   "st": "11:00",
+   "items": [
+    {
+     "p": "UX-19 子彈獅鷲H",
+     "c": "UX-19",
+     "u": "https://lin.ee/68jIvcY"
+    },
+    {
+     "p": "UX-21 惡魔冥界改造組",
+     "c": "UX-21",
+     "u": "https://lin.ee/9kqVmv3"
+    },
+    {
+     "p": "UX-03 魔導神杖",
+     "c": "UX-03",
+     "u": "https://lin.ee/NP6wjd0"
+    },
+    {
+     "p": "UX-11 衝擊龍神 豪華組",
+     "c": "UX-11",
+     "u": "https://lin.ee/ZQgrwW5"
+    },
+    {
+     "p": "BX-00 蒼龍神劍3-60F V2",
+     "c": "BX-00",
+     "u": "https://lin.ee/oPx0YWn"
+    },
+    {
+     "p": "BX-26 獨角刺心",
+     "c": "BX-26",
+     "u": "https://lin.ee/UecO5Du"
+    },
+    {
+     "p": "BXG-01 烈焰飛鳳S",
+     "c": "BXG-01",
+     "u": "https://lin.ee/851hjYK"
+    },
+    {
+     "p": "BXG-04 銀牙烈虎S",
+     "c": "BXG-04",
+     "u": "https://lin.ee/6xLaFEs"
+    },
+    {
+     "p": "BX-35 隨機強化組Vol.04",
+     "c": "BX-35",
+     "u": "https://lin.ee/89JXSDd"
+    },
+    {
+     "p": "BX-33 皓戰猛虎",
+     "c": "BX-33",
+     "u": "https://lin.ee/5uBUsDH"
+    },
+    {
+     "p": "BX-00 暴風天馬3-70RA",
+     "c": "BX-00",
+     "u": "https://lin.ee/qc4hLTW"
+    },
+    {
+     "p": "CX-00 新世紀福音戰士改造組",
+     "c": "CX-00",
+     "u": "https://lin.ee/QvuW1bl"
+    },
+    {
+     "p": "CX-00 迪卡狂怒 FT3-60T",
+     "c": "CX-00",
+     "u": "https://lin.ee/riNVSiN"
+    }
+   ],
+   "oa": "@xcs3672w",
+   "oaUrl": "https://line.me/ti/p/~@xcs3672w"
+  },
+  {
+   "city": "桃園市",
+   "name": "Funbox 中壢大江店",
+   "time": "2026/09/18 11:00~2026/09/19 21:00",
+   "st": "11:00",
+   "items": [
+    {
+     "p": "BXG-04 銀牙烈虎S",
+     "c": "BXG-04",
+     "u": "https://lin.ee/zQLBxxL"
+    },
+    {
+     "p": "BXG-01 烈焰飛鳳S",
+     "c": "BXG-01",
+     "u": "https://lin.ee/6tUydQH"
+    },
+    {
+     "p": "BX-37 雙重極限衝擊戰鬥盤 豪華組",
+     "c": "BX-37",
+     "u": "https://lin.ee/zp7OwL7"
+    },
+    {
+     "p": "UX-03 魔導神杖",
+     "c": "UX-03",
+     "u": "https://lin.ee/UWnNOSb"
+    },
+    {
+     "p": "CX-00 迪卡狂怒 FT3-60T",
+     "c": "CX-00",
+     "u": "https://lin.ee/xtMWEEj"
+    }
+   ],
+   "oa": "@099ldnvw",
+   "oaUrl": "https://line.me/ti/p/~@099ldnvw"
   },
   {
    "city": "新竹市",
@@ -833,6 +1063,46 @@
    ],
    "oa": "@062qoqex",
    "oaUrl": "https://line.me/ti/p/~@062qoqex"
+  },
+  {
+   "city": "台中市",
+   "name": "Funbox 文心秀泰店",
+   "time": "2026/09/18 11:00~2026/09/19 21:00",
+   "st": "11:00",
+   "items": [
+    {
+     "p": "BXG-01 烈焰飛鳳S",
+     "c": "BXG-01",
+     "u": "https://lin.ee/x0HWRB2"
+    },
+    {
+     "p": "BXG-04 銀牙烈虎S",
+     "c": "BXG-04",
+     "u": "https://lin.ee/x3818G1"
+    },
+    {
+     "p": "CX-00 新世紀福音戰士改造組",
+     "c": "CX-00",
+     "u": "https://lin.ee/z4uzlLO"
+    },
+    {
+     "p": "UX-21 惡魔冥界改造組",
+     "c": "UX-21",
+     "u": "https://lin.ee/TqxpeGU"
+    },
+    {
+     "p": "UX-03 魔導神杖",
+     "c": "UX-03",
+     "u": "https://lin.ee/SJHoY94"
+    },
+    {
+     "p": "CX-00 迪卡狂怒 FT3-60T",
+     "c": "CX-00",
+     "u": "https://lin.ee/wPIdivZ"
+    }
+   ],
+   "oa": "@605dilqq",
+   "oaUrl": "https://line.me/ti/p/~@605dilqq"
   },
   {
    "city": "台中市",
