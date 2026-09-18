@@ -1,5 +1,5 @@
 Funbox 陀螺抽選清單
-資料版本：2026-09-18 12:03
+資料版本：2026-09-18 14:26
 公告：9/18 9/19 抽選
 來源：https://uxux11.github.io/funbox-line/
 
@@ -545,7 +545,7 @@ Funbox 台中Lalaport店（2026/09/18 11:00~2026/09/19 21:00）
   [ ] UX-21 惡魔冥界改造組
       https://lin.ee/oFoxh02
   [ ] CX-13 龍王閃擊
-      https://lin.ee/UBtjOiG
+      https://lin.ee/UBtjOtG
   [ ] CX-00 迪卡狂怒 FT3-60T
       https://lin.ee/V2ZmG3L2
   [ ] UX-03 魔導神杖
