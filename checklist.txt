@@ -1,5 +1,5 @@
 Funbox 陀螺抽選清單
-資料版本：2026-09-18 11:08
+資料版本：2026-09-18 11:11
 公告：9/18 9/19 抽選
 來源：https://uxux11.github.io/funbox-line/
 
@@ -244,6 +244,15 @@ FUNBOX 比漾廣場店（2026/09/18 開店~2026/09/19 21:00）
   [ ] UX-03 魔導神杖
       https://lin.ee/6KCLnPo
 
+Funbox 淡水禮萊廣場店（2026/09/18 11:00 起（依原公告））
+  加好友 @944creff  https://line.me/ti/p/~@944creff
+  [ ] BX-00 蒼龍神劍3-60F V2
+      https://lin.ee/PErnTWvU
+  [ ] CX-00 迪卡狂怒 FT3-60T
+      https://lin.ee/sZ7mGJW
+  [ ] UX-03 魔導神杖
+      https://lin.ee/ZHWigPTB
+
 ### 桃園市 ###
 
 Funbox 桃園台茂店（2026/09/18 11:00~2026/09/19 21:30）
@@ -411,6 +420,13 @@ Funbox 享平方店（2026/09/18 11:00~2026/09/19（依原公告））
   [ ] BXG-01 烈焰飛鳳S
       https://lin.ee/8L5bEuT
 
+### 苗栗縣 ###
+
+Funbox 苗栗尚順店（2026/09/18 11:00~2026/09/18 20:30）
+  加好友 @185vowmo  https://line.me/ti/p/~@185vowmo
+  [ ] CX-00 迪卡狂怒 FT3-60T
+      https://lin.ee/OMAOpwD
+
 ### 台中市 ###
 
 Funbox 文心秀泰店（2026/09/18 11:00~2026/09/19 21:00）
@@ -491,6 +507,28 @@ Funbox 台中中友店（2026/09/18 11:00~2026/09/19 21:00）
   [ ] CX-00 迪卡狂怒 FT3-60T
       https://lin.ee/7DhO0yq
 
+Funbox 台中遠雄店（2026/09/18 11:00~2026/09/19 21:00）
+  加好友 @hdg3289a  https://line.me/ti/p/~@hdg3289a
+  [ ] CX-00 迪卡狂怒 FT3-60T
+      https://lin.ee/tFI8CNN
+  [ ] BX-00 蒼龍神劍3-60F V2
+      https://lin.ee/UJME5NL
+  [ ] UX-03 魔導神杖
+      https://lin.ee/S2LW562
+
+Funbox 漢神洲際店（2026/09/18 11:00~2026/09/19 21:00）
+  加好友 @218xxrbx  https://line.me/ti/p/~@218xxrbx
+  [ ] CX-00 迪卡狂怒 FT3-60T
+      https://lin.ee/T9fbdJ1
+  [ ] UX-03 魔導神杖
+      https://lin.ee/zkiHvlL
+  [ ] BXG-01 烈焰飛鳳S
+      https://lin.ee/ymHObzb
+  [ ] BXG-04 銀牙烈虎S
+      https://lin.ee/nCmpUTsx
+  [ ] BX-37 雙重極限衝擊戰鬥盤 豪華組
+      https://lin.ee/5hkqlM0
+
 ### 彰化縣 ###
 
 來玩聚 彰化店（2026/09/18 10:00~2026/09/19 21:00）
@@ -557,6 +595,15 @@ Funbox 嘉義三越店（2026/09/18 11:00~2026/09/19 21:00）
       https://lin.ee/xTjcl5p
   [ ] UX-03 魔導神杖
       https://lin.ee/rYyejIp
+
+Funbox 嘉義耐斯店（2026/09/18 11:00~2026/09/19 21:00）
+  加好友 @121nsdww  https://line.me/ti/p/~@121nsdww
+  [ ] UX-03 魔導神杖
+      https://lin.ee/NcrHWk6
+  [ ] BX-00 蒼龍神劍3-60F V2
+      https://lin.ee/tMTRkH2
+  [ ] CX-00 迪卡狂怒 FT3-60T
+      https://lin.ee/SHBeav0
 
 ### 台南市 ###
 
@@ -691,6 +738,32 @@ Funbox 高雄大遠百店（2026/09/18 11:00~2026/09/19 21:00）
   [ ] CX-00 迪卡狂怒 FT3-60T
       https://lin.ee/p2bwfmK
 
+Funbox 義大2館（2026/09/18 11:00~2026/09/19 21:00）
+  [ ] BX-00 蒼龍神劍3-60F V2
+      https://lin.ee/pPaeOi4
+  [ ] UX-20 榮耀武神LF
+      https://lin.ee/7LgQXHZ
+  [ ] CX-13 龍王閃擊
+      https://lin.ee/n69AaTy
+  [ ] UX-02 惡魔戰錘
+      https://lin.ee/xhEKfvEq
+  [ ] BX-45 武士斬魂
+      https://lin.ee/nL43YS6
+  [ ] UX-03 魔導神杖
+      https://lin.ee/OPQhsZ0
+  [ ] CX-00 迪卡狂怒
+      https://lin.ee/xnrfBUO
+  [ ] CX-00 新世紀福音戰士改造組
+      https://lin.ee/NKRPR4p
+
+Funbox 高雄義享店（2026/09/18 11:00~2026/09/19 21:00）
+  [ ] CX-00 迪卡狂怒 FT3-60T
+      https://lin.ee/ZIGpUGk
+  [ ] BX-00 蒼龍神劍3-60F V2
+      https://lin.ee/6m7ce7q
+  [ ] UX-03 魔導神杖
+      https://lin.ee/v0dQl2r
+
 ### 屏東縣 ###
 
 Funbox 屏東太平洋店（2026/09/18 11:00~2026/09/19 21:00）
@@ -782,4 +855,4 @@ Funbox 澎湖3號港店（2026/09/18 10:00~2026/09/19 20:30）
       https://lin.ee/qbmejEo
 
 ========================================================
-合計 63 間門市 / 283 個抽選項目
+合計 70 間門市 / 309 個抽選項目
