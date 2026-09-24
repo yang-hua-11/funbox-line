@@ -1,5 +1,5 @@
 Funbox 陀螺抽選清單
-資料版本：2026-09-23 23:53
+資料版本：2026-09-24 09:39
 公告：9/24 9/25 抽選
 來源：https://uxux11.github.io/funbox-line/
 
@@ -930,6 +930,32 @@ Funbox 台南南紡店（抽選/購買時間：2026/09/24 11:00~2026/09/25 21:00
   [ ] CX-19 鱷魚裂甲
       https://lin.ee/PEMGo03
 
+Funbox 台南新天地（抽選/購買時間：2026/09/24 11:00~2026/09/25 21:00）
+  [ ] BX-00 蒼龍神劍3-60F V2
+      https://lin.ee/8WiozWW
+  [ ] BX-09 戰鬥通行證
+      https://lin.ee/rzQi05Z
+  [ ] BX-37 雙重極限衝擊戰鬥盤 豪華組
+      https://lin.ee/W8QuMRr
+  [ ] UX-03 魔導神杖
+      https://lin.ee/68VnVGF
+  [ ] UX-15 鮫鯊狂鱗改造組
+      https://lin.ee/t1mTxrj
+  [ ] UX-19 子彈獅鷲
+      https://lin.ee/8RIFn21
+  [ ] UX-20 榮耀武神
+      https://lin.ee/rYfPCN0
+  [ ] CX-00 新世紀福音戰士改造組
+      https://lin.ee/nIEyqYK
+  [ ] CX-00 迪卡狂怒 FT3-60T
+      https://lin.ee/q5s7t9pV
+  [ ] CX-11 帝王威能
+      https://lin.ee/WHMekkc
+  [ ] CX-19 鱷魚裂甲
+      https://lin.ee/7a6Bd2T
+  [ ] BXG-01 烈焰飛鳳
+      https://lin.ee/yb6m4X2
+
 ### 高雄市 ###
 
 鳳山來玩聚（戰鬥陀螺X抽籤及販售時間：2026/09/24 11:00~2026/09/25 21:00）
@@ -1184,6 +1210,29 @@ Funbox 高雄義享店（抽選/購買時間：2026/09/24 10:30~2026/09/25 21:00
   [ ] CX-19 鱷魚裂甲
       https://lin.ee/z3yymC5
 
+Funbox 漢神巨蛋店（抽選/購買時間：2026/09/24 11:00~2026/09/25 21:00）
+  加好友 @ldh6278d  https://line.me/ti/p/~@ldh6278d
+  [ ] BX-09 戰鬥通行證
+      https://lin.ee/Scneenz
+  [ ] BX-37 雙重極限衝擊戰鬥盤 豪華組
+      https://lin.ee/n8iaDUd
+  [ ] UX-03 魔導神杖
+      https://lin.ee/pdXmXfxb
+  [ ] UX-15 鮫鯊狂鱗改造組
+      https://lin.ee/vyqcdR9
+  [ ] UX-19 子彈獅鷲
+      https://lin.ee/5BVkCpc
+  [ ] UX-20 榮耀武神
+      https://lin.ee/PP7G1hro
+  [ ] CX-00 新世紀福音戰士改造組
+      https://lin.ee/PzqGL8g
+  [ ] CX-11 帝王威能
+      https://lin.ee/7BvSNKA
+  [ ] CX-16 極限衝擊對戰組C
+      https://lin.ee/nLlHxdq
+  [ ] CX-19 鱷魚裂甲
+      https://lin.ee/vSmSoBP
+
 ### 屏東縣 ###
 
 Funbox 屏東太平洋店（抽選/購買時間：2026/09/24 11:00~2026/09/25 21:00）
@@ -1329,6 +1378,37 @@ Funbox 台東秀泰店（抽選/購買時間：2026/09/24 11:00~2026/09/25 21:00
   [ ] BXG-04 銀牙烈虎S
       https://lin.ee/SUAnfa6
 
+來玩聚 台東家樂福（抽選/購買時間：2026/09/24 11:00~2026/09/25 20:00）
+  加好友 @438glrqv  https://line.me/ti/p/~@438glrqv
+  [ ] BX-09 戰鬥通行證
+      https://lin.ee/t3i5Mlt
+  [ ] UX-03 魔導神杖
+      https://lin.ee/qeGvOE4
+  [ ] UX-14 天蠍長矛
+      https://lin.ee/NYUVCT2
+  [ ] UX-15 鮫鯊狂鱗改造組
+      https://lin.ee/VVz8hMqX
+  [ ] UX-19 子彈獅鷲
+      https://lin.ee/nA6CwFe
+  [ ] UX-20 榮耀武神
+      https://lin.ee/WYa0x43
+  [ ] CX-00 新世紀福音戰士改造組
+      https://lin.ee/6LfyCqM
+  [ ] CX-00 迪卡狂怒 FT3-60T
+      https://lin.ee/OJXX1Wb
+  [ ] CX-01 蒼龍勇氣
+      https://lin.ee/ShNsv6k
+  [ ] CX-11 帝王威能
+      https://lin.ee/zi3vmb8
+  [ ] CX-14 騎士堡壘
+      https://lin.ee/pflIbwY
+  [ ] CX-16 極限衝擊對戰組C
+      https://lin.ee/R8x168I
+  [ ] CX-17 隨機強化組Vol.10
+      https://lin.ee/YlJjztC
+  [ ] CX-19 鱷魚裂甲
+      https://lin.ee/6G1cFJx
+
 ### 澎湖縣 ###
 
 Funbox 澎湖3號港店（抽選/購買時間：2026/09/24 10:00~2026/09/25 20:30）
@@ -1346,4 +1426,4 @@ Funbox 澎湖3號港店（抽選/購買時間：2026/09/24 10:00~2026/09/25 20:3
       https://lin.ee/XTrDxwZ
 
 ========================================================
-合計 48 間門市 / 587 個抽選項目
+合計 51 間門市 / 623 個抽選項目
