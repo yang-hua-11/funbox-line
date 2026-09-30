@@ -185,6 +185,7 @@
 <div class="wrap">
   <nav class="tabs" role="tablist">
     <button role="tab" id="tab-links"  aria-selected="true"  data-tab="links">抽選連結</button>
+    <button role="tab" id="tab-auto"   aria-selected="false" data-tab="auto">自動抽</button>
     <button role="tab" id="tab-list"   aria-selected="false" data-tab="list">產生清單</button>
     <button role="tab" id="tab-friend" aria-selected="false" data-tab="friend">加好友</button>
     <button role="tab" id="tab-help"   aria-selected="false" data-tab="help">說明</button>
@@ -228,6 +229,46 @@
     <div id="list"></div>
   </section>
 
+  <!-- ===================== 自動抽 ===================== -->
+  <section id="pane-auto" role="tabpanel" hidden>
+    <div class="panel">
+      <div class="warnbox" style="margin-top:0">
+        <b>推薦：用 App 內建篩選，這裡的複製功能你可能用不到。</b>
+        手機 App 腳本 <code>funbox-auto.js</code> 已經能<b>自己抓資料、自己篩選、自己連抽</b>，
+        打開 App 挑一挑按開始就好，不用來這裡複製。設定方式見「說明」分頁。
+      </div>
+
+      <p class="hint" style="margin-top:0">
+        下面的「複製連結」是<b>備用</b>：萬一你想手動把某批連結丟給別的工具用。一般全自動不需要。
+      </p>
+
+      <div class="switchrow" style="margin-top:2px">
+        <label class="toggle"><input type="checkbox" id="autoSkipDone" checked /> 排除今天已抽</label>
+        <span class="hint" id="autoCount" style="margin:0"></span>
+      </div>
+
+      <div class="btnrow" style="margin-top:12px">
+        <button class="btn" id="autoCopy" type="button">複製全部連結</button>
+        <button class="btn ghost" id="autoDl" type="button">下載成檔案</button>
+        <button class="btn ghost" id="autoMarkAll" type="button">把清單全標記已抽</button>
+      </div>
+
+      <textarea class="out" id="autoOut" readonly spellcheck="false"
+                style="min-height:200px" aria-label="連結清單（給 App 用）"></textarea>
+    </div>
+
+    <div class="panel doc">
+      <h2 style="margin-top:0">怎麼接到手機（第一次照做一次就好）</h2>
+      <ol>
+        <li>手機安裝 <b>Auto.js</b>（見「說明」分頁的下載與授權步驟）。</li>
+        <li>先去「加好友」分頁，把你要抽的門市官方帳號<b>加好友加齊</b>（沒加好友的連結會卡在加入好友畫面）。</li>
+        <li>回這裡按 <b>複製全部連結</b>，把清單貼進 Auto.js 腳本最上面的連結區。</li>
+        <li>在手機上按 Auto.js 的執行，之後它就會自動連抽，你不用碰手機。</li>
+      </ol>
+      <p class="hint">完整腳本和圖文教學都在「說明」分頁。</p>
+    </div>
+  </section>
+
   <!-- ===================== 產生清單 ===================== -->
   <section id="pane-list" role="tabpanel" hidden>
     <div class="panel">
@@ -239,6 +280,7 @@
           <button type="button" data-fmt="txt" aria-pressed="true">文字</button>
           <button type="button" data-fmt="md"  aria-pressed="false">Markdown</button>
           <button type="button" data-fmt="csv" aria-pressed="false">CSV</button>
+          <button type="button" data-fmt="links" aria-pressed="false">純連結(給App)</button>
         </div>
         <label class="toggle"><input type="checkbox" id="listSkipDone" checked /> 排除今天已抽</label>
         <label class="toggle"><input type="checkbox" id="listOa" /> 附加好友連結</label>
@@ -271,11 +313,11 @@
   <section id="pane-help" role="tabpanel" hidden>
     <div class="panel doc">
       <div class="warnbox">
-        這頁只是把連結整理好，<b>抽選還是要你自己在 LINE 裡面照規則手動完成</b>。
-        本頁不會、也不能幫你自動抽或提高中獎率。
+        這個網頁本身只負責<b>整理連結、記錄進度</b>。真正的「連抽」是靠手機 App（Auto.js）去點，見下方
+        <b>全自動連抽</b>。不裝 App 也能用，就照「手動抽」一個個點。本站不會提高中獎率，抽選規則仍以官方為準。
       </div>
 
-      <h2>怎麼用（手機）</h2>
+      <h2>手動抽（不裝 App）</h2>
       <ol>
         <li>先到「加好友」把你會去的門市官方帳號加起來。</li>
         <li>回「抽選連結」，用搜尋或型號按鈕挑出你要的（例如 <code>UX-21</code>）。</li>
@@ -283,6 +325,36 @@
         <li>抽完回來，那一列會自己變灰。沒變灰的話按右邊的 <b>✓</b> 手動標記。</li>
         <li>勾「只看今天還沒抽的」，剩下的就是你還沒點過的。</li>
       </ol>
+
+      <h2>全自動連抽（Android + Auto.js）</h2>
+      <div class="warnbox">
+        全自動是靠<b>手機 App「Auto.js」</b>幫你自動點螢幕。腳本 <code>funbox-auto.js</code> 是
+        <b>App 內全功能版</b>：打開就有畫面，能<b>搜尋、篩選縣市／型號</b>，選好按「開始自動抽」，
+        它就一個個開連結、看到「參加抽獎」就點、點完馬上換下一個。<b>連結不用複製貼上</b>，
+        腳本自己上網抓最新資料。iPhone 做不到，要用 Android。
+      </div>
+      <p class="grouplabel" style="margin-top:0">第一次設定（只做一次）</p>
+      <ol>
+        <li><b>裝 App</b>：Android 手機安裝 Auto.js（可裝免費的 <code>AutoX</code>，網路搜「AutoX apk」或「Auto.js apk」下載；安裝時允許「未知來源」）。</li>
+        <li><b>開無障礙權限</b>：打開 Auto.js → 到「設定 → 無障礙 / 協助工具」把 Auto.js 打開。這是讓它能自動點按鈕的必要權限。</li>
+        <li><b>貼腳本</b>：在 Auto.js 新增一個腳本檔（副檔名 <code>.js</code>），按下面的按鈕複製腳本，回 Auto.js 長按貼上，存檔。（這支腳本開頭是 <code>"ui";</code>，是有畫面的 App。）
+          <div class="btnrow" style="margin:8px 0 0">
+            <button class="btn" id="copyScript" type="button">📋 複製手機腳本</button>
+          </div>
+        </li>
+        <li><b>加好友先加齊</b>：到本站「加好友」分頁，把你要抽的門市官方帳號都加好友（沒加好友的連結會卡住，腳本會自動跳過）。</li>
+      </ol>
+      <p class="grouplabel">之後每次要抽</p>
+      <ol>
+        <li>在 Auto.js 執行 <code>funbox-auto.js</code>，會跳出有搜尋和篩選按鈕的畫面。</li>
+        <li>在畫面上挑縣市／型號（或直接搜尋），下面會顯示「篩選出幾個連結」。</li>
+        <li>按 <b>▶ 開始自動抽</b>，手機就會自動連抽。中途想停，切回這個 App 按<b>返回鍵</b>即可。</li>
+      </ol>
+      <p class="hint">
+        腳本會自己抓 <code>data.json</code>（本站的線上資料），所以官方換連結、資料更新後不用改腳本。
+        按鈕文字預設抓「參加抽獎」，官方若改字（例如「參加」「應募」），打開腳本改最上面的 <code>抽獎按鈕文字</code> 即可。
+        已抽記錄存在手機的 App 裡，可中斷續抽。
+      </p>
 
       <h2>已抽記錄怎麼算</h2>
       <ul>
@@ -623,6 +695,25 @@ function buildOutput(){
   var lines = [], rows = 0;
   var fmt = state.fmt;
 
+  // 純連結格式：一行一個 lin.ee，給手機的 Auto.js 腳本讀。不加任何標題或說明文字。
+  if(fmt === "links"){
+    var seenU = {};
+    groups.forEach(function(g){
+      g.items.forEach(function(it){
+        if(skip && isToday(itemKey(g.store, it))) return;
+        if(!it.u || seenU[it.u]) return;   // 去重，同一個連結只開一次
+        seenU[it.u] = 1;
+        rows++;
+        lines.push(it.u);
+      });
+    });
+    document.getElementById("out").value = rows
+      ? lines.join("\n")
+      : "（目前條件下沒有要抽的項目）";
+    window.__rows = rows;
+    return;
+  }
+
   if(fmt === "csv"){
     lines.push("縣市,門市,抽選時間,商品,連結" + (withOa ? ",官方帳號連結" : ""));
   } else {
@@ -701,13 +792,38 @@ function renderFriends(){
     total ? html : '<div class="empty">找不到符合的門市。</div>';
 }
 
+/* ---------- 自動抽分頁：產生純連結清單（給 Auto.js 用） ---------- */
+function autoLinks(){
+  var skip = document.getElementById("autoSkipDone").checked;
+  var groups = filtered();
+  var out = [], seen = {};
+  groups.forEach(function(g){
+    g.items.forEach(function(it){
+      if(skip && isToday(itemKey(g.store, it))) return;
+      if(!it.u || seen[it.u]) return;   // 去重
+      seen[it.u] = 1;
+      out.push(it.u);
+    });
+  });
+  return out;
+}
+function buildAutoOut(){
+  var links = autoLinks();
+  document.getElementById("autoOut").value = links.length
+    ? links.join("\n")
+    : "（目前條件下沒有要抽的連結。去「抽選連結」分頁挑縣市／型號，或取消勾「排除今天已抽」）";
+  document.getElementById("autoCount").textContent =
+    links.length ? ("目前 " + links.length + " 個連結") : "";
+}
+
 /* ---------- 事件 ---------- */
 function switchTab(name){
-  ["links","list","friend","help"].forEach(function(n){
+  ["links","auto","list","friend","help"].forEach(function(n){
     document.getElementById("tab-" + n).setAttribute("aria-selected", String(n === name));
     document.getElementById("pane-" + n).hidden = (n !== name);
   });
   document.getElementById("fixbar").hidden = (name !== "links");
+  if(name === "auto") buildAutoOut();
   if(name === "friend") renderFriends();
   if(name === "list") buildOutput();
   window.scrollTo(0, 0);
@@ -866,13 +982,14 @@ document.getElementById("copyBtn").addEventListener("click", function(){
 document.getElementById("dlBtn").addEventListener("click", function(){
   var ext = state.fmt === "csv" ? "csv" : (state.fmt === "md" ? "md" : "txt");
   var mime = state.fmt === "csv" ? "text/csv" : "text/plain";
+  var fnameBase = state.fmt === "links" ? "funbox-連結清單-" : "funbox-抽選清單-";
   var text = document.getElementById("out").value;
   // CSV 加 BOM，Excel 才不會把中文變亂碼
   var parts = state.fmt === "csv" ? ["\ufeff", text] : [text];
   var blob = new Blob(parts, { type: mime + ";charset=utf-8" });
   var a = document.createElement("a");
   a.href = URL.createObjectURL(blob);
-  a.download = "funbox-抽選清單-" + TODAY + "." + ext;
+  a.download = fnameBase + TODAY + "." + ext;
   document.body.appendChild(a); a.click(); document.body.removeChild(a);
   setTimeout(function(){ URL.revokeObjectURL(a.href); }, 1000);
   toast("已下載");
@@ -880,6 +997,50 @@ document.getElementById("dlBtn").addEventListener("click", function(){
 document.getElementById("printBtn").addEventListener("click", function(){
   switchTab("links");
   setTimeout(function(){ window.print(); }, 120);
+});
+
+/* 自動抽分頁：複製連結 / 下載 / 全標記 */
+function copyTextarea(ta, okMsg){
+  function fallback(){
+    ta.removeAttribute("readonly");
+    ta.focus(); ta.select(); ta.setSelectionRange(0, ta.value.length);
+    var ok = false;
+    try { ok = document.execCommand("copy"); } catch(e){}
+    ta.setAttribute("readonly","readonly");
+    toast(ok ? okMsg : "複製失敗，請長按文字框手動複製");
+  }
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(ta.value).then(function(){ toast(okMsg); }, fallback);
+  } else fallback();
+}
+document.getElementById("autoSkipDone").addEventListener("change", buildAutoOut);
+document.getElementById("autoCopy").addEventListener("click", function(){
+  if(!autoLinks().length){ toast("目前沒有連結可複製"); return; }
+  copyTextarea(document.getElementById("autoOut"), "已複製連結，貼進 Auto.js 就能跑");
+});
+document.getElementById("autoDl").addEventListener("click", function(){
+  var links = autoLinks();
+  if(!links.length){ toast("目前沒有連結可下載"); return; }
+  var blob = new Blob([links.join("\n")], { type: "text/plain;charset=utf-8" });
+  var a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "funbox-連結清單-" + TODAY + ".txt";
+  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  setTimeout(function(){ URL.revokeObjectURL(a.href); }, 1000);
+  toast("已下載連結清單");
+});
+document.getElementById("autoMarkAll").addEventListener("click", function(){
+  var skip = document.getElementById("autoSkipDone").checked;
+  var groups = filtered(), cnt = 0;
+  groups.forEach(function(g){
+    g.items.forEach(function(it){
+      var k = itemKey(g.store, it);
+      if(skip && isToday(k)) return;
+      if(!isToday(k)){ setDone(k, true); cnt++; }
+    });
+  });
+  render(); buildAutoOut();
+  toast(cnt ? ("已把 " + cnt + " 項標記為今天已抽") : "沒有需要標記的項目");
 });
 
 /* 清除記錄 */

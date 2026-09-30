@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>複製手機腳本 · Funbox 自動抽</title>
+<style>
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans TC",sans-serif;
+    background:#f2f4f7;color:#222;padding:14px;line-height:1.6;}
+  h1{font-size:17px;color:#1f3f66;margin:0 0 4px;}
+  p{font-size:13px;color:#6b7480;margin:6px 0;}
+  .btn{display:block;width:100%;box-sizing:border-box;border:0;border-radius:12px;padding:16px;
+    font-size:17px;font-weight:800;background:#06c755;color:#fff;cursor:pointer;margin:12px 0;}
+  .btn:active{background:#04a445;}
+  textarea{width:100%;box-sizing:border-box;min-height:340px;font-family:ui-monospace,Consolas,monospace;
+    font-size:11px;line-height:1.5;border:1.5px solid #d3d8de;border-radius:10px;padding:10px;
+    background:#fff;color:#222;}
+  .toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#22262b;color:#fff;
+    padding:12px 20px;border-radius:22px;font-size:14px;font-weight:600;opacity:0;transition:opacity .2s;
+    pointer-events:none;}
+  .toast.show{opacity:1;}
+  ol{font-size:13px;padding-left:20px;} li{margin:4px 0;}
+  .warn{background:#fff8e6;border:1px solid #ffe08a;border-radius:10px;padding:10px 12px;font-size:12.5px;color:#7a5200;}
+</style>
+</head>
+<body>
+  <h1>複製手機腳本</h1>
+  <div class="warn">這頁是給你把 Auto.js 腳本複製進 AutoX 用的。複製後回 AutoX 的編輯畫面長按貼上即可。</div>
+
+  <button class="btn" id="copy">📋 一鍵複製全部腳本</button>
+
+  <ol>
+    <li>按上面綠色鈕複製</li>
+    <li>切回 <b>AutoX</b> 的編輯畫面</li>
+    <li>在空白處<b>長按 → 貼上</b></li>
+    <li>存檔，再執行</li>
+  </ol>
+
+  <p>下面是腳本內容（複製失敗時可手動長按全選）：</p>
+  <textarea id="src" readonly spellcheck="false">載入中…</textarea>
+
+  <div class="toast" id="toast"></div>
+
+<script>
+"use strict";
+var ta = document.getElementById("src");
+var toastEl = document.getElementById("toast");
+function toast(m){ toastEl.textContent=m; toastEl.classList.add("show");
+  setTimeout(function(){ toastEl.classList.remove("show"); }, 2000); }
+
+// 讀取同目錄的 funbox-auto.js
+fetch("funbox-auto.js?" + Date.now())
+  .then(function(r){ if(!r.ok) throw new Error("HTTP "+r.status); return r.text(); })
+  .then(function(t){ ta.value = t; })
+  .catch(function(e){ ta.value = "讀取腳本失敗：" + e + "\n\n請確認 funbox-auto.js 有上傳到網站同一個資料夾。"; });
+
+document.getElementById("copy").addEventListener("click", function(){
+  var text = ta.value;
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(text).then(
+      function(){ toast("已複製！回 AutoX 長按貼上"); },
+      fallback
+    );
+  } else { fallback(); }
+  function fallback(){
+    ta.focus(); ta.select(); ta.setSelectionRange(0, ta.value.length);
+    var ok=false; try{ ok=document.execCommand("copy"); }catch(e){}
+    toast(ok ? "已複製！回 AutoX 長按貼上" : "請長按文字框手動全選複製");
+  }
+});
+</script>
+</body>
+</html>
