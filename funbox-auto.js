@@ -55,19 +55,11 @@ ui.layout(
 
         <input id="kw" hint="搜尋型號或門市，例如 UX-21、忠孝" textSize="15sp" marginTop="8"/>
 
-        <text textSize="13sp" textColor="#6b7480" textStyle="bold" marginTop="6">縣市</text>
-        <horizontal marginTop="2">
-            <ScrollView>
-                <horizontal id="cityChips"/>
-            </ScrollView>
-        </horizontal>
+        <text textSize="13sp" textColor="#6b7480" textStyle="bold" marginTop="6">縣市（可複選，不選=全部）</text>
+        <vertical id="cityChips" marginTop="2"/>
 
-        <text textSize="13sp" textColor="#6b7480" textStyle="bold" marginTop="8">型號</text>
-        <horizontal marginTop="2">
-            <ScrollView>
-                <horizontal id="codeChips"/>
-            </ScrollView>
-        </horizontal>
+        <text textSize="13sp" textColor="#6b7480" textStyle="bold" marginTop="8">型號（可複選，不選=全部）</text>
+        <vertical id="codeChips" marginTop="2"/>
 
         <horizontal marginTop="10" gravity="center_vertical">
             <checkbox id="skipDone" checked="true"/>
@@ -133,49 +125,54 @@ function buildIndex() {
     });
 }
 
-// ============ 篩選晶片 ============
-function makeChip(label, on, onTap) {
-    var v = ui.inflate(
-        <text padding="10 6" margin="0 4 0 0" textSize="13sp"/>, ui.cityChips, false);
-    v.setText(label);
-    styleChip(v, on);
-    v.on("click", onTap);
-    return v;
-}
+// ============ 篩選晶片（自動換行，每排 PER_ROW 個） ============
+var PER_ROW = 4;   // 一排放幾個按鈕，太擠可改小
+
 function styleChip(v, on) {
     v.setBackgroundColor(colors.parseColor(on ? "#1f3f66" : "#eef0f2"));
     v.setTextColor(colors.parseColor(on ? "#ffffff" : "#3d444c"));
 }
 function anyOn(o) { for (var k in o) { if (o[k]) return true; } return false; }
 
-function renderChips() {
-    // 縣市
-    ui.cityChips.removeAllViews();
-    var allCity = makeChip("全部", !anyOn(selCities), function () {
-        selCities = {}; renderChips(); updateCount();
-    });
-    ui.cityChips.addView(allCity);
-    CITIES.forEach(function (c) {
-        var chip = makeChip(c, !!selCities[c], function () {
-            selCities[c] = !selCities[c]; renderChips(); updateCount();
-        });
-        ui.cityChips.addView(chip);
-    });
+// 把一堆標籤，一排 PER_ROW 個，塞進 container（縱向容器）
+function fillChips(container, labels, isOn, onTap) {
+    container.removeAllViews();
+    var row = null;
+    for (var i = 0; i < labels.length; i++) {
+        if (i % PER_ROW === 0) {
+            row = ui.inflate(<horizontal/>, container, false);
+            container.addView(row);
+        }
+        var label = labels[i];
+        var chip = ui.inflate(
+            <text padding="12 8" margin="0 6 6 0" textSize="13sp" gravity="center"/>, row, false);
+        chip.setText(label);
+        styleChip(chip, isOn(label));
+        (function (lb) { chip.on("click", function () { onTap(lb); }); })(label);
+        row.addView(chip);
+    }
+}
 
-    // 型號
-    ui.codeChips.removeAllViews();
-    var allCode = ui.inflate(<text padding="10 6" margin="0 4 0 0" textSize="13sp"/>, ui.codeChips, false);
-    allCode.setText("全部");
-    styleChip(allCode, !anyOn(selCodes));
-    allCode.on("click", function () { selCodes = {}; renderChips(); updateCount(); });
-    ui.codeChips.addView(allCode);
-    CODES.forEach(function (c) {
-        var chip = ui.inflate(<text padding="10 6" margin="0 4 0 0" textSize="13sp"/>, ui.codeChips, false);
-        chip.setText(c);
-        styleChip(chip, !!selCodes[c]);
-        chip.on("click", function () { selCodes[c] = !selCodes[c]; renderChips(); updateCount(); });
-        ui.codeChips.addView(chip);
-    });
+function renderChips() {
+    // 縣市：第一個是「全部」
+    var cityLabels = ["全部"].concat(CITIES);
+    fillChips(ui.cityChips, cityLabels,
+        function (lb) { return lb === "全部" ? !anyOn(selCities) : !!selCities[lb]; },
+        function (lb) {
+            if (lb === "全部") selCities = {};
+            else selCities[lb] = !selCities[lb];
+            renderChips(); updateCount();
+        });
+
+    // 型號：第一個是「全部」
+    var codeLabels = ["全部"].concat(CODES);
+    fillChips(ui.codeChips, codeLabels,
+        function (lb) { return lb === "全部" ? !anyOn(selCodes) : !!selCodes[lb]; },
+        function (lb) {
+            if (lb === "全部") selCodes = {};
+            else selCodes[lb] = !selCodes[lb];
+            renderChips(); updateCount();
+        });
 }
 
 // ============ 篩選邏輯（跟網頁一致） ============
