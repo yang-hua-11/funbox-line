@@ -56,14 +56,18 @@ ui.layout(
         <input id="kw" hint="搜尋型號或門市，例如 UX-21、忠孝" textSize="15sp" marginTop="8"/>
 
         <text textSize="13sp" textColor="#6b7480" textStyle="bold" marginTop="6">縣市</text>
-        <ScrollView android:scrollbars="none" marginTop="2">
-            <horizontal id="cityChips"/>
-        </ScrollView>
+        <horizontal marginTop="2">
+            <ScrollView>
+                <horizontal id="cityChips"/>
+            </ScrollView>
+        </horizontal>
 
         <text textSize="13sp" textColor="#6b7480" textStyle="bold" marginTop="8">型號</text>
-        <ScrollView android:scrollbars="none" marginTop="2">
-            <horizontal id="codeChips"/>
-        </ScrollView>
+        <horizontal marginTop="2">
+            <ScrollView>
+                <horizontal id="codeChips"/>
+            </ScrollView>
+        </horizontal>
 
         <horizontal marginTop="10" gravity="center_vertical">
             <checkbox id="skipDone" checked="true"/>
