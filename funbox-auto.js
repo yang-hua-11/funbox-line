@@ -49,27 +49,32 @@ function markDone(k) { var d = getDone(); d[k] = TODAY; setDoneMap(d); }
 
 // ============ 畫面 ============
 ui.layout(
-    <vertical padding="12">
-        <text textSize="18sp" textColor="#1f3f66" textStyle="bold">Funbox 陀螺 · 全自動連抽</text>
-        <text id="status" textSize="12sp" textColor="#6b7480" marginTop="2">載入資料中…</text>
+    <vertical>
+        <ScrollView layout_weight="1">
+            <vertical padding="12">
+                <text textSize="18sp" textColor="#1f3f66" textStyle="bold">Funbox 陀螺 · 全自動連抽</text>
+                <text id="status" textSize="12sp" textColor="#6b7480" marginTop="2">載入資料中…</text>
 
-        <input id="kw" hint="搜尋型號或門市，例如 UX-21、忠孝" textSize="15sp" marginTop="8"/>
+                <input id="kw" hint="搜尋型號或門市，例如 UX-21、忠孝" textSize="15sp" marginTop="8"/>
 
-        <text textSize="13sp" textColor="#6b7480" textStyle="bold" marginTop="6">縣市（可複選，不選=全部）</text>
-        <vertical id="cityChips" marginTop="2"/>
+                <text textSize="13sp" textColor="#6b7480" textStyle="bold" marginTop="6">縣市（可複選，不選=全部）</text>
+                <vertical id="cityChips" marginTop="2"/>
 
-        <text textSize="13sp" textColor="#6b7480" textStyle="bold" marginTop="8">型號（可複選，不選=全部）</text>
-        <vertical id="codeChips" marginTop="2"/>
+                <text textSize="13sp" textColor="#6b7480" textStyle="bold" marginTop="8">型號（可複選，不選=全部）</text>
+                <vertical id="codeChips" marginTop="2"/>
 
-        <horizontal marginTop="10" gravity="center_vertical">
-            <checkbox id="skipDone" checked="true"/>
-            <text textSize="14sp" marginLeft="4">排除今天已抽</text>
-        </horizontal>
+                <horizontal marginTop="10" gravity="center_vertical">
+                    <checkbox id="skipDone" checked="true"/>
+                    <text textSize="14sp" marginLeft="4">排除今天已抽</text>
+                </horizontal>
+            </vertical>
+        </ScrollView>
 
-        <text id="count" textSize="15sp" textColor="#06c755" textStyle="bold" marginTop="10">—</text>
-
-        <button id="start" style="Widget.AppCompat.Button.Colored" marginTop="10">▶ 開始自動抽</button>
-        <button id="reset" style="Widget.AppCompat.Button.Borderless" marginTop="2">清除今天的已抽記錄</button>
+        <vertical padding="12 8">
+            <text id="count" textSize="15sp" textColor="#06c755" textStyle="bold">—</text>
+            <button id="start" style="Widget.AppCompat.Button.Colored" marginTop="6">▶ 開始自動抽</button>
+            <button id="reset" style="Widget.AppCompat.Button.Borderless" marginTop="2">清除今天的已抽記錄</button>
+        </vertical>
     </vertical>
 );
 
