@@ -830,6 +830,41 @@
    "oaUrl": "https://line.me/ti/p/~@237annfd"
   },
   {
+   "city": "台北市",
+   "name": "Fun box-美麗華",
+   "time": "抽選/購買日期：2026/09/24～2026/09/25（原文未註明時間）",
+   "st": "",
+   "items": [
+    {
+     "p": "BX-37 雙重極限衝擊戰鬥盤 豪華組",
+     "c": "BX-37",
+     "u": "https://lin.ee/zsKdXY2"
+    },
+    {
+     "p": "UX-03 魔導神杖",
+     "c": "UX-03",
+     "u": "https://lin.ee/YwQGvAX"
+    },
+    {
+     "p": "UX-15 鮫鯊狂鱗改造組",
+     "c": "UX-15",
+     "u": "https://lin.ee/nIou7ya"
+    },
+    {
+     "p": "CX-11 帝王威能",
+     "c": "CX-11",
+     "u": "https://lin.ee/qyWWWE9"
+    },
+    {
+     "p": "CX-19 鱷魚裂甲",
+     "c": "CX-19",
+     "u": "https://lin.ee/u0zGO3X"
+    }
+   ],
+   "oa": "@660hextn",
+   "oaUrl": "https://line.me/ti/p/~@660hextn"
+  },
+  {
    "city": "新北市",
    "name": "Funbox 汐科遠雄",
    "time": "抽選/購買時間：2026/09/24 11:00~2026/09/25 21:00",
@@ -2861,7 +2896,7 @@
   },
   {
    "city": "台中市",
-   "name": "Funbox 台中遠雄店",
+   "name": "Funbox 台中新時代",
    "time": "抽選/購買時間：2026/09/24 11:00~2026/09/25 21:00",
    "st": "11:00",
    "items": [
@@ -5123,7 +5158,7 @@
  "accounts": [
   {
    "region": "台北市",
-   "name": "台北地下街16號",
+   "name": "來玩聚-台北地下街店",
    "id": "@453cqkyj",
    "u": "https://line.me/ti/p/~@453cqkyj"
   },
