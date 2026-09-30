@@ -187,7 +187,6 @@
     <button role="tab" id="tab-links"  aria-selected="true"  data-tab="links">抽選連結</button>
     <button role="tab" id="tab-list"   aria-selected="false" data-tab="list">產生清單</button>
     <button role="tab" id="tab-friend" aria-selected="false" data-tab="friend">加好友</button>
-    <button role="tab" id="tab-help"   aria-selected="false" data-tab="help">說明</button>
   </nav>
 
   <!-- ===================== 抽選連結 ===================== -->
@@ -267,45 +266,6 @@
     <div id="friendList"></div>
   </section>
 
-  <!-- ===================== 說明 ===================== -->
-  <section id="pane-help" role="tabpanel" hidden>
-    <div class="panel doc">
-      <div class="warnbox">
-        這頁只是把連結整理好，<b>抽選還是要你自己在 LINE 裡面照規則手動完成</b>。
-        本頁不會、也不能幫你自動抽或提高中獎率。
-      </div>
-
-      <h2>怎麼用（手機）</h2>
-      <ol>
-        <li>先到「加好友」把你會去的門市官方帳號加起來。</li>
-        <li>回「抽選連結」，用搜尋或型號按鈕挑出你要的（例如 <code>UX-21</code>）。</li>
-        <li>點綠色的「抽選」→ 會跳出 LINE，在裡面完成抽選。</li>
-        <li>抽完回來，那一列會自己變灰。沒變灰的話按右邊的 <b>✓</b> 手動標記。</li>
-        <li>勾「只看今天還沒抽的」，剩下的就是你還沒點過的。</li>
-      </ol>
-
-      <h2>已抽記錄怎麼算</h2>
-      <ul>
-        <li>記錄存在<b>這台裝置的瀏覽器</b>裡（localStorage），不會上傳，換手機或清瀏覽資料就沒了。</li>
-        <li>以<b>日期</b>為單位：今天標過的顯示灰色劃線；<b>前幾天</b>抽過的會標示「前次 X/XX」但仍算可抽，因為每天是新一輪。</li>
-        <li>用<b>門市＋商品</b>當記錄鍵，所以官方換連結網址也不會弄丟你今天的記錄。</li>
-      </ul>
-
-      <h2>資料更新</h2>
-      <ul>
-        <li>抽選連結每天／每期都會換。本頁資料是靜態的，需要重新產生。</li>
-        <li>在電腦上執行 <code>update.bat</code>（或 <code>python extract.py</code> 再 <code>python build.py</code>）就會抓最新連結並重新產生這個頁面。</li>
-        <li>目前資料版本：<span id="builtAt"></span></li>
-        <li>原始資料來源：<a id="srcLink" href="#" target="_blank" rel="noopener">uxux11.github.io/funbox-line</a>（連結整合原作者）</li>
-      </ul>
-
-      <h2>清除記錄</h2>
-      <div class="btnrow">
-        <button class="btn danger" id="clearToday" type="button">只清除「今天」的記錄</button>
-        <button class="btn danger" id="clearAll" type="button">清除全部記錄</button>
-      </div>
-    </div>
-  </section>
 </div>
 
 <div class="fixbar" id="fixbar">
@@ -703,7 +663,7 @@ function renderFriends(){
 
 /* ---------- 事件 ---------- */
 function switchTab(name){
-  ["links","list","friend","help"].forEach(function(n){
+  ["links","list","friend"].forEach(function(n){
     document.getElementById("tab-" + n).setAttribute("aria-selected", String(n === name));
     document.getElementById("pane-" + n).hidden = (n !== name);
   });
@@ -882,19 +842,6 @@ document.getElementById("printBtn").addEventListener("click", function(){
   setTimeout(function(){ window.print(); }, 120);
 });
 
-/* 清除記錄 */
-document.getElementById("clearToday").addEventListener("click", function(){
-  if(!confirm("清除「今天」的已抽記錄？以前的記錄會留著。")) return;
-  Object.keys(done).forEach(function(k){ if(done[k] === TODAY) delete done[k]; });
-  saveDone(); render(); toast("已清除今天的記錄");
-});
-document.getElementById("clearAll").addEventListener("click", function(){
-  if(!confirm("清除全部已抽記錄？這動作無法復原。")) return;
-  done = {}; saveDone();
-  oaDone = []; lsSet(KEY_OA, "[]");
-  render(); renderFriends(); toast("已清除全部記錄");
-});
-
 /* 日期跨天：回到前景時重新檢查，避免昨天的灰色殘留 */
 document.addEventListener("visibilitychange", function(){
   if(document.visibilityState !== "visible") return;
@@ -909,9 +856,6 @@ document.addEventListener("visibilitychange", function(){
     STORES.reduce(function(a,s){ return a + s.items.length; }, 0) + " 個抽選項目";
   n.innerHTML = (DATA && DATA.notice ? "<b>" + esc(DATA.notice) + "</b> · " : "") + esc(stat) +
                 " · 資料 " + esc((DATA && DATA.builtAt) || "");
-  document.getElementById("builtAt").textContent = (DATA && DATA.builtAt) || "—";
-  var sl = document.getElementById("srcLink");
-  if(DATA && DATA.source) sl.href = DATA.source;
   if(!lsOK){
     toast("這個瀏覽器不能存記錄，關掉頁面就會消失");
   }
