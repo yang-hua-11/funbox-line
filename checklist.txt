@@ -1,5 +1,5 @@
 Funbox 陀螺抽選清單
-資料版本：2026-10-02 11:12
+資料版本：2026-10-02 11:13
 公告：10/02 10/03 抽選
 來源：https://uxux11.github.io/funbox-line/
 
@@ -1051,6 +1051,41 @@ Funbox 中壢大江店（抽選/購買時間：2026/10/02 11:00~2026/10/03 21:00
       https://lin.ee/UwYIfW7
   [ ] CX-19 鱷魚裂甲隨機強化組
       https://lin.ee/zCdj5Xe
+
+Funbox 桃園遠東店（抽選/購買時間：2026/10/02 11:00~2026/10/03 21:00）
+  加好友 @bix0595a  https://line.me/ti/p/~@bix0595a
+  [ ] UX-01 蒼龍爆刃
+      https://lin.ee/QRPvifh
+  [ ] UX-13 魔像奇岩
+      https://lin.ee/UQPBWZj
+  [ ] UX-14 天蠍長矛0-70Z
+      https://lin.ee/nLJ2SMF
+  [ ] UX-15 鮫鯊狂鱗改造組
+      https://lin.ee/5PEGzZy
+  [ ] UX-16 時鐘幻象 隨機強化組
+      https://lin.ee/PYR4OW5
+  [ ] UX-17 隕星龍騎士3-70J
+      https://lin.ee/pS12M0jq
+  [ ] CX-00 新世紀福音戰士改造組
+      https://lin.ee/plR7W2Y
+  [ ] CX-00 迪卡狂怒 FT3-60T
+      https://lin.ee/zC0sOFd
+  [ ] CX-01 蒼龍勇氣
+      https://lin.ee/yACCSDR
+  [ ] CX-02 魔導至尊
+      https://lin.ee/vGq3I9Q
+  [ ] CX-03 英仙幽冥
+      https://lin.ee/XwKdcr7
+  [ ] CX-05 隨機強化組 Vol.6
+      https://lin.ee/NwUkESs
+  [ ] CX-08 隨機強化組 Vol.7
+      https://lin.ee/wRoTbaw
+  [ ] CX-13 龍王閃擊
+      https://lin.ee/tfuF5fC
+  [ ] CX-14 騎士堡壘
+      https://lin.ee/nmgfN5l
+  [ ] CX-16 極限衝擊對戰組C
+      https://lin.ee/5hHawsc
 
 ### 新竹市 ###
 
@@ -2298,6 +2333,28 @@ Funbox 義大2館（抽選/購買時間：2026/10/02 11:00~2026/10/03 21:00）
   [ ] CX-16 極限衝擊對戰組C
       https://lin.ee/9eYInTc
 
+Funbox 高雄義享店（抽選/購買時間：2026/10/02 11:00~2026/10/03 21:00）
+  [ ] UX-13 魔像奇岩
+      https://lin.ee/6sgZUiO
+  [ ] UX-16 時鐘幻象 隨機強化組
+      https://lin.ee/SeCNP57
+  [ ] UX-19 子彈獅鷲H
+      https://lin.ee/xGuwBY2
+  [ ] CX-02 魔導至尊
+      https://lin.ee/vbT3Rz5
+  [ ] CX-03 英仙幽冥
+      https://lin.ee/OXsCTaM
+  [ ] CX-05 隨機強化組 Vol.6
+      https://lin.ee/RTSmBHO
+  [ ] CX-08 隨機強化組 Vol.7
+      https://lin.ee/rG8atIv
+  [ ] CX-13 龍王閃擊
+      https://lin.ee/xRShQSL
+  [ ] CX-14 騎士堡壘
+      https://lin.ee/oGSy3gE
+  [ ] CX-15 邪神狂怒
+      https://lin.ee/uribvIJl
+
 ### 屏東縣 ###
 
 來玩聚 新屏店（抽選資格&購買時間：2026/10/02 11:00~2026/10/03 20:00）
@@ -2516,4 +2573,4 @@ Funbox 澎湖3號港店（抽選/購買時間：2026/10/02 10:00~2026/10/03 20:3
       https://lin.ee/VDERO6e
 
 ========================================================
-合計 66 間門市 / 1146 個抽選項目
+合計 68 間門市 / 1172 個抽選項目
