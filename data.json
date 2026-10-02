@@ -2254,96 +2254,6 @@
    "oaUrl": "https://line.me/ti/p/~@ufq5307a"
   },
   {
-   "city": "宜蘭縣",
-   "name": "Funbox 宜蘭新月廣場店",
-   "time": "抽選/購買時間：2026/10/02 11:00~22:00、2026/10/03 11:00~21:00",
-   "st": "11:00",
-   "items": [
-    {
-     "p": "UX-01 蒼龍爆刃",
-     "c": "UX-01",
-     "u": "https://lin.ee/QxUmAi9"
-    },
-    {
-     "p": "UX-03 魔導神杖",
-     "c": "UX-03",
-     "u": "https://lin.ee/Oep9Hul"
-    },
-    {
-     "p": "UX-13 魔像奇岩",
-     "c": "UX-13",
-     "u": "https://lin.ee/V57bs49"
-    },
-    {
-     "p": "UX-16 時鐘幻象 隨機強化組",
-     "c": "UX-16",
-     "u": "https://lin.ee/XHS00nw"
-    },
-    {
-     "p": "UX-17 隕星龍騎士3-70J",
-     "c": "UX-17",
-     "u": "https://lin.ee/w8jAcWs"
-    },
-    {
-     "p": "UX-19 子彈獅鷲H",
-     "c": "UX-19",
-     "u": "https://lin.ee/zMd1T0V"
-    },
-    {
-     "p": "CX-00 新世紀福音戰士改造組",
-     "c": "CX-00",
-     "u": "https://lin.ee/RouM1nR"
-    },
-    {
-     "p": "CX-01 蒼龍勇氣",
-     "c": "CX-01",
-     "u": "https://lin.ee/qE5PfrE"
-    },
-    {
-     "p": "CX-02 魔導至尊",
-     "c": "CX-02",
-     "u": "https://lin.ee/yFknON1"
-    },
-    {
-     "p": "CX-03 英仙幽冥",
-     "c": "CX-03",
-     "u": "https://lin.ee/9FW9VkU"
-    },
-    {
-     "p": "CX-05 隨機強化組 Vol.6",
-     "c": "CX-05",
-     "u": "https://lin.ee/rOSKXiS"
-    },
-    {
-     "p": "CX-08 隨機強化組 Vol.7",
-     "c": "CX-08",
-     "u": "https://lin.ee/WdKjdjC"
-    },
-    {
-     "p": "CX-13 龍王閃擊",
-     "c": "CX-13",
-     "u": "https://lin.ee/Oyz7EPJ"
-    },
-    {
-     "p": "CX-14 騎士堡壘",
-     "c": "CX-14",
-     "u": "https://lin.ee/r6FbEyg"
-    },
-    {
-     "p": "CX-15 邪神狂怒",
-     "c": "CX-15",
-     "u": "https://lin.ee/SraW1n2"
-    },
-    {
-     "p": "CX-16 極限衝擊對戰組C",
-     "c": "CX-16",
-     "u": "https://lin.ee/v4xlws9b"
-    }
-   ],
-   "oa": "@027iendl",
-   "oaUrl": "https://line.me/ti/p/~@027iendl"
-  },
-  {
    "city": "桃園市",
    "name": "Funbox 桃園新光站前店",
    "time": "抽選/購買時間：2026/10/02 11:00~2026/10/03 21:00",
@@ -3989,7 +3899,7 @@
   },
   {
    "city": "台中市",
-   "name": "Funbox 台中遠雄店",
+   "name": "Funbox 台中新時代店",
    "time": "抽選與販售日期：2026/10/02 11:00~2026/10/03 21:00",
    "st": "11:00",
    "items": [
@@ -4276,6 +4186,91 @@
    ],
    "oa": "@815dstuy",
    "oaUrl": "https://line.me/ti/p/~@815dstuy"
+  },
+  {
+   "city": "台中市",
+   "name": "Funbox 豐原太平洋店",
+   "time": "抽選與販售日期：2026/10/02 11:00~2026/10/03 21:00",
+   "st": "11:00",
+   "items": [
+    {
+     "p": "UX-01 蒼龍爆刃",
+     "c": "UX-01",
+     "u": "https://lin.ee/QKD9Osa"
+    },
+    {
+     "p": "UX-13 魔像奇岩",
+     "c": "UX-13",
+     "u": "https://lin.ee/54Q2CRqH"
+    },
+    {
+     "p": "UX-14 天蠍長矛",
+     "c": "UX-14",
+     "u": "https://lin.ee/8xatl22"
+    },
+    {
+     "p": "UX-16 時鐘幻象 隨機強化組",
+     "c": "UX-16",
+     "u": "https://lin.ee/ZdfxqyV"
+    },
+    {
+     "p": "UX-17 隕星龍騎士",
+     "c": "UX-17",
+     "u": "https://lin.ee/OfIPlgl"
+    },
+    {
+     "p": "CX-00 新世紀福音戰士改造組",
+     "c": "CX-00",
+     "u": "https://lin.ee/Nf6q3Pn"
+    },
+    {
+     "p": "CX-02 魔導至尊",
+     "c": "CX-02",
+     "u": "https://lin.ee/nUT2uDd"
+    },
+    {
+     "p": "CX-03 英仙幽冥",
+     "c": "CX-03",
+     "u": "https://lin.ee/o8ncjvw"
+    },
+    {
+     "p": "CX-05 隨機強化組 Vol.6",
+     "c": "CX-05",
+     "u": "https://lin.ee/UBPjAgm"
+    },
+    {
+     "p": "CX-08 隨機強化組 Vol.7",
+     "c": "CX-08",
+     "u": "https://lin.ee/psEuROw"
+    },
+    {
+     "p": "CX-13 龍王閃擊",
+     "c": "CX-13",
+     "u": "https://lin.ee/7ruhIWW"
+    },
+    {
+     "p": "CX-14 騎士堡壘",
+     "c": "CX-14",
+     "u": "https://lin.ee/QTe3Ybd"
+    },
+    {
+     "p": "CX-15 邪神狂怒",
+     "c": "CX-15",
+     "u": "https://lin.ee/UkAlH0o"
+    },
+    {
+     "p": "CX-16 極限衝擊對戰組C",
+     "c": "CX-16",
+     "u": "https://lin.ee/ze2SI4Qe"
+    },
+    {
+     "p": "CX-17 隨機強化組 Vol.10",
+     "c": "CX-17",
+     "u": "https://lin.ee/RXtWhNO"
+    }
+   ],
+   "oa": "@094mvrhb",
+   "oaUrl": "https://line.me/ti/p/~@094mvrhb"
   },
   {
    "city": "彰化縣",
@@ -6718,6 +6713,96 @@
    ],
    "oa": "@xhi2668e",
    "oaUrl": "https://line.me/ti/p/~@xhi2668e"
+  },
+  {
+   "city": "宜蘭縣",
+   "name": "Funbox 宜蘭新月廣場店",
+   "time": "抽選/購買時間：2026/10/02 11:00~22:00、2026/10/03 11:00~21:00",
+   "st": "11:00",
+   "items": [
+    {
+     "p": "UX-01 蒼龍爆刃",
+     "c": "UX-01",
+     "u": "https://lin.ee/QxUmAi9"
+    },
+    {
+     "p": "UX-03 魔導神杖",
+     "c": "UX-03",
+     "u": "https://lin.ee/Oep9Hul"
+    },
+    {
+     "p": "UX-13 魔像奇岩",
+     "c": "UX-13",
+     "u": "https://lin.ee/V57bs49"
+    },
+    {
+     "p": "UX-16 時鐘幻象 隨機強化組",
+     "c": "UX-16",
+     "u": "https://lin.ee/XHS00nw"
+    },
+    {
+     "p": "UX-17 隕星龍騎士3-70J",
+     "c": "UX-17",
+     "u": "https://lin.ee/w8jAcWs"
+    },
+    {
+     "p": "UX-19 子彈獅鷲H",
+     "c": "UX-19",
+     "u": "https://lin.ee/zMd1T0V"
+    },
+    {
+     "p": "CX-00 新世紀福音戰士改造組",
+     "c": "CX-00",
+     "u": "https://lin.ee/RouM1nR"
+    },
+    {
+     "p": "CX-01 蒼龍勇氣",
+     "c": "CX-01",
+     "u": "https://lin.ee/qE5PfrE"
+    },
+    {
+     "p": "CX-02 魔導至尊",
+     "c": "CX-02",
+     "u": "https://lin.ee/yFknON1"
+    },
+    {
+     "p": "CX-03 英仙幽冥",
+     "c": "CX-03",
+     "u": "https://lin.ee/9FW9VkU"
+    },
+    {
+     "p": "CX-05 隨機強化組 Vol.6",
+     "c": "CX-05",
+     "u": "https://lin.ee/rOSKXiS"
+    },
+    {
+     "p": "CX-08 隨機強化組 Vol.7",
+     "c": "CX-08",
+     "u": "https://lin.ee/WdKjdjC"
+    },
+    {
+     "p": "CX-13 龍王閃擊",
+     "c": "CX-13",
+     "u": "https://lin.ee/Oyz7EPJ"
+    },
+    {
+     "p": "CX-14 騎士堡壘",
+     "c": "CX-14",
+     "u": "https://lin.ee/r6FbEyg"
+    },
+    {
+     "p": "CX-15 邪神狂怒",
+     "c": "CX-15",
+     "u": "https://lin.ee/SraW1n2"
+    },
+    {
+     "p": "CX-16 極限衝擊對戰組C",
+     "c": "CX-16",
+     "u": "https://lin.ee/v4xlws9b"
+    }
+   ],
+   "oa": "@027iendl",
+   "oaUrl": "https://line.me/ti/p/~@027iendl"
   },
   {
    "city": "花蓮縣",
