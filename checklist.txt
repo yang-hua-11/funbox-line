@@ -1,5 +1,5 @@
 Funbox 陀螺抽選清單
-資料版本：2026-10-02 10:04
+資料版本：2026-10-02 10:28
 公告：10/02 10/03 抽選
 來源：https://uxux11.github.io/funbox-line/
 
@@ -921,6 +921,57 @@ Funbox 新光三越台中中港店（抽選/購買時間：2026/10/02 11:00~2026
   [ ] CX-17 隨機強化組Vol.10
       https://lin.ee/ZxXrjxQ
 
+Funbox 麗寶一期店（抽選/購買資格時間：2026/10/02 11:00~2026/10/03 21:00）
+  加好友 @829adhop  https://line.me/ti/p/~@829adhop
+  [ ] BX-00 蒼龍神劍
+      https://lin.ee/6Ryr7qP
+  [ ] BX-09 通行證
+      https://lin.ee/PaDS1fM
+  [ ] UX-01 蒼龍爆刃
+      https://lin.ee/6eT49fr
+  [ ] UX-03 魔導神杖
+      https://lin.ee/XI7dYe2
+  [ ] UX-13 魔像奇岩
+      https://lin.ee/z2YCS7K
+  [ ] UX-14 天蠍長矛
+      https://lin.ee/UL3XV1c
+  [ ] UX-15 鮫鯊狂鱗
+      https://lin.ee/W31mMZx
+  [ ] UX-17 隕星龍騎士
+      https://lin.ee/YQayWa5
+  [ ] UX-19 子彈獅鷲
+      https://lin.ee/9GP45F3
+  [ ] UX-20 榮耀武神
+      https://lin.ee/SQ6R5UZ
+  [ ] CX-00 新世紀福音戰士改造組
+      https://lin.ee/xpoDngM
+  [ ] CX-00 迪卡狂怒
+      https://lin.ee/YpzjBbu
+  [ ] CX-01 蒼龍勇氣
+      https://lin.ee/pBG9fBa
+  [ ] CX-02 魔導至尊
+      https://lin.ee/w4WKMTD
+  [ ] CX-03 英仙幽冥
+      https://lin.ee/TQt02RD
+  [ ] CX-05 隨機強化組 Vol.6
+      https://lin.ee/pdevRAC
+  [ ] CX-11 帝王威能
+      https://lin.ee/wJUwpvL
+  [ ] CX-13 龍王閃擊
+      https://lin.ee/8PhXGiP
+  [ ] CX-14 騎士堡壘
+      https://lin.ee/r7646Gs
+  [ ] CX-15 時鐘幻象 隨機強化組
+      https://lin.ee/xCn44dh
+  [ ] CX-15 邪神狂怒
+      https://lin.ee/9A9B5EW
+  [ ] CX-16 極限對戰組
+      https://lin.ee/VYW3t2Z
+  [ ] CX-17 隨機強化組Vol.10
+      https://lin.ee/PsEPZL5
+  [ ] CX-19 鱷魚裂甲
+      https://lin.ee/8OFfQNw
+
 ### 彰化縣 ###
 
 來玩聚-員林店（抽選/購買時間：2026/10/02 10:00~2026/10/03 21:00）
@@ -1697,4 +1748,4 @@ Funbox 澎湖3號港店（抽選/購買時間：2026/10/02 10:00~2026/10/03 20:3
       https://lin.ee/VDERO6e
 
 ========================================================
-合計 45 間門市 / 767 個抽選項目
+合計 46 間門市 / 791 個抽選項目
