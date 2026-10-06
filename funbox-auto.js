@@ -244,12 +244,15 @@ function runAuto(list) {
     if (running) return;
     running = true;
     threads.start(function () {
-        var 成功 = 0, 跳過 = 0;
+        var 成功 = 0, 跳過 = 0, 處理數 = 0;
+        var 跳過清單 = [];   // 記下沒抽成功的門市+品名
         for (var i = 0; i < list.length; i++) {
             if (!running) break;
+            處理數++;
             var item = list[i];
             var 序 = "(" + (i + 1) + "/" + list.length + ") ";
-            ui.run(function () { ui.status.setText(序 + item.name + " " + item.p); });
+            // 用區域變數，避免閉包抓到迴圈最後一個值
+            (function (txt) { ui.run(function () { ui.status.setText(txt); }); })(序 + item.name + " " + item.p);
 
             app.openUrl(item.url);
             sleep(開頁面後等秒數 * 1000);
@@ -262,16 +265,25 @@ function runAuto(list) {
                 sleep(點完停留秒數 * 1000);
             } else {
                 跳過++;
+                跳過清單.push("• " + item.name + "｜" + item.p);
             }
             home();
             sleep(500);
         }
         running = false;
+        var 停了 = (處理數 < list.length);  // 中途被按返回停掉
         ui.run(function () {
-            ui.status.setText("抽完了：成功 " + 成功 + "、跳過 " + 跳過);
+            var head = (停了 ? "已停止" : "抽完了") + "：成功 " + 成功 + "、跳過 " + 跳過;
+            var body;
+            if (跳過清單.length === 0) {
+                body = "\n（全部都抽到了，沒有跳過的）";
+            } else {
+                body = "\n\n沒抽成功的（通常是沒加好友或該店沒這型號）：\n" + 跳過清單.join("\n");
+            }
+            ui.status.setText(head + body);
             updateCount();
         });
-        toast("抽完了！成功 " + 成功 + "、跳過 " + 跳過);
+        toast((停了 ? "已停止" : "抽完了") + "！成功 " + 成功 + "、跳過 " + 跳過);
     });
 }
 
