@@ -278,7 +278,7 @@ function runAuto(list) {
             if (跳過清單.length === 0) {
                 body = "\n（全部都抽到了，沒有跳過的）";
             } else {
-                body = "\n\n沒抽成功的（通常是沒加好友或該店沒這型號）：\n" + 跳過清單.join("\n");
+                body = "\n\n沒抽成功的：\n" + 跳過清單.join("\n");
             }
             ui.status.setText(head + body);
             updateCount();
