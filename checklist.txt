@@ -1,5 +1,5 @@
 Funbox 陀螺抽選清單
-資料版本：2026-10-07 17:12
+資料版本：2026-10-07 19:44
 公告：10/08 10/09 抽選
 來源：https://uxux11.github.io/funbox-line/
 
@@ -51,6 +51,98 @@ Funbox 台北大巨蛋店（抽選/購買時間：2026/10/08 11:00~2026/10/09 21
       https://lin.ee/QvMCNEU
   [ ] BXG-21 暴風巨神
       https://lin.ee/9DLrPH9
+
+Funbox 南港潤泰店（抽選/購買時間：2026/10/08 11:00~2026/10/09 21:00）
+  [ ] UX-01 蒼龍爆刃
+      https://lin.ee/q0fdifO
+  [ ] UX-13 魔像奇岩
+      https://lin.ee/oFxZg7k
+  [ ] UX-14 天蠍長矛
+      https://lin.ee/Zd8hxBE
+  [ ] UX-16 時鐘幻象 隨機強化組
+      https://lin.ee/xhdtH03
+  [ ] UX-17 隕星龍騎士（左迴旋）
+      https://lin.ee/Q43LDso
+  [ ] CX-00 新世紀福音戰士改造組
+      https://lin.ee/Of3Hu1R
+  [ ] CX-02 魔導至尊
+      https://lin.ee/wXy5bI8
+  [ ] CX-03 英仙幽冥
+      https://lin.ee/p4DhyHX
+  [ ] CX-13 龍王閃擊
+      https://lin.ee/vwKM43g
+  [ ] CX-15 邪神狂怒
+      https://lin.ee/o8BA92o
+  [ ] CX-16 極限衝擊對戰組C
+      https://lin.ee/QOq1Fye
+  [ ] BXG-01 烈焰飛鳳S
+      https://lin.ee/NdJHy3z
+
+Funbox 天母SOGO店（抽選/購買時間：2026/10/08 11:00~2026/10/09 21:00）
+  加好友 @377cbfue  https://line.me/ti/p/~@377cbfue
+  [ ] UX-01 蒼龍爆刃
+      https://lin.ee/vTGFsov
+  [ ] UX-03 魔導神杖
+      https://lin.ee/vMV5cgj
+  [ ] UX-13 魔像奇岩
+      https://lin.ee/5cD9JpE
+  [ ] UX-16 時鐘幻象 隨機強化組
+      https://lin.ee/Wc13vwX
+  [ ] UX-16 時鐘幻象 隨機強化組（此券可購買數量2個）
+      https://lin.ee/xWxZf48
+  [ ] UX-17 隕星龍騎士
+      https://lin.ee/safxb1Q
+  [ ] UX-19 子彈獅鷲
+      https://lin.ee/X54aPph
+  [ ] CX-00 新世紀福音戰士改造組
+      https://lin.ee/NSZxYPf
+  [ ] CX-01 蒼龍勇氣
+      https://lin.ee/PNElaT9
+  [ ] CX-02 魔導至尊
+      https://lin.ee/Y1orMbn
+  [ ] CX-03 英仙幽冥
+      https://lin.ee/xcvssQV
+  [ ] CX-08 隨機強化組 Vol.7
+      https://lin.ee/YXTKLCk
+  [ ] CX-13 龍王閃擊
+      https://lin.ee/xqpXSej
+  [ ] CX-14 騎士堡壘
+      https://lin.ee/qYAOOPT
+  [ ] CX-15 邪神狂怒
+      https://lin.ee/6KRlj3m
+  [ ] CX-17 隨機強化組 Vol.10（此券可購買數量1個）
+      https://lin.ee/vL3fOFD
+  [ ] CX-19 鱷魚裂甲
+      https://lin.ee/7whQVNT
+
+Funbox 高島屋百貨店（抽選/購買時間：2026/10/08 10:30~2026/10/09 21:00）
+  加好友 @xbm4599s  https://line.me/ti/p/~@xbm4599s
+  [ ] BX-00 蒼龍神劍3-60F V2
+      https://lin.ee/ZcpXMwD
+  [ ] BX-26 獨角刺心
+      https://lin.ee/TnT1Q8y
+  [ ] BX-33 皓戰猛虎
+      https://lin.ee/xbTMiYX
+  [ ] UX-02 惡魔戰錘
+      https://lin.ee/9mbfZNm
+  [ ] UX-03 魔導神杖
+      https://lin.ee/sK4uc9ci
+  [ ] UX-15 鮫鯊狂鱗改造組
+      https://lin.ee/Z2M5usd
+  [ ] UX-19 子彈獅鷲H
+      https://lin.ee/TVSrIvz
+  [ ] UX-21 惡魔冥界改造組
+      https://lin.ee/ZCzF45M
+  [ ] CX-00 迪卡狂怒 FT3-60T
+      https://lin.ee/RGfh49z
+  [ ] CX-00 新世紀福音戰士改造組
+      https://lin.ee/5yc9FNq
+  [ ] CX-11 帝王威能
+      https://lin.ee/VKJdOmE
+  [ ] CX-13 龍王閃擊
+      https://lin.ee/R02V80U
+  [ ] CX-16 極限衝擊對戰組C
+      https://lin.ee/6rBqgPB
 
 ### 新北市 ###
 
@@ -162,41 +254,6 @@ Funbox 廣三SOGO店（抽選/購買時間：2026/10/08 11:00~2026/10/09 21:00�
   [ ] CX-15 邪神狂怒
       https://lin.ee/6CqgJzT
 
-### 嘉義市 ###
-
-Funbox 嘉義遠東店（抽選資格：2026/10/08 11:00~2026/10/09 20:30；中籤購買：10/08 11:00~21:30、10/09 11:00~20:30）
-  加好友 @gno1826d  https://line.me/ti/p/~@gno1826d
-  [ ] UX-01 蒼龍爆刃
-      https://lin.ee/nA8H64R
-  [ ] UX-13 磨像奇岩
-      https://lin.ee/yb7fFFm
-  [ ] UX-14 天蠍長矛0-70Z
-      https://lin.ee/W4a6Wqe
-  [ ] UX-15 鮫殺狂鱗改造組
-      https://lin.ee/z7hfuTF
-  [ ] UX-16 時鐘幻象隨機強化組
-      https://lin.ee/ZqD2IYF
-  [ ] UX-19 子彈獅鷲H
-      https://lin.ee/zQ2CGee
-  [ ] CX-00 新世紀福音戰士改造組
-      https://lin.ee/xqVfJOG
-  [ ] CX-01 蒼龍勇氣
-      https://lin.ee/xf010Yl
-  [ ] CX-02 魔導至尊
-      https://lin.ee/V1MiopM
-  [ ] CX-03 英仙幽冥
-      https://lin.ee/xF0TRn8
-  [ ] CX-11 帝王威能
-      https://lin.ee/5zQFKWI
-  [ ] CX-13 龍王閃擊
-      https://lin.ee/ZwT2Xw9
-  [ ] CX-14 騎士堡壘
-      https://lin.ee/VstcTgi
-  [ ] CX-15 邪神狂怒
-      https://lin.ee/uVJs4Pl
-  [ ] CX-16 極限衝擊對戰組
-      https://lin.ee/oeQkCOj
-
 ### 雲林縣 ###
 
 來玩聚-斗六店（抽選/購買時間：2026/10/08 10:00~2026/10/09 21:00）
@@ -238,6 +295,183 @@ Funbox 嘉義遠東店（抽選資格：2026/10/08 11:00~2026/10/09 20:30；中�
   [ ] CX-16 極限衝擊對戰組C
       https://lin.ee/YgEG7raU
 
+### 嘉義市 ###
+
+Funbox 嘉義遠東店（抽選資格：2026/10/08 11:00~2026/10/09 20:30；中籤購買：10/08 11:00~21:30、10/09 11:00~20:30）
+  加好友 @gno1826d  https://line.me/ti/p/~@gno1826d
+  [ ] UX-01 蒼龍爆刃
+      https://lin.ee/nA8H64R
+  [ ] UX-13 磨像奇岩
+      https://lin.ee/yb7fFFm
+  [ ] UX-14 天蠍長矛0-70Z
+      https://lin.ee/W4a6Wqe
+  [ ] UX-15 鮫殺狂鱗改造組
+      https://lin.ee/z7hfuTF
+  [ ] UX-16 時鐘幻象隨機強化組
+      https://lin.ee/ZqD2IYF
+  [ ] UX-19 子彈獅鷲H
+      https://lin.ee/zQ2CGee
+  [ ] CX-00 新世紀福音戰士改造組
+      https://lin.ee/xqVfJOG
+  [ ] CX-01 蒼龍勇氣
+      https://lin.ee/xf010Yl
+  [ ] CX-02 魔導至尊
+      https://lin.ee/V1MiopM
+  [ ] CX-03 英仙幽冥
+      https://lin.ee/xF0TRn8
+  [ ] CX-11 帝王威能
+      https://lin.ee/5zQFKWI
+  [ ] CX-13 龍王閃擊
+      https://lin.ee/ZwT2Xw9
+  [ ] CX-14 騎士堡壘
+      https://lin.ee/VstcTgi
+  [ ] CX-15 邪神狂怒
+      https://lin.ee/uVJs4Pl
+  [ ] CX-16 極限衝擊對戰組
+      https://lin.ee/oeQkCOj
+
+### 高雄市 ###
+
+Funbox 漢神巨蛋店（抽選/購買時間：2026/10/08 11:00~2026/10/09 21:00）
+  加好友 @ldh6278d  https://line.me/ti/p/~@ldh6278d
+  [ ] UX-01 蒼龍爆刃
+      https://lin.ee/RSwVjEG
+  [ ] UX-03 魔導神杖
+      https://lin.ee/O3ilb0o
+  [ ] UX-15 邪神狂怒
+      https://lin.ee/nAtp8FG
+  [ ] UX-17 隕星龍騎士
+      https://lin.ee/8bZAXSw
+  [ ] CX-00 新世紀福音戰士改造組
+      https://lin.ee/PBPs2Fe
+
+Funbox 高雄漢神店（抽選/購買時間：2026/10/08 11:00~2026/10/09 21:00）
+  加好友 @897upgfr  https://line.me/ti/p/~@897upgfr
+  [ ] UX-01 蒼龍爆刃
+      https://lin.ee/6f0ugqD
+  [ ] UX-15 鮫鯊狂鱗改造組
+      https://lin.ee/suXnYQf
+  [ ] UX-16 抽包
+      https://lin.ee/8owp6OH
+  [ ] UX-20 榮耀武神
+      https://lin.ee/XOMEcwe
+  [ ] CX-00 福音戰士改造組
+      https://lin.ee/R56KO2Z
+  [ ] CX-02 魔導至尊
+      https://lin.ee/tx7lDbN
+  [ ] CX-03 英仙幽冥
+      https://lin.ee/wsDrV9oR
+  [ ] CX-05 抽包
+      https://lin.ee/UB4i6Ku
+  [ ] CX-08 抽包
+      https://lin.ee/saBn7sJ
+  [ ] CX-13 龍王閃擊
+      https://lin.ee/8Gza00g
+  [ ] CX-14 騎士堡壘
+      https://lin.ee/rcaTs8W
+  [ ] CX-15 邪神狂怒
+      https://lin.ee/61S32QT
+
+Funbox 高雄大立店（抽選/購買時間：2026/10/08 11:00~2026/10/09 20:30）
+  加好友 @917hatdy  https://line.me/ti/p/~@917hatdy
+  [ ] UX-13 魔像奇岩
+      https://lin.ee/u0B67V9
+  [ ] UX-14 天蠍長矛
+      https://lin.ee/W9fP2ZY
+  [ ] UX-20 榮耀武神
+      https://lin.ee/uG0H6ADJ
+  [ ] CX-00 新世紀福音戰士改造組
+      https://lin.ee/t9F0ZCv
+  [ ] CX-03 英仙幽冥
+      https://lin.ee/OTE21vf
+  [ ] CX-05 隨機強化組 Vol.6
+      https://lin.ee/oU6vhBb
+  [ ] CX-08 隨機強化組 Vol.7
+      https://lin.ee/PceaQqk
+  [ ] CX-15 邪神狂怒
+      https://lin.ee/n7PE8i8
+  [ ] CX-16 極限衝擊對戰組C
+      https://lin.ee/s2ZmeCi
+
+Funbox 夢時代店（抽選/購買時間：2026/10/08 11:00~2026/10/09 21:00）
+  加好友 @ott3541o  https://line.me/ti/p/~@ott3541o
+  [ ] UX-01 蒼龍爆刃
+      https://lin.ee/PdDmgK6
+  [ ] UX-13 魔像奇岩
+      https://lin.ee/pvbOOKD
+  [ ] UX-14 天蠍長矛0-70Z
+      https://lin.ee/zaxXyi5
+  [ ] UX-16 時鐘幻象 隨機強化組
+      https://lin.ee/SGuqhah
+  [ ] UX-17 隕星龍騎士3-70J
+      https://lin.ee/U8gm8rs
+  [ ] CX-00 新世紀福音戰士改造組
+      https://lin.ee/s6OCTWh
+  [ ] CX-01 蒼龍勇氣
+      https://lin.ee/5X3fQuX
+  [ ] CX-02 魔導至尊
+      https://lin.ee/zBj0aeWb
+  [ ] CX-03 英仙幽冥
+      https://lin.ee/OvkSlVCW
+  [ ] CX-13 龍王閃擊
+      https://lin.ee/o1WbgYqr
+  [ ] CX-14 騎士堡壘
+      https://lin.ee/ZxtWkaz
+  [ ] CX-15 邪神狂怒
+      https://lin.ee/zxStgCd
+  [ ] CX-16 極限衝擊對戰組C
+      https://lin.ee/pAlTOBR
+  [ ] CX-17 隨機強化組 Vol.10
+      https://lin.ee/NbyrkUgs
+
+Funbox 大魯閣新光店（抽選/購買時間：2026/10/08 11:00~2026/10/09 21:00）
+  加好友 @fko7562c  https://line.me/ti/p/~@fko7562c
+  [ ] UX-01 蒼龍爆刃
+      https://lin.ee/O5dcEiGN
+  [ ] UX-13 魔像奇岩
+      https://lin.ee/VsMutB1
+  [ ] UX-16 時鐘幻象 隨機強化組
+      https://lin.ee/nwb7ZvH
+  [ ] CX-01 蒼龍勇氣
+      https://lin.ee/sP1XxJD
+  [ ] CX-02 魔導至尊
+      https://lin.ee/8v2FpO0
+  [ ] CX-03 英仙幽冥
+      https://lin.ee/wQIvvch
+  [ ] CX-05 隨機強化組 Vol.6
+      https://lin.ee/Yc103HY
+  [ ] CX-08 隨機強化組 Vol.7
+      https://lin.ee/QkFG2oB
+  [ ] CX-13 龍王閃擊
+      https://lin.ee/V0GHb1k
+  [ ] CX-14 騎士堡壘
+      https://lin.ee/yKdg1T1
+  [ ] CX-15 邪神狂怒
+      https://lin.ee/twdrT3t
+  [ ] CX-16 極限衝擊對戰組C
+      https://lin.ee/uo7nJNt
+
+Funbox 崇光高雄店（抽選/購買時間：2026/10/08 11:00~2026/10/09 21:00）
+  加好友 @845nallq  https://line.me/ti/p/~@845nallq
+  [ ] UX-01 蒼龍爆刃
+      https://lin.ee/WQrzVgH
+  [ ] UX-13 魔像奇岩
+      https://lin.ee/PxOl6Mm
+  [ ] UX-16 時鐘幻象 隨機強化組
+      https://lin.ee/V1F51Td
+  [ ] UX-17 隕星龍騎士3-70J
+      https://lin.ee/vK6mLtt
+  [ ] CX-00 新世紀福音戰士改造組
+      https://lin.ee/OQ4hgdA
+  [ ] CX-02 魔導至尊
+      https://lin.ee/vAcWddkt
+  [ ] CX-03 英仙幽冥
+      https://lin.ee/ndjXyGa
+  [ ] CX-13 龍王閃擊
+      https://lin.ee/Sgx7CRh
+  [ ] CX-15 邪神狂怒
+      https://lin.ee/ymRMvTC
+
 ### 屏東縣 ###
 
 來玩聚-新屏店（抽選/購買時間：2026/10/08 11:00~2026/10/09 20:00）
@@ -262,6 +496,33 @@ Funbox 嘉義遠東店（抽選資格：2026/10/08 11:00~2026/10/09 20:30；中�
       https://lin.ee/UjoNAQ0
   [ ] CX-16 極限衝擊對戰組C
       https://lin.ee/nrg6ffb
+
+Funbox 屏東太平洋店（抽選/購買時間：2026/10/08 11:00~2026/10/09 21:00）
+  加好友 @ess7711t  https://line.me/ti/p/~@ess7711t
+  [ ] UX-13 魔像奇岩
+      https://lin.ee/OtJQlsn
+  [ ] UX-14 天蠍長矛0-70Z
+      https://lin.ee/5XL03Rg
+  [ ] CX-01 蒼龍勇氣
+      https://lin.ee/QG9SbrgV
+  [ ] CX-02 魔導至尊
+      https://lin.ee/vSNoJvz
+  [ ] CX-03 英仙幽冥
+      https://lin.ee/v88UqX9
+  [ ] CX-08 隨機強化組 Vol.7
+      https://lin.ee/qBRvYwl
+  [ ] CX-11 帝王威能
+      https://lin.ee/xlLNdyq
+  [ ] CX-13 龍王閃擊
+      https://lin.ee/uScoofB7
+  [ ] CX-14 騎士堡壘
+      https://lin.ee/XSjzN4H
+  [ ] CX-15 邪神狂怒
+      https://lin.ee/yy9hutX
+  [ ] CX-16 極限衝擊對戰組C
+      https://lin.ee/TJOQPcG
+  [ ] CX-17 隨機強化組 Vol.10
+      https://lin.ee/SvzWemF
 
 ### 宜蘭縣 ###
 
@@ -290,5 +551,19 @@ Funbox 宜蘭新月廣場店（抽選/購買時間：2026/10/08 11:00~22:00；20
   [ ] CX-15 邪神狂怒
       https://lin.ee/YOOhukN
 
+### 澎湖縣 ###
+
+Funbox 澎湖3號港店（抽選/購買時間：2026/10/08 10:00~2026/10/09 20:30）
+  [ ] BX-00 蒼龍神劍3-60F V2
+      https://lin.ee/WYUiS2fV
+  [ ] BX-00 暴風天馬3-70RA
+      https://lin.ee/QDubEC5
+  [ ] UX-21 惡魔冥界改造組
+      https://lin.ee/RWpyBQu
+  [ ] CX-00 迪卡狂怒 FT3-60T
+      https://lin.ee/o9dkuJ0
+  [ ] CX-13 龍王閃擊
+      https://lin.ee/W9qLf9v
+
 ========================================================
-合計 10 間門市 / 119 個抽選項目
+合計 21 間門市 / 239 個抽選項目
