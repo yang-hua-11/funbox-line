@@ -139,16 +139,6 @@
      "u": "https://lin.ee/8LGKQv0"
     },
     {
-     "p": "CX-09 焰神滅世",
-     "c": "CX-09",
-     "u": "https://lin.ee/69scjuh"
-    },
-    {
-     "p": "CX-10 銀狼狩獵",
-     "c": "CX-10",
-     "u": "https://lin.ee/P0m4dwx"
-    },
-    {
      "p": "BXG-20 巨岩雄獅",
      "c": "BXG-20",
      "u": "https://lin.ee/QvMCNEU"
@@ -157,6 +147,16 @@
      "p": "BXG-21 暴風巨神",
      "c": "BXG-21",
      "u": "https://lin.ee/9DLrPH9"
+    },
+    {
+     "p": "CX-09 焰神滅世",
+     "c": "CX-09",
+     "u": "https://lin.ee/69scjuh"
+    },
+    {
+     "p": "CX-10 銀狼狩獵",
+     "c": "CX-10",
+     "u": "https://lin.ee/P0m4dwx"
     }
    ]
   },
@@ -166,6 +166,11 @@
    "time": "抽選/購買時間：2026/10/08 11:00~2026/10/09 21:00",
    "st": "11:00",
    "items": [
+    {
+     "p": "BXG-01 烈焰飛鳳S",
+     "c": "BXG-01",
+     "u": "https://lin.ee/NdJHy3z"
+    },
     {
      "p": "UX-01 蒼龍爆刃",
      "c": "UX-01",
@@ -220,11 +225,6 @@
      "p": "CX-16 極限衝擊對戰組C",
      "c": "CX-16",
      "u": "https://lin.ee/QOq1Fye"
-    },
-    {
-     "p": "BXG-01 烈焰飛鳳S",
-     "c": "BXG-01",
-     "u": "https://lin.ee/NdJHy3z"
     }
    ]
   },
@@ -433,6 +433,11 @@
    "st": "11:00",
    "items": [
     {
+     "p": "BXG-04 銀牙烈虎S",
+     "c": "BXG-04",
+     "u": "https://lin.ee/PmQfKEG"
+    },
+    {
      "p": "UX-14 天蠍長矛0-70Z",
      "c": "UX-14",
      "u": "https://lin.ee/9vXi7ND"
@@ -486,11 +491,6 @@
      "p": "CX-16 極限對戰組C",
      "c": "CX-16",
      "u": "https://lin.ee/VzEJs3C"
-    },
-    {
-     "p": "BXG-04 銀牙烈虎S",
-     "c": "BXG-04",
-     "u": "https://lin.ee/PmQfKEG"
     }
    ],
    "oa": "@237annfd",
@@ -887,11 +887,6 @@
    "time": "抽選/購買時間：2026/10/08 11:00~2026/10/09 21:00",
    "st": "11:00",
    "items": [
-    {
-     "p": "BX-09 戰鬥陀螺X通行證",
-     "c": "BX-09",
-     "u": "https://lin.ee/xQzTBxs"
-    },
     {
      "p": "BX-37 雙重極限衝擊戰鬥盤 豪華組",
      "c": "BX-37",
@@ -1614,16 +1609,6 @@
    "st": "11:00",
    "items": [
     {
-     "p": "BXG-01 烈焰飛鳳S",
-     "c": "BXG-01",
-     "u": "https://lin.ee/X09h5ko"
-    },
-    {
-     "p": "BXG-04 銀牙烈虎S",
-     "c": "BXG-04",
-     "u": "https://lin.ee/OUiUl44"
-    },
-    {
      "p": "BX-09 戰鬥陀螺X通行證",
      "c": "BX-09",
      "u": "https://lin.ee/YouMWhj"
@@ -1632,6 +1617,16 @@
      "p": "BX-26 獨角刺心",
      "c": "BX-26",
      "u": "https://lin.ee/rWMcS2y"
+    },
+    {
+     "p": "BXG-01 烈焰飛鳳S",
+     "c": "BXG-01",
+     "u": "https://lin.ee/X09h5ko"
+    },
+    {
+     "p": "BXG-04 銀牙烈虎S",
+     "c": "BXG-04",
+     "u": "https://lin.ee/OUiUl44"
     },
     {
      "p": "UX-01 蒼龍爆刃",
@@ -2109,6 +2104,11 @@
    "st": "11:00",
    "items": [
     {
+     "p": "BXG-01 烈焰飛鳳S",
+     "c": "BXG-01",
+     "u": "https://lin.ee/Zox1Tga"
+    },
+    {
      "p": "UX-01 蒼龍爆刃",
      "c": "UX-01",
      "u": "https://lin.ee/VOySukH"
@@ -2192,11 +2192,6 @@
      "p": "CX-16 極限衝擊對戰組C",
      "c": "CX-16",
      "u": "https://lin.ee/VoyX9Uy"
-    },
-    {
-     "p": "BXG-01 烈焰飛鳳S",
-     "c": "BXG-01",
-     "u": "https://lin.ee/Zox1Tga"
     }
    ],
    "oa": "@642vdyvq",
@@ -3237,11 +3232,6 @@
      "u": "https://lin.ee/Nbfmuiz"
     },
     {
-     "p": "UX-03 魔導神杖",
-     "c": "UX-03",
-     "u": "https://lin.ee/Op5WwoQ"
-    },
-    {
      "p": "UX-13 魔像奇岩",
      "c": "UX-13",
      "u": "https://lin.ee/qh9JVCL"
@@ -3265,6 +3255,11 @@
      "p": "CX-01 蒼龍勇氣",
      "c": "CX-01",
      "u": "https://lin.ee/Tryt4n3"
+    },
+    {
+     "p": "CX-02 魔導至尊",
+     "c": "CX-02",
+     "u": "https://lin.ee/Op5WwoQ"
     },
     {
      "p": "CX-03 英仙幽冥",
@@ -3987,6 +3982,11 @@
    "st": "10:00",
    "items": [
     {
+     "p": "BXG-04 銀牙烈虎S",
+     "c": "BXG-04",
+     "u": "https://lin.ee/T9XzxHE"
+    },
+    {
      "p": "UX-01 蒼龍爆刃",
      "c": "UX-01",
      "u": "https://lin.ee/q4yvCBr"
@@ -4025,11 +4025,6 @@
      "p": "CX-15 邪神狂怒",
      "c": "CX-15",
      "u": "https://lin.ee/SX58yBd"
-    },
-    {
-     "p": "BXG-04 銀牙烈虎S",
-     "c": "BXG-04",
-     "u": "https://lin.ee/T9XzxHE"
     }
    ],
    "oa": "@022itqlw",
@@ -4172,9 +4167,14 @@
    "st": "10:00",
    "items": [
     {
-     "p": "CX-08 隨機強化組",
-     "c": "CX-08",
-     "u": "https://lin.ee/Xsi1PwB"
+     "p": "UX-01 蒼龍爆刃",
+     "c": "UX-01",
+     "u": "https://lin.ee/z151d6K"
+    },
+    {
+     "p": "UX-14 天蠍長矛",
+     "c": "UX-14",
+     "u": "https://lin.ee/VRkixSh"
     },
     {
      "p": "UX-16 時鐘幻象 隨機強化組",
@@ -4182,29 +4182,9 @@
      "u": "https://lin.ee/tJiNDX3"
     },
     {
-     "p": "CX-13 龍王閃擊",
-     "c": "CX-13",
-     "u": "https://lin.ee/SDPJXo8"
-    },
-    {
-     "p": "UX-01 蒼龍爆刃",
-     "c": "UX-01",
-     "u": "https://lin.ee/z151d6K"
-    },
-    {
-     "p": "CX-02 魔導至尊",
-     "c": "CX-02",
-     "u": "https://lin.ee/yYbM8AM"
-    },
-    {
      "p": "UX-17 隕星龍騎士",
      "c": "UX-17",
      "u": "https://lin.ee/oFWeDsT"
-    },
-    {
-     "p": "CX-14 騎士堡壘",
-     "c": "CX-14",
-     "u": "https://lin.ee/tzvAn82"
     },
     {
      "p": "CX-01 蒼龍勇氣",
@@ -4212,9 +4192,24 @@
      "u": "https://lin.ee/s7qKGYs"
     },
     {
-     "p": "UX-14 天蠍長矛",
-     "c": "UX-14",
-     "u": "https://lin.ee/VRkixSh"
+     "p": "CX-02 魔導至尊",
+     "c": "CX-02",
+     "u": "https://lin.ee/yYbM8AM"
+    },
+    {
+     "p": "CX-08 隨機強化組",
+     "c": "CX-08",
+     "u": "https://lin.ee/Xsi1PwB"
+    },
+    {
+     "p": "CX-13 龍王閃擊",
+     "c": "CX-13",
+     "u": "https://lin.ee/SDPJXo8"
+    },
+    {
+     "p": "CX-14 騎士堡壘",
+     "c": "CX-14",
+     "u": "https://lin.ee/tzvAn82"
     }
    ],
    "oa": "@241cmnww",
