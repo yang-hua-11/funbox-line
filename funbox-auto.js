@@ -30,8 +30,10 @@ var DATA = null;        // 抓下來的 data.json
 var STORES = [];        // 門市陣列
 var CITIES = [];        // 縣市清單
 var CODES = [];         // 型號清單
+var TIMES = [];         // 開始時間清單
 var selCities = {};     // 已選縣市
 var selCodes = {};      // 已選型號
+var selTimes = {};      // 已選時間
 var keyword = "";       // 搜尋關鍵字
 
 // ---------- 已抽記錄：{ "門市|品名": "YYYY-MM-DD" } ----------
@@ -62,6 +64,9 @@ ui.layout(
 
                 <text textSize="13sp" textColor="#6b7480" textStyle="bold" marginTop="8">型號（可複選，不選=全部）</text>
                 <vertical id="codeChips" marginTop="2"/>
+
+                <text textSize="13sp" textColor="#6b7480" textStyle="bold" marginTop="8">開始時間（可複選，不選=全部）</text>
+                <vertical id="timeChips" marginTop="2"/>
 
                 <horizontal marginTop="10" gravity="center_vertical">
                     <checkbox id="skipDone" checked="true"/>
@@ -112,10 +117,12 @@ function loadData() {
 }
 
 function buildIndex() {
-    var citySeen = {}, codeSeen = {};
-    CITIES = []; CODES = [];
+    var citySeen = {}, codeSeen = {}, timeSeen = {};
+    CITIES = []; CODES = []; TIMES = [];
     STORES.forEach(function (s) {
         if (!citySeen[s.city]) { citySeen[s.city] = true; CITIES.push(s.city); }
+        var t = (s.st || "").trim();
+        if (t && !timeSeen[t]) { timeSeen[t] = true; TIMES.push(t); }
         s.items.forEach(function (it) {
             var c = it.c || "其他";
             if (!codeSeen[c]) { codeSeen[c] = true; CODES.push(c); }
@@ -128,6 +135,7 @@ function buildIndex() {
         if (pa[0] !== pb[0]) return pa[0] < pb[0] ? -1 : 1;
         return (parseInt(pa[1]) || 0) - (parseInt(pb[1]) || 0);
     });
+    TIMES.sort(function (a, b) { return a.localeCompare(b, undefined, { numeric: true }); });
 }
 
 // ============ 篩選晶片（自動換行，每排 PER_ROW 個） ============
@@ -178,6 +186,16 @@ function renderChips() {
             else selCodes[lb] = !selCodes[lb];
             renderChips(); updateCount();
         });
+
+    // 開始時間：第一個是「全部」
+    var timeLabels = ["全部"].concat(TIMES);
+    fillChips(ui.timeChips, timeLabels,
+        function (lb) { return lb === "全部" ? !anyOn(selTimes) : !!selTimes[lb]; },
+        function (lb) {
+            if (lb === "全部") selTimes = {};
+            else selTimes[lb] = !selTimes[lb];
+            renderChips(); updateCount();
+        });
 }
 
 // ============ 篩選邏輯（跟網頁一致） ============
@@ -189,11 +207,12 @@ function matchKw(store, item) {
     return true;
 }
 function filteredLinks() {
-    var cityOn = anyOn(selCities), codeOn = anyOn(selCodes);
+    var cityOn = anyOn(selCities), codeOn = anyOn(selCodes), timeOn = anyOn(selTimes);
     var skip = ui.skipDone.isChecked();
     var out = [], seen = {};
     STORES.forEach(function (s) {
         if (cityOn && !selCities[s.city]) return;
+        if (timeOn && !selTimes[(s.st || "").trim()]) return;
         s.items.forEach(function (it) {
             var c = it.c || "其他";
             if (codeOn && !selCodes[c]) return;
