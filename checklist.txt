@@ -1,5 +1,5 @@
 Funbox 陀螺抽選清單
-資料版本：2026-10-08 11:23
+資料版本：2026-10-08 11:24
 公告：10/08 10/09 抽選
 來源：https://uxux11.github.io/funbox-line/
 
@@ -1175,6 +1175,41 @@ Funbox 嘉義遠東店（抽選資格：2026/10/08 11:00~2026/10/09 20:30；中�
   [ ] CX-16 極限衝擊對戰組
       https://lin.ee/oeQkCOj
 
+Funbox 嘉義耐斯（抽選/購買時間：2026/10/08 11:00~22:00；2026/10/09 11:00~21:00）
+  加好友 @121nsdww  https://line.me/ti/p/~@121nsdww
+  [ ] UX-01 蒼龍爆刃
+      https://lin.ee/S9RlGoj
+  [ ] UX-03 魔導神杖
+      https://lin.ee/Qy1W0FX
+  [ ] UX-13 魔像奇岩
+      https://lin.ee/yfB1qxm
+  [ ] UX-14 天蠍長矛0-70Z
+      https://lin.ee/wyCtKw3
+  [ ] UX-16 時鐘幻象 隨機強化組
+      https://lin.ee/55T9NcH
+  [ ] UX-17 隕星龍騎士3-70J
+      https://lin.ee/WcQNvwY
+  [ ] CX-00 新世紀福音戰士改造組
+      https://lin.ee/RfEofCY
+  [ ] CX-01 蒼龍勇氣
+      https://lin.ee/sQCii45
+  [ ] CX-02 魔導至尊
+      https://lin.ee/sNzeyut
+  [ ] CX-03 英仙幽冥
+      https://lin.ee/uVwGk89r
+  [ ] CX-05 隨機強化組 Vol.6
+      https://lin.ee/Q0JFW5a
+  [ ] CX-08 隨機強化組 Vol.7
+      https://lin.ee/tk0Qbyd
+  [ ] CX-13 龍王閃擊
+      https://lin.ee/vClcgQe
+  [ ] CX-14 騎士堡壘
+      https://lin.ee/sd10n29
+  [ ] CX-15 邪神狂怒
+      https://lin.ee/OSzkONv
+  [ ] CX-16 極限衝擊對戰組C
+      https://lin.ee/UURfesr
+
 ### 雲林縣 ###
 
 來玩聚-斗六店（抽選/購買時間：2026/10/08 10:00~2026/10/09 21:00）
@@ -1721,4 +1756,4 @@ Funbox 台南遠百店（抽選/購買時間：2026/10/08 11:00~2026/10/09 21:00
       https://lin.ee/UisiMdA
 
 ========================================================
-合計 64 間門市 / 747 個抽選項目
+合計 65 間門市 / 763 個抽選項目
