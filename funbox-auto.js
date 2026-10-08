@@ -17,10 +17,11 @@
 // ============ 設定（通常不用改） ============
 var DATA_URL       = "https://yang-hua-11.github.io/funbox-line/data.json";
 var 抽獎按鈕文字     = "參加抽獎";  // 官方若改字（例如「參加」「應募」），改這裡
-var 等按鈕最久秒數   = 8;           // 一個連結最多等幾秒還沒出現按鈕就跳過
-var 看到按鈕先等秒數 = 0.4;         // 看到「參加抽獎」後，先等一下讓頁面穩定再點（太快點會無效）
-var 點完停留秒數     = 0.8;         // 點下去後停多久再開下一個（讓 LINE 真的把抽選送出去，別太短）
-var 開頁面後等秒數   = 1.0;         // 開連結後先等一下讓 LINE 起來
+var 等按鈕最久秒數   = 4;           // 一個連結最多等幾秒還沒出現按鈕就跳過
+var 掃描間隔秒數     = 0.08;        // 多久掃一次按鈕，越小抓越快
+var 確認消失最久秒數 = 1.2;         // 點完後最多等幾秒確認按鈕消失（消失=成功，立刻換下一個）
+var 點完停留秒數     = 0;           // 已改成偵測按鈕消失，不再固定空等
+var 下一個前等秒數   = 0.05;        // 開下一個連結前的極短緩衝
 var STORAGE_NAME   = "funbox_auto"; // 存已抽記錄用
 // ==========================================
 
@@ -275,22 +276,18 @@ function runAuto(list) {
             (function (txt) { ui.run(function () { ui.status.setText(txt); }); })(序 + item.name + " " + item.p);
 
             app.openUrl(item.url);
-            sleep(開頁面後等秒數 * 1000);
-
+            // 開了連結就立刻狂掃按鈕，一出現馬上點，不固定空等
             var btn = 找抽獎按鈕(等按鈕最久秒數 * 1000);
             if (btn) {
-                sleep(看到按鈕先等秒數 * 1000);   // 看到按鈕先等頁面穩定，避免太早點無效
-                btn = 找抽獎按鈕(2000) || btn;    // 重新抓一次最新的按鈕（頁面可能重排過）
-                點它(btn);
+                點它(btn);   // 內部會偵測按鈕消失，一消失立刻回來，不固定空等
                 markDone(item.key);
                 成功++;
-                sleep(點完停留秒數 * 1000);        // 停久一點，讓 LINE 把抽選真的送出去
             } else {
                 跳過++;
                 跳過清單.push("• " + item.name + "｜" + item.p);
             }
-            home();
-            sleep(600);
+            // 不回桌面，直接開下一個連結（省掉 home + 重載的時間）
+            if (下一個前等秒數 > 0) sleep(下一個前等秒數 * 1000);
         }
         running = false;
         var 停了 = (處理數 < list.length);  // 中途被按返回停掉
@@ -322,7 +319,7 @@ function 找抽獎按鈕(timeoutMs) {
         if (!w) w = textContains(抽獎按鈕文字).findOnce();
         if (!w) w = desc(抽獎按鈕文字).findOnce();
         if (w) return w;
-        sleep(400);
+        sleep(掃描間隔秒數 * 1000);
     }
     return null;
 }
@@ -342,18 +339,26 @@ function 座標點(w) {
         return click(b.centerX(), b.centerY());
     } catch (e) { return false; }
 }
+// 等「參加抽獎」從畫面消失，代表點擊真的生效、頁面有在反應
+// 回傳 true=已消失(成功)，false=等到逾時還在
+function 等按鈕消失(timeoutMs) {
+    var 截止 = Date.now() + timeoutMs;
+    while (Date.now() < 截止) {
+        if (!running) return true;
+        if (!textContains(抽獎按鈕文字).findOnce() && !desc(抽獎按鈕文字).findOnce()) return true;
+        sleep(60);
+    }
+    return false;
+}
 function 點它(w) {
     // 1) 先點可點父層（真正的按鈕通常是文字的父容器）
     var target = 找可點父層(w);
     try { target.click(); } catch (e) {}
-    sleep(300);
-    // 2) 不管上面有沒有生效，再用座標硬點一次文字中心，雙保險
+    // 點完立刻偵測按鈕是否消失，一消失就馬上回去開下一個，不死等
+    if (等按鈕消失(確認消失最久秒數 * 1000)) return;
+    // 2) 還在 → 用座標硬點一次文字中心（LINE 一定收得到），再等一下
     座標點(w);
-    sleep(300);
-    // 3) 若「參加抽獎」還在畫面上，代表還沒點進去，再座標點一次
-    if (textContains(抽獎按鈕文字).findOnce()) {
-        座標點(w);
-    }
+    等按鈕消失(確認消失最久秒數 * 1000);
 }
 
 // ============ 啟動 ============
