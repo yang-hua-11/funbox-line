@@ -326,10 +326,34 @@ function 找抽獎按鈕(timeoutMs) {
     }
     return null;
 }
+// 往上找「可點」的父層；找不到就回傳自己
+function 找可點父層(w) {
+    var p = w;
+    for (var i = 0; i < 6 && p; i++) {
+        try { if (p.clickable()) return p; } catch (e) {}
+        p = p.parent();
+    }
+    return w;
+}
+// 用座標硬點 w 的中心（LINE 一定收得到）
+function 座標點(w) {
+    try {
+        var b = w.bounds();
+        return click(b.centerX(), b.centerY());
+    } catch (e) { return false; }
+}
 function 點它(w) {
-    try { if (w.click()) return; } catch (e) {}
-    try { var b = w.bounds(); click(b.centerX(), b.centerY()); }
-    catch (e) {}
+    // 1) 先點可點父層（真正的按鈕通常是文字的父容器）
+    var target = 找可點父層(w);
+    try { target.click(); } catch (e) {}
+    sleep(300);
+    // 2) 不管上面有沒有生效，再用座標硬點一次文字中心，雙保險
+    座標點(w);
+    sleep(300);
+    // 3) 若「參加抽獎」還在畫面上，代表還沒點進去，再座標點一次
+    if (textContains(抽獎按鈕文字).findOnce()) {
+        座標點(w);
+    }
 }
 
 // ============ 啟動 ============
