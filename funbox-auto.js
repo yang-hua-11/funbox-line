@@ -233,9 +233,10 @@ ui.layout(
 
         <vertical padding="12 8">
             <text id="count" textSize="15sp" textColor="#06c755" textStyle="bold">—</text>
-            <horizontal marginTop="2">
-                <button id="sync" style="Widget.AppCompat.Button.Borderless" layout_weight="1">🔄 同步清單</button>
-                <button id="sortcfg" style="Widget.AppCompat.Button.Borderless" layout_weight="1">⇅ 排序設定</button>
+            <button id="sync" style="Widget.AppCompat.Button.Borderless" marginTop="2">🔄 同步清單（抓最新資料）</button>
+            <horizontal gravity="center_vertical" marginTop="2">
+                <checkbox id="firstThenRest"/>
+                <text textSize="14sp" marginLeft="4">先抽篩選的，再抽其他全部</text>
             </horizontal>
             <button id="start" style="Widget.AppCompat.Button.Colored" marginTop="2">▶ 開始自動抽</button>
         </vertical>
@@ -366,6 +367,7 @@ function matchKw(store, item) {
     for (var i = 0; i < parts.length; i++) { if (hay.indexOf(parts[i]) === -1) return false; }
     return true;
 }
+// 目前「篩選後」的連結（依縣市/型號/時間/搜尋/排除已抽）
 function filteredLinks() {
     var cityOn = anyOn(selCities), codeOn = anyOn(selCodes), timeOn = anyOn(selTimes);
     var skip = ui.skipDone.isChecked();
@@ -384,58 +386,45 @@ function filteredLinks() {
             out.push({ url: it.u, key: k, name: s.name, p: it.p, city: s.city, code: c });
         });
     });
-    return 套用排序(out);
+    return out;
 }
 
-// ============ 排序設定 ============
-// 設定存這裡：{ codes:["UX-21",...], cities:["台北市",...], mode:"code" | "city" }
-var 排序設定儲存 = storages.create("funbox_sort");
-function 讀排序設定() {
-    return {
-        codes: 排序設定儲存.get("codes", []),   // 想抽的型號/商品關鍵字，越前面越優先
-        cities: 排序設定儲存.get("cities", []),  // 地區，越前面越優先
-        mode: 排序設定儲存.get("mode", "code")   // "code"=商品優先；"city"=地區優先
-    };
-}
-function 存排序設定(codes, cities, mode) {
-    排序設定儲存.put("codes", codes);
-    排序設定儲存.put("cities", cities);
-    排序設定儲存.put("mode", mode);
-}
-// 算一個項目在某份優先清單裡的名次（越小越優先）；沒列出的排最後（給一個大數）
-function 優先名次(值, 清單) {
-    for (var i = 0; i < 清單.length; i++) {
-        var kw = 清單[i];
-        if (!kw) continue;
-        // 型號用「開頭相符或包含」，地區用完全相符或包含，都用 indexOf 容錯
-        if (值 && 值.indexOf(kw) >= 0) return i;
-    }
-    return 99999;  // 沒列出 → 排後面
-}
-// 依設定排序（穩定排序：相同權重維持原本順序）
-function 套用排序(list) {
-    var cfg = 讀排序設定();
-    var 有排序 = (cfg.codes.length > 0 || cfg.cities.length > 0);
-    if (!有排序) return list;  // 沒設定就維持原順序
-    // 幫每個項目算 code 名次、city 名次，並記原始索引（穩定排序用）
-    for (var i = 0; i < list.length; i++) {
-        list[i]._ci = 優先名次((list[i].code || "") + " " + (list[i].p || ""), cfg.codes);
-        list[i]._ri = 優先名次(list[i].city || "", cfg.cities);
-        list[i]._idx = i;
-    }
-    list.sort(function (a, b) {
-        var 第一, 第二;
-        if (cfg.mode === "city") { 第一 = ["_ri", "_ci"]; }  // 地區優先
-        else { 第一 = ["_ci", "_ri"]; }                      // 商品優先（預設）
-        if (a[第一[0]] !== b[第一[0]]) return a[第一[0]] - b[第一[0]];
-        if (a[第一[1]] !== b[第一[1]]) return a[第一[1]] - b[第一[1]];
-        return a._idx - b._idx;  // 權重相同 → 維持原順序
+// 全部連結（忽略縣市/型號/搜尋篩選，但仍遵守「排除今天已抽」）
+function 全部連結() {
+    var skip = ui.skipDone.isChecked();
+    var out = [], seen = {};
+    STORES.forEach(function (s) {
+        s.items.forEach(function (it) {
+            var c = it.c || "其他";
+            var k = itemKey(s, it);
+            if (skip && isToday(k)) return;
+            if (!it.u || seen[it.u]) return;
+            seen[it.u] = 1;
+            out.push({ url: it.u, key: k, name: s.name, p: it.p, city: s.city, code: c });
+        });
     });
-    return list;
+    return out;
+}
+
+// 開始抽要用的清單：
+//  - 若勾「先抽篩選的，再抽其他」→ 篩選的排前面，其他的接在後面（去重）
+//  - 否則 → 只抽目前篩選的
+function 抽選清單() {
+    var 篩 = filteredLinks();
+    if (!ui.firstThenRest || !ui.firstThenRest.isChecked()) return 篩;
+    var out = [], seen = {};
+    篩.forEach(function (x) { if (!seen[x.url]) { seen[x.url] = 1; out.push(x); } });
+    全部連結().forEach(function (x) { if (!seen[x.url]) { seen[x.url] = 1; out.push(x); } });
+    return out;
 }
 function updateCount() {
-    var n = filteredLinks().length;
-    ui.count.setText("目前篩選出 " + n + " 個連結");
+    var 篩 = filteredLinks().length;
+    if (ui.firstThenRest && ui.firstThenRest.isChecked()) {
+        var 全 = 抽選清單().length;
+        ui.count.setText("先抽篩選的 " + 篩 + " 個，再抽其他，共 " + 全 + " 個");
+    } else {
+        ui.count.setText("目前篩選出 " + 篩 + " 個連結");
+    }
 }
 
 // ============ 事件 ============
@@ -449,34 +438,8 @@ ui.reset.on("click", function () {
     toast("已清除今天 " + cnt + " 筆記錄");
 });
 
-// 排序設定：輸入優先型號、優先地區、選商品/地區優先
-ui.sortcfg.on("click", function () {
-    var cfg = 讀排序設定();
-    var codesStr = cfg.codes.join("\n");
-    var citiesStr = cfg.cities.join("\n");
-    // 1) 問型號優先順序（多行，一行一個，越上面越優先）
-    dialogs.rawInput("想抽的陀螺/商品優先順序\n（每行一個，越上面越優先，例如 UX-21）", codesStr)
-        .then(function (c1) {
-            if (c1 === null) return;  // 取消
-            var newCodes = ("" + c1).split("\n").map(function (x) { return x.trim(); }).filter(Boolean);
-            // 2) 問地區優先順序
-            dialogs.rawInput("地區優先順序\n（每行一個縣市，越上面越優先，例如 台北市）", citiesStr)
-                .then(function (c2) {
-                    if (c2 === null) return;
-                    var newCities = ("" + c2).split("\n").map(function (x) { return x.trim(); }).filter(Boolean);
-                    // 3) 選主排序：商品優先 or 地區優先
-                    dialogs.select("先依哪個排序？", ["商品優先，再依地區", "地區優先，再依商品"])
-                        .then(function (idx) {
-                            if (idx < 0) return;
-                            var mode = (idx === 1) ? "city" : "code";
-                            存排序設定(newCodes, newCities, mode);
-                            updateCount();
-                            toast("排序已儲存：" + (mode === "city" ? "地區優先" : "商品優先")
-                                  + "，型號 " + newCodes.length + " 項、地區 " + newCities.length + " 項");
-                        });
-                });
-        });
-});
+// 「先抽篩選的，再抽其他」勾選切換 → 更新數量顯示
+ui.firstThenRest.on("check", function () { updateCount(); });
 
 // 同步清單：直接抓 uxux11 最新 HTML、解析、更新清單（不用等電腦）
 var syncing = false;
@@ -544,7 +507,7 @@ ui.sync.on("click", function () {
 });
 
 ui.start.on("click", function () {
-    var list = filteredLinks();
+    var list = 抽選清單();
     if (!list.length) { toast("目前沒有可抽的連結"); return; }
     // 需要無障礙權限才能自動點
     if (!auto.service) {
