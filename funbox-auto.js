@@ -27,6 +27,33 @@ var STORAGE_NAME   = "funbox_auto"; // 存已抽記錄用
 
 var storage = storages.create(STORAGE_NAME);
 
+// ============ 短網址加速（加速核心） ============
+// lin.ee 開啟時 LINE 要先做一次短網址跳轉，很慢。改用電腦預先算好的對照表
+// （lin.ee → 最終 liff.line.me 網址），抽的時候直接開 liff，省掉每個連結 1~3 秒。
+var RESOLVED_URL = "https://yang-hua-11.github.io/funbox-line/resolved_links.json";
+var LIFF_MAP = {};        // { "lin.ee網址": "liff最終網址" }
+
+// 載入對照表（在 loadData 時一起抓；抓不到就算了，照樣用原始 lin.ee 抽）
+function loadLiffMap() {
+    try {
+        var res = http.get(RESOLVED_URL);
+        if (res.statusCode === 200) {
+            var obj = JSON.parse(res.body.string());
+            var arr = obj.links || [];
+            for (var i = 0; i < arr.length; i++) {
+                var o = arr[i];
+                if (o.url && o.resolved && o.resolved.indexOf("liff.line.me") >= 0) {
+                    LIFF_MAP[o.url] = o.resolved;
+                }
+            }
+        }
+    } catch (e) {}
+}
+// 查某個 lin.ee 對應的 liff；沒有就回傳 null
+function 查liff(url) {
+    return LIFF_MAP[url] || null;
+}
+
 // 全域資料
 var DATA = null;        // 抓下來的 data.json
 var STORES = [];        // 門市陣列
@@ -96,6 +123,7 @@ function loadData() {
                 DATA = JSON.parse(res.body.string());
                 STORES = DATA.stores || [];
                 buildIndex();
+                loadLiffMap();   // 順便抓短網址加速對照表
                 ok = true;
             } else {
                 err = "HTTP " + res.statusCode;
@@ -265,6 +293,21 @@ function runAuto(list) {
     if (running) return;
     running = true;
     threads.start(function () {
+        // ===== 加速：把 lin.ee 換成已預解析好的 liff 網址 =====
+        // 開抽前，用網站上已算好的對照表（lin.ee → liff），直接換掉連結，
+        // 抽的時候直接開 liff，省掉 LINE 的短網址跳轉（每個省 1~3 秒）。
+        var 換掉 = 0;
+        for (var m = 0; m < list.length; m++) {
+            var liff = 查liff(list[m].url);
+            if (liff) { list[m].url = liff; 換掉++; }
+        }
+        if (換掉 > 0) {
+            (function (n) { ui.run(function () {
+                ui.status.setText("已套用加速網址 " + n + " 個，開始抽…");
+            }); })(換掉);
+        }
+
+        // ===== 連抽 =====
         var 成功 = 0, 跳過 = 0, 處理數 = 0;
         var 跳過清單 = [];   // 記下沒抽成功的門市+品名
         for (var i = 0; i < list.length; i++) {
