@@ -233,7 +233,10 @@ ui.layout(
 
         <vertical padding="12 8">
             <text id="count" textSize="15sp" textColor="#06c755" textStyle="bold">—</text>
-            <button id="sync" style="Widget.AppCompat.Button.Borderless" marginTop="2">🔄 同步清單（抓最新資料）</button>
+            <horizontal marginTop="2">
+                <button id="sync" style="Widget.AppCompat.Button.Borderless" layout_weight="1">🔄 同步清單</button>
+                <button id="sortcfg" style="Widget.AppCompat.Button.Borderless" layout_weight="1">⇅ 排序設定</button>
+            </horizontal>
             <button id="start" style="Widget.AppCompat.Button.Colored" marginTop="2">▶ 開始自動抽</button>
         </vertical>
     </vertical>
@@ -378,10 +381,57 @@ function filteredLinks() {
             if (skip && isToday(k)) return;
             if (!it.u || seen[it.u]) return;
             seen[it.u] = 1;
-            out.push({ url: it.u, key: k, name: s.name, p: it.p });
+            out.push({ url: it.u, key: k, name: s.name, p: it.p, city: s.city, code: c });
         });
     });
-    return out;
+    return 套用排序(out);
+}
+
+// ============ 排序設定 ============
+// 設定存這裡：{ codes:["UX-21",...], cities:["台北市",...], mode:"code" | "city" }
+var 排序設定儲存 = storages.create("funbox_sort");
+function 讀排序設定() {
+    return {
+        codes: 排序設定儲存.get("codes", []),   // 想抽的型號/商品關鍵字，越前面越優先
+        cities: 排序設定儲存.get("cities", []),  // 地區，越前面越優先
+        mode: 排序設定儲存.get("mode", "code")   // "code"=商品優先；"city"=地區優先
+    };
+}
+function 存排序設定(codes, cities, mode) {
+    排序設定儲存.put("codes", codes);
+    排序設定儲存.put("cities", cities);
+    排序設定儲存.put("mode", mode);
+}
+// 算一個項目在某份優先清單裡的名次（越小越優先）；沒列出的排最後（給一個大數）
+function 優先名次(值, 清單) {
+    for (var i = 0; i < 清單.length; i++) {
+        var kw = 清單[i];
+        if (!kw) continue;
+        // 型號用「開頭相符或包含」，地區用完全相符或包含，都用 indexOf 容錯
+        if (值 && 值.indexOf(kw) >= 0) return i;
+    }
+    return 99999;  // 沒列出 → 排後面
+}
+// 依設定排序（穩定排序：相同權重維持原本順序）
+function 套用排序(list) {
+    var cfg = 讀排序設定();
+    var 有排序 = (cfg.codes.length > 0 || cfg.cities.length > 0);
+    if (!有排序) return list;  // 沒設定就維持原順序
+    // 幫每個項目算 code 名次、city 名次，並記原始索引（穩定排序用）
+    for (var i = 0; i < list.length; i++) {
+        list[i]._ci = 優先名次((list[i].code || "") + " " + (list[i].p || ""), cfg.codes);
+        list[i]._ri = 優先名次(list[i].city || "", cfg.cities);
+        list[i]._idx = i;
+    }
+    list.sort(function (a, b) {
+        var 第一, 第二;
+        if (cfg.mode === "city") { 第一 = ["_ri", "_ci"]; }  // 地區優先
+        else { 第一 = ["_ci", "_ri"]; }                      // 商品優先（預設）
+        if (a[第一[0]] !== b[第一[0]]) return a[第一[0]] - b[第一[0]];
+        if (a[第一[1]] !== b[第一[1]]) return a[第一[1]] - b[第一[1]];
+        return a._idx - b._idx;  // 權重相同 → 維持原順序
+    });
+    return list;
 }
 function updateCount() {
     var n = filteredLinks().length;
@@ -397,6 +447,35 @@ ui.reset.on("click", function () {
     setDoneMap(d);
     updateCount();
     toast("已清除今天 " + cnt + " 筆記錄");
+});
+
+// 排序設定：輸入優先型號、優先地區、選商品/地區優先
+ui.sortcfg.on("click", function () {
+    var cfg = 讀排序設定();
+    var codesStr = cfg.codes.join("\n");
+    var citiesStr = cfg.cities.join("\n");
+    // 1) 問型號優先順序（多行，一行一個，越上面越優先）
+    dialogs.rawInput("想抽的陀螺/商品優先順序\n（每行一個，越上面越優先，例如 UX-21）", codesStr)
+        .then(function (c1) {
+            if (c1 === null) return;  // 取消
+            var newCodes = ("" + c1).split("\n").map(function (x) { return x.trim(); }).filter(Boolean);
+            // 2) 問地區優先順序
+            dialogs.rawInput("地區優先順序\n（每行一個縣市，越上面越優先，例如 台北市）", citiesStr)
+                .then(function (c2) {
+                    if (c2 === null) return;
+                    var newCities = ("" + c2).split("\n").map(function (x) { return x.trim(); }).filter(Boolean);
+                    // 3) 選主排序：商品優先 or 地區優先
+                    dialogs.select("先依哪個排序？", ["商品優先，再依地區", "地區優先，再依商品"])
+                        .then(function (idx) {
+                            if (idx < 0) return;
+                            var mode = (idx === 1) ? "city" : "code";
+                            存排序設定(newCodes, newCities, mode);
+                            updateCount();
+                            toast("排序已儲存：" + (mode === "city" ? "地區優先" : "商品優先")
+                                  + "，型號 " + newCodes.length + " 項、地區 " + newCities.length + " 項");
+                        });
+                });
+        });
 });
 
 // 同步清單：直接抓 uxux11 最新 HTML、解析、更新清單（不用等電腦）
