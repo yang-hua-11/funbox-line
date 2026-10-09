@@ -223,7 +223,8 @@ ui.layout(
 
                 <horizontal marginTop="10" gravity="center_vertical">
                     <checkbox id="skipDone" checked="true"/>
-                    <text textSize="14sp" marginLeft="4">排除今天已抽</text>
+                    <text textSize="14sp" marginLeft="4" layout_weight="1">排除今天已抽</text>
+                    <button id="reset" style="Widget.AppCompat.Button.Borderless" textSize="12sp" textColor="#9aa0a6">清除今天已抽記錄</button>
                 </horizontal>
             </vertical>
         </ScrollView>
@@ -232,7 +233,6 @@ ui.layout(
             <text id="count" textSize="15sp" textColor="#06c755" textStyle="bold">—</text>
             <button id="sync" style="Widget.AppCompat.Button.Borderless" marginTop="2">🔄 同步清單（抓最新資料）</button>
             <button id="start" style="Widget.AppCompat.Button.Colored" marginTop="2">▶ 開始自動抽</button>
-            <button id="reset" style="Widget.AppCompat.Button.Borderless" marginTop="2">清除今天的已抽記錄</button>
         </vertical>
     </vertical>
 );
