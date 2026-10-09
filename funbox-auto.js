@@ -17,6 +17,8 @@
 // ============ 設定（通常不用改） ============
 var DATA_URL       = "https://yang-hua-11.github.io/funbox-line/data.json";
 var SOURCE_URL     = "https://uxux11.github.io/funbox-line/";  // 原始來源（同步清單用）
+var LINE_PACKAGE   = "jp.naver.line.android";  // LINE App 套件名，連結強制用它開（不要丟給瀏覽器）
+var LINE_PACKAGE   = "jp.naver.line.android";  // LINE App 套件名，強制用它開連結（避免被瀏覽器攔走）
 var 抽獎按鈕文字     = "參加抽獎";  // 官方若改字（例如「參加」「應募」），改這裡
 var 等按鈕最久秒數   = 4;           // 一個連結最多等幾秒還沒出現按鈕就跳過
 var 掃描間隔秒數     = 0.08;        // 多久掃一次按鈕，越小抓越快
@@ -508,7 +510,7 @@ function runAuto(list) {
             // 用區域變數，避免閉包抓到迴圈最後一個值
             (function (txt) { ui.run(function () { ui.status.setText(txt); }); })(序 + item.name + " " + item.p);
 
-            app.openUrl(item.url);
+            開連結用LINE(item.url);
             // 開了連結就立刻狂掃按鈕，一出現馬上點，不固定空等
             var btn = 找抽獎按鈕(等按鈕最久秒數 * 1000);
             if (btn) {
@@ -543,6 +545,27 @@ function runAuto(list) {
 ui.emitter.on("back_pressed", function () {
     if (running) { running = false; toast("已停止"); }
 });
+
+// 強制用 LINE App 開連結（不要丟給瀏覽器，否則會卡在「下載LINE/在LINE中打開」頁）
+// 直接用 Android 原生 Intent 並 setPackage，等同 adb 的 am start -p，最強制。
+function 開連結用LINE(url) {
+    try {
+        var Intent = android.content.Intent;
+        var Uri = android.net.Uri;
+        var intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+        intent.setPackage(LINE_PACKAGE);                    // 強制指定用 LINE 開
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);     // 從背景啟動需要
+        context.startActivity(intent);
+        return;
+    } catch (e) {}
+    // 退路 1：用 app.startActivity 指定套件
+    try {
+        app.startActivity({ action: "android.intent.action.VIEW", data: url, packageName: LINE_PACKAGE });
+        return;
+    } catch (e2) {}
+    // 退路 2：一般開法（可能會進瀏覽器）
+    try { app.openUrl(url); } catch (e3) {}
+}
 
 function 找抽獎按鈕(timeoutMs) {
     var 截止 = Date.now() + timeoutMs;
