@@ -16,6 +16,7 @@
 
 // ============ 設定（通常不用改） ============
 var DATA_URL       = "https://yang-hua-11.github.io/funbox-line/data.json";
+var SOURCE_URL     = "https://uxux11.github.io/funbox-line/";  // 原始來源（同步清單用）
 var 抽獎按鈕文字     = "參加抽獎";  // 官方若改字（例如「參加」「應募」），改這裡
 var 等按鈕最久秒數   = 4;           // 一個連結最多等幾秒還沒出現按鈕就跳過
 var 掃描間隔秒數     = 0.08;        // 多久掃一次按鈕，越小抓越快
@@ -52,6 +53,70 @@ function loadLiffMap() {
 // 查某個 lin.ee 對應的 liff；沒有就回傳 null
 function 查liff(url) {
     return LIFF_MAP[url] || null;
+}
+
+// ============ 同步清單：直接解析 uxux11 的 HTML（翻自 extract.py） ============
+// 去標籤、解 HTML 實體、壓空白
+function 清字串(s) {
+    s = s.replace(/<[^>]+>/g, "");
+    s = s.replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">")
+         .replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&nbsp;/g, " ");
+    s = s.replace(/\u3000/g, " ");
+    return s.replace(/\s+/g, " ").trim();
+}
+// 從品名抓型號，例如 UX-21、BXG-01、CX-00
+function 抓型號(name) {
+    var m = name.toUpperCase().match(/([A-Z]{2,4}-\d{1,3})/);
+    return m ? m[1] : "";
+}
+// 解析整個 HTML，回傳門市陣列 [{city,name,time,st,items:[{p,c,u}]}]
+function 解析門市(src) {
+    var stores = [];
+    // 以 data-draw-city 當每間門市的切點
+    var storeRe = /<div class="draw-store"[^>]*data-draw-city="([^"]*)"[^>]*>/g;
+    var starts = [];
+    var mm;
+    while ((mm = storeRe.exec(src)) !== null) {
+        starts.push({ city: mm[1], tag: mm[0], begin: storeRe.lastIndex });
+    }
+    for (var i = 0; i < starts.length; i++) {
+        var city = 清字串(starts[i].city);
+        var begin = starts[i].begin;
+        var end = (i + 1 < starts.length) ? (starts[i + 1].begin - starts[i + 1].tag.length) : src.length;
+        // 用下一個門市標籤的起點當結束；上面 begin 已過標籤，這裡用 src 片段
+        var block = src.substring(begin, (i + 1 < starts.length) ? src.indexOf(starts[i + 1].tag, begin) : src.length);
+
+        // 門市開始時段
+        var st = "";
+        var stm = starts[i].tag.match(/data-draw-start-time="([^"]*)"/);
+        if (stm) st = 清字串(stm[1]);
+
+        // 門市名
+        var nm = block.match(/<div class="draw-store-name"[^>]*>([\s\S]*?)<\/div>/);
+        var name = nm ? 清字串(nm[1]) : "";
+        if (!name) continue;
+
+        // 抽選時間
+        var tm = block.match(/<div class="draw-start"[^>]*>([\s\S]*?)<\/div>/);
+        var timeTxt = tm ? 清字串(tm[1]) : "";
+        timeTxt = timeTxt.replace(/^抽選時間[：:]\s*/, "");
+
+        // 商品項：draw-item 外層帶 data-draw-href，內層 draw-product 是品名
+        var items = [], seen = {};
+        var itemRe = /<div[^>]*class="draw-item[^"]*"[^>]*data-draw-href="([^"]+)"[^>]*>\s*<div class="draw-product"[^>]*>([\s\S]*?)<\/div>/g;
+        var im;
+        while ((im = itemRe.exec(block)) !== null) {
+            var u = 清字串(im[1]);
+            var p = 清字串(im[2]);
+            if (!p || !u || seen[u]) continue;
+            seen[u] = 1;
+            items.push({ p: p, c: 抓型號(p), u: u });
+        }
+        if (items.length > 0) {
+            stores.push({ city: city, name: name, time: timeTxt, st: st, items: items });
+        }
+    }
+    return stores;
 }
 
 // 全域資料
@@ -106,7 +171,8 @@ ui.layout(
 
         <vertical padding="12 8">
             <text id="count" textSize="15sp" textColor="#06c755" textStyle="bold">—</text>
-            <button id="start" style="Widget.AppCompat.Button.Colored" marginTop="6">▶ 開始自動抽</button>
+            <button id="sync" style="Widget.AppCompat.Button.Borderless" marginTop="2">🔄 同步清單（抓最新資料）</button>
+            <button id="start" style="Widget.AppCompat.Button.Colored" marginTop="2">▶ 開始自動抽</button>
             <button id="reset" style="Widget.AppCompat.Button.Borderless" marginTop="2">清除今天的已抽記錄</button>
         </vertical>
     </vertical>
@@ -270,6 +336,48 @@ ui.reset.on("click", function () {
     setDoneMap(d);
     updateCount();
     toast("已清除今天 " + cnt + " 筆記錄");
+});
+
+// 同步清單：直接抓 uxux11 最新 HTML、解析、更新清單（不用等電腦）
+var syncing = false;
+ui.sync.on("click", function () {
+    if (syncing) return;
+    syncing = true;
+    ui.status.setText("同步中…抓取 uxux11 最新資料");
+    threads.start(function () {
+        var 新門市 = null, err = "";
+        try {
+            var res = http.get(SOURCE_URL, { headers: { "User-Agent": "Mozilla/5.0" } });
+            if (res.statusCode === 200) {
+                var html = res.body.string();
+                新門市 = 解析門市(html);
+            } else {
+                err = "HTTP " + res.statusCode;
+            }
+        } catch (e) {
+            err = "" + e;
+        }
+        ui.run(function () {
+            syncing = false;
+            // 保護：抓到 0 筆幾乎一定是來源改版/解析失效，保留舊清單不覆蓋
+            if (新門市 && 新門市.length > 0) {
+                STORES = 新門市;
+                buildIndex();
+                // 同步後清掉舊的 liff 對照（新連結還沒解析），改用原始 lin.ee；
+                // 要加速再去電腦重跑 resolve_links.py。這裡清空避免套到舊網址。
+                LIFF_MAP = {};
+                var items = 0;
+                STORES.forEach(function (s) { items += s.items.length; });
+                renderChips();
+                updateCount();
+                ui.status.setText("已同步最新清單 · " + STORES.length + " 門市 · " + items + " 項（直接來自 uxux11）");
+                toast("同步完成：" + STORES.length + " 門市 / " + items + " 項");
+            } else {
+                ui.status.setText("同步失敗：" + (err || "沒解析到門市，可能來源改版") + "（已保留原清單）");
+                toast("同步失敗，已保留原本清單");
+            }
+        });
+    });
 });
 
 ui.start.on("click", function () {
