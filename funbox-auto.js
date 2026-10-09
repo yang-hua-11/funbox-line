@@ -237,10 +237,6 @@ ui.layout(
                 <button id="sync" style="Widget.AppCompat.Button.Borderless" layout_weight="1">🔄 同步清單</button>
                 <button id="sortcfg" style="Widget.AppCompat.Button.Borderless" layout_weight="1">⇅ 排序設定</button>
             </horizontal>
-            <horizontal gravity="center_vertical" marginTop="2">
-                <checkbox id="firstThenRest"/>
-                <text textSize="14sp" marginLeft="4">勾：排序的先抽，再抽其他全部／不勾：只抽排序和篩選的</text>
-            </horizontal>
             <button id="start" style="Widget.AppCompat.Button.Colored" marginTop="2">▶ 開始自動抽</button>
         </vertical>
     </vertical>
@@ -452,38 +448,13 @@ function 排序清單(list) {
 //  - 先對「篩選的那堆」套用排序設定（型號/縣市優先順序）
 //  - 若勾「先抽篩選的，再抽其他」→ 排序後的篩選清單排前面，其他的接在後面（去重）
 //  - 否則 → 只抽排序後的篩選清單
-// 判斷一個項目有沒有符合「排序設定裡填的型號/縣市」
-function 符合排序設定(x) {
-    var cfg = 讀排序();
-    if (名次((x.code || "") + " " + (x.p || ""), cfg.codes) < 99999) return true;
-    if (名次(x.city || "", cfg.cities) < 99999) return true;
-    return false;
-}
+// 開始抽要用的清單：先篩選（抽誰），再排序（先後順序）
 function 抽選清單() {
-    var 勾 = (ui.firstThenRest && ui.firstThenRest.isChecked());
-    if (勾) {
-        // 勾：全部都抽，排序填的（和篩選的）排前面
-        var 篩 = 排序清單(filteredLinks());
-        var out = [], seen = {};
-        篩.forEach(function (x) { if (!seen[x.url]) { seen[x.url] = 1; out.push(x); } });
-        排序清單(全部連結()).forEach(function (x) { if (!seen[x.url]) { seen[x.url] = 1; out.push(x); } });
-        return out;
-    }
-    // 不勾：只抽「篩選的」+「符合排序設定的」，兩者聯集，再套排序
-    var seen2 = {}, 聯集 = [];
-    filteredLinks().forEach(function (x) { if (!seen2[x.url]) { seen2[x.url] = 1; 聯集.push(x); } });
-    全部連結().forEach(function (x) {
-        if (!seen2[x.url] && 符合排序設定(x)) { seen2[x.url] = 1; 聯集.push(x); }
-    });
-    return 排序清單(聯集);
+    return 排序清單(filteredLinks());
 }
 function updateCount() {
-    var 會抽 = 抽選清單().length;
-    if (ui.firstThenRest && ui.firstThenRest.isChecked()) {
-        ui.count.setText("排序的先抽，再抽其他全部，共 " + 會抽 + " 個");
-    } else {
-        ui.count.setText("只抽排序和篩選的，共 " + 會抽 + " 個");
-    }
+    var n = 抽選清單().length;
+    ui.count.setText("目前篩選出 " + n + " 個連結（已套用排序）");
 }
 
 // ============ 事件 ============
@@ -496,9 +467,6 @@ ui.reset.on("click", function () {
     updateCount();
     toast("已清除今天 " + cnt + " 筆記錄");
 });
-
-// 「先抽篩選的，再抽其他」勾選切換 → 更新數量顯示
-ui.firstThenRest.on("check", function () { updateCount(); });
 
 // 排序設定：型號優先順序、縣市優先順序、選型號優先 or 縣市優先（用逗號分隔，一行就能打多筆）
 ui.sortcfg.on("click", function () {
