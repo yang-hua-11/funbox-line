@@ -233,7 +233,10 @@ ui.layout(
 
         <vertical padding="12 8">
             <text id="count" textSize="15sp" textColor="#06c755" textStyle="bold">—</text>
-            <button id="sync" style="Widget.AppCompat.Button.Borderless" marginTop="2">🔄 同步清單（抓最新資料）</button>
+            <horizontal marginTop="2">
+                <button id="sync" style="Widget.AppCompat.Button.Borderless" layout_weight="1">🔄 同步清單</button>
+                <button id="sortcfg" style="Widget.AppCompat.Button.Borderless" layout_weight="1">⇅ 排序設定</button>
+            </horizontal>
             <horizontal gravity="center_vertical" marginTop="2">
                 <checkbox id="firstThenRest"/>
                 <text textSize="14sp" marginLeft="4">先抽篩選的，再抽其他全部</text>
@@ -406,15 +409,53 @@ function 全部連結() {
     return out;
 }
 
+// ============ 排序設定（型號/縣市優先順序，可切換主排序鍵） ============
+var 排序存 = storages.create("funbox_sort2");
+function 讀排序() {
+    return {
+        codes: 排序存.get("codes", []),   // 型號優先順序，例 ["UX-15","UX-03","UX-16"]
+        cities: 排序存.get("cities", []), // 縣市優先順序，例 ["台北市","桃園市"]
+        mode: 排序存.get("mode", "code")  // "code"=型號優先；"city"=縣市優先
+    };
+}
+function 存排序(codes, cities, mode) {
+    排序存.put("codes", codes); 排序存.put("cities", cities); 排序存.put("mode", mode);
+}
+// 算項目在優先清單的名次（越小越前；沒列到=排最後）
+function 名次(值, 清單) {
+    for (var i = 0; i < 清單.length; i++) {
+        if (清單[i] && 值 && 值.indexOf(清單[i]) >= 0) return i;
+    }
+    return 99999;
+}
+// 對一份清單套用排序（穩定）；沒設定就原樣回傳
+function 排序清單(list) {
+    var cfg = 讀排序();
+    if (cfg.codes.length === 0 && cfg.cities.length === 0) return list;
+    for (var i = 0; i < list.length; i++) {
+        list[i]._ci = 名次((list[i].code || "") + " " + (list[i].p || ""), cfg.codes);
+        list[i]._ri = 名次(list[i].city || "", cfg.cities);
+        list[i]._idx = i;
+    }
+    var 主 = (cfg.mode === "city") ? ["_ri", "_ci"] : ["_ci", "_ri"];
+    list.sort(function (a, b) {
+        if (a[主[0]] !== b[主[0]]) return a[主[0]] - b[主[0]];
+        if (a[主[1]] !== b[主[1]]) return a[主[1]] - b[主[1]];
+        return a._idx - b._idx;
+    });
+    return list;
+}
+
 // 開始抽要用的清單：
-//  - 若勾「先抽篩選的，再抽其他」→ 篩選的排前面，其他的接在後面（去重）
-//  - 否則 → 只抽目前篩選的
+//  - 先對「篩選的那堆」套用排序設定（型號/縣市優先順序）
+//  - 若勾「先抽篩選的，再抽其他」→ 排序後的篩選清單排前面，其他的接在後面（去重）
+//  - 否則 → 只抽排序後的篩選清單
 function 抽選清單() {
-    var 篩 = filteredLinks();
+    var 篩 = 排序清單(filteredLinks());
     if (!ui.firstThenRest || !ui.firstThenRest.isChecked()) return 篩;
     var out = [], seen = {};
     篩.forEach(function (x) { if (!seen[x.url]) { seen[x.url] = 1; out.push(x); } });
-    全部連結().forEach(function (x) { if (!seen[x.url]) { seen[x.url] = 1; out.push(x); } });
+    排序清單(全部連結()).forEach(function (x) { if (!seen[x.url]) { seen[x.url] = 1; out.push(x); } });
     return out;
 }
 function updateCount() {
@@ -440,6 +481,30 @@ ui.reset.on("click", function () {
 
 // 「先抽篩選的，再抽其他」勾選切換 → 更新數量顯示
 ui.firstThenRest.on("check", function () { updateCount(); });
+
+// 排序設定：型號優先順序、縣市優先順序、選型號優先 or 縣市優先（用逗號分隔，一行就能打多筆）
+ui.sortcfg.on("click", function () {
+    var cfg = 讀排序();
+    dialogs.rawInput("型號優先順序（用逗號分隔，越前面越優先）\n例如：UX-15, UX-03, UX-16", cfg.codes.join(", "))
+        .then(function (c1) {
+            if (c1 === null) return;
+            var codes = ("" + c1).split(/[,，\s]+/).map(function (x){return x.trim();}).filter(Boolean);
+            dialogs.rawInput("縣市優先順序（用逗號分隔，越前面越優先）\n例如：台北市, 桃園市", cfg.cities.join(", "))
+                .then(function (c2) {
+                    if (c2 === null) return;
+                    var cities = ("" + c2).split(/[,，\s]+/).map(function (x){return x.trim();}).filter(Boolean);
+                    dialogs.select("先依哪個排序？", ["型號優先，再依縣市", "縣市優先，再依型號"])
+                        .then(function (idx) {
+                            if (idx < 0) return;
+                            var mode = (idx === 1) ? "city" : "code";
+                            存排序(codes, cities, mode);
+                            updateCount();
+                            toast("排序已存：" + (mode === "city" ? "縣市優先" : "型號優先")
+                                  + "／型號 " + codes.length + " 筆、縣市 " + cities.length + " 筆");
+                        });
+                });
+        });
+});
 
 // 同步清單：直接抓 uxux11 最新 HTML、解析、更新清單（不用等電腦）
 var syncing = false;
