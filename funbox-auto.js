@@ -239,7 +239,7 @@ ui.layout(
             </horizontal>
             <horizontal gravity="center_vertical" marginTop="2">
                 <checkbox id="firstThenRest"/>
-                <text textSize="14sp" marginLeft="4">勾：抽完篩選的再抽其他全部／不勾：只抽篩選的</text>
+                <text textSize="14sp" marginLeft="4">勾：先抽完排序的，再抽其他全部有篩選的</text>
             </horizontal>
             <button id="start" style="Widget.AppCompat.Button.Colored" marginTop="2">▶ 開始自動抽</button>
         </vertical>
