@@ -55,6 +55,65 @@ function 查liff(url) {
     return LIFF_MAP[url] || null;
 }
 
+// 手機端把一個 lin.ee 解析成最終 liff 網址（用 Java HttpURLConnection 跟隨跳轉）。
+// 有快取先用快取；解析不出來回傳 null（照樣用原始 lin.ee 抽）。
+var liff快取 = storages.create("funbox_liff");  // 永久存已解析結果
+function 解析一個liff(url) {
+    var cached = liff快取.get(url, null);
+    if (cached) return cached;
+    try {
+        var URLClass = java.net.URL;
+        var conn = new URLClass(url).openConnection();
+        conn.setInstanceFollowRedirects(true);   // 自動跟隨跳轉
+        conn.setConnectTimeout(8000);
+        conn.setReadTimeout(8000);
+        conn.setRequestProperty("User-Agent", "Mozilla/5.0 (Linux; Android 10)");
+        conn.connect();
+        conn.getResponseCode();                   // 觸發連線完成跳轉
+        var 最終 = String(conn.getURL().toString());
+        conn.getInputStream().close();
+        if (最終 && 最終.indexOf("liff.line.me") >= 0) {
+            liff快取.put(url, 最終);
+            return 最終;
+        }
+    } catch (e) {}
+    return null;
+}
+
+// 把一批連結平行解析成 liff，寫進 LIFF_MAP。onProgress(已完成, 總數) 回報進度。
+// 用 Java 的 AtomicInteger 做共享計數/取索引（不依賴 Auto.js 特有的 lock API，較穩）。
+function 批次解析liff(urls, onProgress) {
+    // 先把已快取的灌進 LIFF_MAP，並挑出還沒解析的
+    var 待解析 = [];
+    for (var i = 0; i < urls.length; i++) {
+        var hit = liff快取.get(urls[i], null);
+        if (hit) { LIFF_MAP[urls[i]] = hit; continue; }
+        if (urls[i].indexOf("lin.ee") >= 0 && !LIFF_MAP[urls[i]]) 待解析.push(urls[i]);
+    }
+    if (待解析.length === 0) { if (onProgress) onProgress(0, 0); return; }
+
+    var Atomic = java.util.concurrent.atomic.AtomicInteger;
+    var 下標 = new Atomic(0);     // 下一個要處理的索引
+    var 已完成 = new Atomic(0);   // 已完成數
+    var 總數 = 待解析.length;
+    var 並發 = 8;
+    var 緒 = [];
+    for (var t = 0; t < 並發; t++) {
+        緒.push(threads.start(function () {
+            while (true) {
+                var k = 下標.getAndIncrement();   // 原子取下一個索引
+                if (k >= 總數) break;
+                var u = 待解析[k];
+                var liff = 解析一個liff(u);
+                if (liff) LIFF_MAP[u] = liff;      // 不同 key 寫入，衝突可忽略
+                var d = 已完成.incrementAndGet();
+                if (onProgress) onProgress(d, 總數);
+            }
+        }));
+    }
+    緒.forEach(function (th) { th.join(); });
+}
+
 // ============ 同步清單：直接解析 uxux11 的 HTML（翻自 extract.py） ============
 // 去標籤、解 HTML 實體、壓空白
 function 清字串(s) {
@@ -357,26 +416,49 @@ ui.sync.on("click", function () {
         } catch (e) {
             err = "" + e;
         }
-        ui.run(function () {
-            syncing = false;
-            // 保護：抓到 0 筆幾乎一定是來源改版/解析失效，保留舊清單不覆蓋
-            if (新門市 && 新門市.length > 0) {
-                STORES = 新門市;
-                buildIndex();
-                // 同步後清掉舊的 liff 對照（新連結還沒解析），改用原始 lin.ee；
-                // 要加速再去電腦重跑 resolve_links.py。這裡清空避免套到舊網址。
-                LIFF_MAP = {};
-                var items = 0;
-                STORES.forEach(function (s) { items += s.items.length; });
-                renderChips();
-                updateCount();
-                ui.status.setText("已同步最新清單 · " + STORES.length + " 門市 · " + items + " 項（直接來自 uxux11）");
-                toast("同步完成：" + STORES.length + " 門市 / " + items + " 項");
-            } else {
+
+        // 保護：抓到 0 筆幾乎一定是來源改版/解析失效，保留舊清單不覆蓋
+        if (!新門市 || 新門市.length === 0) {
+            ui.run(function () {
+                syncing = false;
                 ui.status.setText("同步失敗：" + (err || "沒解析到門市，可能來源改版") + "（已保留原清單）");
                 toast("同步失敗，已保留原本清單");
+            });
+            return;
+        }
+
+        // 1) 先更新門市清單與畫面
+        STORES = 新門市;
+        var items = 0, 全部連結 = [];
+        STORES.forEach(function (s) {
+            items += s.items.length;
+            s.items.forEach(function (it) { if (it.u) 全部連結.push(it.u); });
+        });
+        (function (st, it) { ui.run(function () {
+            buildIndex();
+            renderChips();
+            updateCount();
+            ui.status.setText("已同步 " + st + " 門市 · " + it + " 項，開始加速解析…");
+        }); })(STORES.length, items);
+
+        // 2) 同步後直接在手機上把 lin.ee 全部解析成 liff（加速），顯示進度
+        LIFF_MAP = {};  // 重算（可能是全新一批連結）
+        批次解析liff(全部連結, function (done, tot) {
+            if (tot > 0 && (done % 20 === 0 || done === tot)) {
+                (function (d, t) { ui.run(function () {
+                    ui.status.setText("加速解析中… " + d + "/" + t);
+                }); })(done, tot);
             }
         });
+
+        // 3) 完成
+        var 加速數 = 0;
+        for (var kk in LIFF_MAP) { if (LIFF_MAP.hasOwnProperty(kk)) 加速數++; }
+        (function (st, it, acc) { ui.run(function () {
+            syncing = false;
+            ui.status.setText("同步+加速完成 · " + st + " 門市 · " + it + " 項 · 加速網址 " + acc + " 個");
+            toast("完成！" + st + " 門市 / " + it + " 項，已加速 " + acc + " 個");
+        }); })(STORES.length, items, 加速數);
     });
 });
 
