@@ -239,7 +239,7 @@ ui.layout(
             </horizontal>
             <horizontal gravity="center_vertical" marginTop="2">
                 <checkbox id="firstThenRest"/>
-                <text textSize="14sp" marginLeft="4">先抽篩選的，再抽其他全部</text>
+                <text textSize="14sp" marginLeft="4">勾：抽完篩選的再抽其他全部／不勾：只抽篩選的</text>
             </horizontal>
             <button id="start" style="Widget.AppCompat.Button.Colored" marginTop="2">▶ 開始自動抽</button>
         </vertical>
@@ -423,8 +423,10 @@ function 存排序(codes, cities, mode) {
 }
 // 算項目在優先清單的名次（越小越前；沒列到=排最後）
 function 名次(值, 清單) {
+    var v = (值 || "").toUpperCase();   // 不分大小寫：兩邊都轉大寫比對
     for (var i = 0; i < 清單.length; i++) {
-        if (清單[i] && 值 && 值.indexOf(清單[i]) >= 0) return i;
+        var kw = (清單[i] || "").toUpperCase();
+        if (kw && v && v.indexOf(kw) >= 0) return i;
     }
     return 99999;
 }
