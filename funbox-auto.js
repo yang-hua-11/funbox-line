@@ -239,7 +239,7 @@ ui.layout(
             </horizontal>
             <horizontal gravity="center_vertical" marginTop="2">
                 <checkbox id="firstThenRest"/>
-                <text textSize="14sp" marginLeft="4">勾：先抽完排序的，再抽其他全部有篩選的</text>
+                <text textSize="14sp" marginLeft="4">勾：排序的先抽，再抽其他全部／不勾：只抽排序和篩選的</text>
             </horizontal>
             <button id="start" style="Widget.AppCompat.Button.Colored" marginTop="2">▶ 開始自動抽</button>
         </vertical>
@@ -452,21 +452,37 @@ function 排序清單(list) {
 //  - 先對「篩選的那堆」套用排序設定（型號/縣市優先順序）
 //  - 若勾「先抽篩選的，再抽其他」→ 排序後的篩選清單排前面，其他的接在後面（去重）
 //  - 否則 → 只抽排序後的篩選清單
+// 判斷一個項目有沒有符合「排序設定裡填的型號/縣市」
+function 符合排序設定(x) {
+    var cfg = 讀排序();
+    if (名次((x.code || "") + " " + (x.p || ""), cfg.codes) < 99999) return true;
+    if (名次(x.city || "", cfg.cities) < 99999) return true;
+    return false;
+}
 function 抽選清單() {
-    var 篩 = 排序清單(filteredLinks());
-    if (!ui.firstThenRest || !ui.firstThenRest.isChecked()) return 篩;
-    var out = [], seen = {};
-    篩.forEach(function (x) { if (!seen[x.url]) { seen[x.url] = 1; out.push(x); } });
-    排序清單(全部連結()).forEach(function (x) { if (!seen[x.url]) { seen[x.url] = 1; out.push(x); } });
-    return out;
+    var 勾 = (ui.firstThenRest && ui.firstThenRest.isChecked());
+    if (勾) {
+        // 勾：全部都抽，排序填的（和篩選的）排前面
+        var 篩 = 排序清單(filteredLinks());
+        var out = [], seen = {};
+        篩.forEach(function (x) { if (!seen[x.url]) { seen[x.url] = 1; out.push(x); } });
+        排序清單(全部連結()).forEach(function (x) { if (!seen[x.url]) { seen[x.url] = 1; out.push(x); } });
+        return out;
+    }
+    // 不勾：只抽「篩選的」+「符合排序設定的」，兩者聯集，再套排序
+    var seen2 = {}, 聯集 = [];
+    filteredLinks().forEach(function (x) { if (!seen2[x.url]) { seen2[x.url] = 1; 聯集.push(x); } });
+    全部連結().forEach(function (x) {
+        if (!seen2[x.url] && 符合排序設定(x)) { seen2[x.url] = 1; 聯集.push(x); }
+    });
+    return 排序清單(聯集);
 }
 function updateCount() {
-    var 篩 = filteredLinks().length;
+    var 會抽 = 抽選清單().length;
     if (ui.firstThenRest && ui.firstThenRest.isChecked()) {
-        var 全 = 抽選清單().length;
-        ui.count.setText("先抽篩選的 " + 篩 + " 個，再抽其他，共 " + 全 + " 個");
+        ui.count.setText("排序的先抽，再抽其他全部，共 " + 會抽 + " 個");
     } else {
-        ui.count.setText("目前篩選出 " + 篩 + " 個連結");
+        ui.count.setText("只抽排序和篩選的，共 " + 會抽 + " 個");
     }
 }
 
