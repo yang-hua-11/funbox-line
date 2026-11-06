@@ -91,8 +91,8 @@
   {
    "city": "台北市",
    "name": "Funbox-美麗華",
-   "time": "抽選開始：2026/11/06 11:00 ｜ 抽選/購買時間：2026/11/06 11:00~2026/11/07 21:00",
-   "st": "11:00",
+   "time": "抽選開始：2026/11/06 11:11 ｜ 抽選/購買時間：2026/11/06 11:11~2026/11/07 21:00",
+   "st": "11:11",
    "items": [
     {
      "p": "BX-53 極限衝擊對戰組",
@@ -145,6 +145,21 @@
      "u": "https://lin.ee/zUOYgbu"
     }
    ]
+  },
+  {
+   "city": "台北市",
+   "name": "Funbox-南港LaLaport",
+   "time": "抽選/購買時間：2026/11/06 11:00~2026/11/07 21:00",
+   "st": "11:00",
+   "items": [
+    {
+     "p": "BX-53 極限衝擊對戰組",
+     "c": "BX-53",
+     "u": "https://lin.ee/YCM7TCI"
+    }
+   ],
+   "oa": "@924ngwfb",
+   "oaUrl": "https://line.me/ti/p/~@924ngwfb"
   },
   {
    "city": "新北市",
@@ -248,6 +263,21 @@
    "oaUrl": "https://line.me/ti/p/~@513vgbqo"
   },
   {
+   "city": "新北市",
+   "name": "Funbox-比漾廣場",
+   "time": "抽選/購買時間：2026/11/06 11:00~2026/11/07 21:00前",
+   "st": "11:00",
+   "items": [
+    {
+     "p": "BX-53 極限衝擊對戰組",
+     "c": "BX-53",
+     "u": "https://lin.ee/tvn4mmW"
+    }
+   ],
+   "oa": "@ufq5307a",
+   "oaUrl": "https://line.me/ti/p/~@ufq5307a"
+  },
+  {
    "city": "桃園市",
    "name": "Funbox-桃園新光站前店",
    "time": "抽選/購買時間：2026/11/06 11:00~2026/11/07 21:00",
@@ -277,6 +307,21 @@
   },
   {
    "city": "桃園市",
+   "name": "Funbox-桃園環球A19",
+   "time": "抽選/購買時間：2026/11/06 11:00~2026/11/07 21:00",
+   "st": "11:00",
+   "items": [
+    {
+     "p": "BX-53 極限衝擊對戰組",
+     "c": "BX-53",
+     "u": "https://lin.ee/8qlf64g"
+    }
+   ],
+   "oa": "@403qwxdn",
+   "oaUrl": "https://line.me/ti/p/~@403qwxdn"
+  },
+  {
+   "city": "桃園市",
    "name": "Funbox-桃園台茂店",
    "time": "抽選/購買資格券抽籤期間：2026/11/06 11:00～2026/11/07 21:30（逾時恕不受理）｜請於營業時間內來店購買",
    "st": "11:00",
@@ -289,6 +334,51 @@
    ],
    "oa": "@504tdsbb",
    "oaUrl": "https://line.me/ti/p/~@504tdsbb"
+  },
+  {
+   "city": "桃園市",
+   "name": "Funbox-桃園遠東店",
+   "time": "抽選/購買時間：2026/11/06 11:00~2026/11/07 21:00",
+   "st": "11:00",
+   "items": [
+    {
+     "p": "BX-53 極限衝擊對戰組",
+     "c": "BX-53",
+     "u": "https://lin.ee/69Fzp8o"
+    }
+   ],
+   "oa": "@bix0595a",
+   "oaUrl": "https://line.me/ti/p/~@bix0595a"
+  },
+  {
+   "city": "桃園市",
+   "name": "Funbox-中壢SOGO",
+   "time": "抽選/購買時間：2026/11/06 11:00~2026/11/07 21:00",
+   "st": "11:00",
+   "items": [
+    {
+     "p": "BX-53 極限衝擊對戰組",
+     "c": "BX-53",
+     "u": "https://lin.ee/8J5DQlz"
+    }
+   ],
+   "oa": "@xcs3672w",
+   "oaUrl": "https://line.me/ti/p/~@xcs3672w"
+  },
+  {
+   "city": "桃園市",
+   "name": "Funbox-中壢大江店",
+   "time": "抽選/購買時間：2026/11/06 11:00~21:00",
+   "st": "11:00",
+   "items": [
+    {
+     "p": "BX-53 極限衝擊對戰組",
+     "c": "BX-53",
+     "u": "https://lin.ee/ZKBjVZn"
+    }
+   ],
+   "oa": "@099ldnvw",
+   "oaUrl": "https://line.me/ti/p/~@099ldnvw"
   },
   {
    "city": "新竹市",
@@ -364,6 +454,21 @@
    ],
    "oa": "@062qoqex",
    "oaUrl": "https://line.me/ti/p/~@062qoqex"
+  },
+  {
+   "city": "苗栗縣",
+   "name": "Funbox-苗栗尚順店",
+   "time": "抽選/購買時間：2026/11/06 11:00~2026/11/07 20:30",
+   "st": "11:00",
+   "items": [
+    {
+     "p": "BX-53 極限衝擊對戰組",
+     "c": "BX-53",
+     "u": "https://lin.ee/S3BQ2Y3"
+    }
+   ],
+   "oa": "@185vowmo",
+   "oaUrl": "https://line.me/ti/p/~@185vowmo"
   },
   {
    "city": "台中市",
@@ -454,6 +559,51 @@
    "oaUrl": "https://line.me/ti/p/~@829adhop"
   },
   {
+   "city": "台中市",
+   "name": "Funbox-文心秀泰店",
+   "time": "抽選/購買時間：2026/11/06 11:00~2026/11/07 21:00",
+   "st": "11:00",
+   "items": [
+    {
+     "p": "BX-53 極限衝擊對戰組",
+     "c": "BX-53",
+     "u": "https://lin.ee/OHPoiXA"
+    }
+   ],
+   "oa": "@605dilqq",
+   "oaUrl": "https://line.me/ti/p/~@605dilqq"
+  },
+  {
+   "city": "台中市",
+   "name": "Funbox-台中LaLaport店",
+   "time": "抽選/購買時間：2026/11/06 11:00~2026/11/07 21:00",
+   "st": "11:00",
+   "items": [
+    {
+     "p": "BX-53 極限衝擊對戰組",
+     "c": "BX-53",
+     "u": "https://lin.ee/R5eQluD"
+    }
+   ],
+   "oa": "@620dfrfm",
+   "oaUrl": "https://line.me/ti/p/~@620dfrfm"
+  },
+  {
+   "city": "台中市",
+   "name": "Funbox-漢神洲際",
+   "time": "抽選/購買時間：2026/11/06 11:00～2026/11/07 21:00",
+   "st": "11:00",
+   "items": [
+    {
+     "p": "BX-53 極限衝擊對戰組",
+     "c": "BX-53",
+     "u": "https://lin.ee/74bssDIr"
+    }
+   ],
+   "oa": "@218xxrbx",
+   "oaUrl": "https://line.me/ti/p/~@218xxrbx"
+  },
+  {
    "city": "彰化縣",
    "name": "Funbox-員林大潤發",
    "time": "抽選/購買時間：2026/11/06 10:00~2026/11/07 21:00",
@@ -525,6 +675,21 @@
    ],
    "oa": "@zhj4962p",
    "oaUrl": "https://line.me/ti/p/~@zhj4962p"
+  },
+  {
+   "city": "嘉義市",
+   "name": "Funbox-嘉義耐斯",
+   "time": "2026/11/06 11:00~2026/11/07 21:00 ｜ 中籤購買時間：2026/11/06 11:00~22:00、2026/11/07 11:00~21:00",
+   "st": "11:00",
+   "items": [
+    {
+     "p": "BX-53 極限衝擊對戰組",
+     "c": "BX-53",
+     "u": "https://lin.ee/575d8lX"
+    }
+   ],
+   "oa": "@121nsdww",
+   "oaUrl": "https://line.me/ti/p/~@121nsdww"
   },
   {
    "city": "台南市",
@@ -748,6 +913,36 @@
    ],
    "oa": "@obz8096L",
    "oaUrl": "https://line.me/ti/p/~@obz8096L"
+  },
+  {
+   "city": "高雄市",
+   "name": "Funbox-義大二館",
+   "time": "抽選/購買時間：2026/11/06 11:00～2026/11/07 21:00",
+   "st": "11:00",
+   "items": [
+    {
+     "p": "BX-53 極限衝擊對戰組",
+     "c": "BX-53",
+     "u": "https://lin.ee/Ub94gYU"
+    }
+   ],
+   "oa": "@bxd6822t",
+   "oaUrl": "https://line.me/ti/p/~@bxd6822t"
+  },
+  {
+   "city": "高雄市",
+   "name": "Funbox-義享天地",
+   "time": "抽選/購買時間：2026/11/06 11:00～2026/11/07 21:00",
+   "st": "11:00",
+   "items": [
+    {
+     "p": "BX-53 極限衝擊對戰組",
+     "c": "BX-53",
+     "u": "https://lin.ee/w85yziv"
+    }
+   ],
+   "oa": "@777nkbeo",
+   "oaUrl": "https://line.me/ti/p/~@777nkbeo"
   },
   {
    "city": "屏東縣",
